@@ -25,8 +25,6 @@ Tale procedura consentirà alle Amministrazioni di utilizzare, nell’ambito del
 
 A tale scopo verrà realizzato il catalogo di tutte le applicazioni SaaS disponibili per le PA che darà vita al  marketplace delle soluzioni SaaS, per i servizi acquisibili dal mercato, secondo quanto previsto nelle \ |STYLE5|\  redatte da CONSIP e riportate nell’allegato B alla presente Circolare, denominato “\ |STYLE6|\ ”.
 
-.. disqus:: 
-    :disqus_identifier: cloud-pa-premessa
 
 .. _h2c4879d6073518027475b3e3169473f:
 
@@ -71,8 +69,6 @@ Articolo 1 - Ambito di applicazione
 
 La presente Circolare definisce i requisiti di qualificazione delle soluzioni SaaS erogabili sul \ |STYLE8|\  nonché la relativa procedura di qualificazione e si applica a tutti i soggetti pubblici e fornitori ICT privati che hanno interesse a proporre soluzioni alle Pubbliche amministrazioni in modalità SaaS (Software as a Service).
 
-.. disqus:: 
-    :disqus_identifier: cloud-pa-art1
 
 .. _h13bb127e7e306bb2ff2fc602854:
 
@@ -136,8 +132,6 @@ A supporto del processo di qualificazione è previsto l’utilizzo di una piatta
 
 Le modalità operative di trasmissione saranno definite in apposita comunicazione pubblicata sul sito AgID.
 
-.. disqus::
-    :disqus_identifier: cloud-pa-art2
     
 .. _h70755b256222183f7742f486534:
 
@@ -153,8 +147,6 @@ Al momento della richiesta di qualificazione:
 Ai fini dell’ammissibilità  alla procedura di qualificazione, il possesso dei requisiti di cui al presente articolo può essere oggetto di autocertificazione.
 
      
-.. disqus::
-    :disqus_identifier: cloud-pa-art3
 
 .. _h40436433e5a6c77226c763f7f625946:
 
@@ -173,8 +165,6 @@ Il dettaglio di tali requisiti è fornito all’interno dell’allegato “A” 
 
 AgID si riserva la facoltà di modificare/aggiornare/integrare tali requisiti sulla base dell’evoluzione del contesto e delle tecnologie.
 
-.. disqus::
-    :disqus_identifier: cloud-pa-art4
 
 .. _h79564d635b511b751f65586d7934d:
 
@@ -241,8 +231,6 @@ Pertanto, al fine del mantenimento della qualifica, il soggetto richiedente si i
 
 L’Agenzia si riserva, inoltre, la facoltà di richiedere al soggetto ogni ulteriore documento correlato all’espletamento del processo di qualificazione, che consideri necessario per poter svolgere le previste attività di verifica. Le difformità riscontrate nel corso dell’attività di verifica sono comunicate al soggetto interessato con indicazione delle modalità e del termine per la loro risoluzione. Qualora durante le attività di verifica dovessero emergere elementi relativi a possibili violazioni della normativa sulla privacy, l’Agenzia ne informa tempestivamente il Garante per la protezione dei dati personali.
 
-.. disqus::
-    :disqus_identifier: cloud-pa-art5
 
 .. _h6134152b2845b325425f6e146830:
 
@@ -265,8 +253,6 @@ Nei casi di revoca della qualificazione SaaS, il soggetto interessato non può p
 
 Si specifica, inoltre, che in caso di aggiornamento del software che incide su almeno uno dei requisiti di cui all’art. 4, il soggetto interessato deve procedere a presentare una nuova richiesta di qualificazione della soluzione SaaS. In tal caso, al fine di semplificare il nuovo processo di qualificazione, l’Agenzia potrà tenere conto della documentazione già presentata e procedere alla sola verifica dei nuovi requisiti.
 
-.. disqus::
-    :disqus_identifier: cloud-pa-art6
 
 .. _h7f423d384484a146d5476205426542f:
 
@@ -277,8 +263,6 @@ Ai soggetti la cui soluzione SaaS ha ricevuto esito positivo nell’istruttoria 
 
 Tali soggetti potranno utilizzare la qualificazione della soluzione SaaS nei propri rapporti commerciali con le Pubbliche amministrazioni o gli altri soggetti – clienti.
 
-.. disqus::
-    :disqus_identifier: cloud-pa-art7
 
 .. _h741f113397e15593b785a5414671535:
 
@@ -291,8 +275,6 @@ L’Agenzia determina entro il mese di aprile di ogni anno il valore del corrisp
 
 Il mancato pagamento entro i termini prescritti dall’Agenzia, comporta il decadimento della richiesta presentata e/o la revoca della qualificazione SaaS.
 
-.. disqus::
-    :disqus_identifier: cloud-pa-art8
 
 .. _h565e6158c345f494f02f2f3815e2f:
 
@@ -311,10 +293,11 @@ Le richieste di qualificazione pervenute nei 12 (dodici) mesi successivi alla pu
 
 Nelle more dell’attivazione della procedura di qualificazione dei CSP, solo per il caso a) di cui all’art.2, non sarà oggetto di valutazione il criterio di ammissibilità di cui all’art.3 punto ii) e la qualificazione della soluzione SaaS sarà rilasciata con riserva nell’attesa che il soggetto consegua la necessaria qualifica CSP da AgID, ai sensi del Piano Triennale.
 
-.. disqus::
-    :disqus_identifier: cloud-pa-art9
     
 .. _h52492713c2525386c3928621f327f21:
+
+.. disqus::
+    :disqus_identifier: cloud-pa-qualificazione-SaaS
 
 Allegati
 ********
