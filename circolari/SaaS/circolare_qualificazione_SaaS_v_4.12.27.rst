@@ -294,7 +294,6 @@ Le richieste di qualificazione pervenute nei 12 (dodici) mesi successivi alla pu
 Nelle more dell’attivazione della procedura di qualificazione dei CSP, solo per il caso a) di cui all’art.2, non sarà oggetto di valutazione il criterio di ammissibilità di cui all’art.3 punto ii) e la qualificazione della soluzione SaaS sarà rilasciata con riserva nell’attesa che il soggetto consegua la necessaria qualifica CSP da AgID, ai sensi del Piano Triennale.
 
     
-.. disqus::
 
 .. _h52492713c2525386c3928621f327f21:
 
@@ -427,3 +426,6 @@ Allegati
 .. rubric:: Footnotes
 
 .. [#f1]  Per “Cloud della PA” ai fini della presente circolare, dei suoi allegati e delle successive integrazioni e/o modifiche si intende: “l’insieme delle infrastrutture e servizi IaaS/PaaS erogati da Cloud SPC, dai PSN e dagli altri CSP che saranno qualificati ai sensi di quanto disposto dal Piano Triennale”, per come definito nella seguente tabella.
+
+
+.. disqus::
