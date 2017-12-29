@@ -10,6 +10,7 @@ settings_doc_release = 'versione 0.1'
 settings_basename = 'cloud-pa'
 settings_file_name = 'cloud-pa'
 settings_project_url = 'https://cloud-pa.readthedocs.org'
+disqus_shortname = 'cloud-pa'
 
 
 import sys
@@ -27,6 +28,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
+    'sphinxcontrib.disqus',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
