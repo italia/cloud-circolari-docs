@@ -297,7 +297,7 @@ Nelle more dell’attivazione della procedura di qualificazione dei CSP, solo pe
 .. _h52492713c2525386c3928621f327f21:
 
 .. disqus::
-    :disqus_identifier: cloud-pa-qualificazione-SaaS
+    :disqus_identifier: cloud-pa-saas
 
 Allegati
 ********
