@@ -25,7 +25,7 @@ Tale procedura consentirà alle Amministrazioni di utilizzare, nell’ambito del
 
 A tale scopo verrà realizzato il catalogo di tutte le applicazioni SaaS disponibili per le PA che darà vita al  marketplace delle soluzioni SaaS, per i servizi acquisibili dal mercato, secondo quanto previsto nelle \ |STYLE5|\  redatte da CONSIP e riportate nell’allegato B alla presente Circolare, denominato “\ |STYLE6|\ ”.
 
-    
+.. disqus::    
 
 .. _h2c4879d6073518027475b3e3169473f:
 
