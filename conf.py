@@ -27,7 +27,6 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
-    'sphinxcontrib.disqus',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -243,14 +242,4 @@ texinfo_documents = [
    'Miscellaneous'),
 ]
 
-
-# disqus setup
-author = 'Agenzia per l\'Italia Digitale'
-copyright = 'Creative Commons Attribution 4.0'
-exclude_patterns = ['build']
-master_doc = 'index'
-project = 'cloud-pa'
-release = '0.1'
-version = '0.1'
-disqus_shortname = 'cloud-pa'
 
