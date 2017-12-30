@@ -3,7 +3,7 @@
 # Requisiti per la qualificazione di servizi SaaS per il Cloud della PA.
 
 ## Acronimi e definizioni
-
+<div style="overflow-x:auto;">
 <table>
   <tr>
     <td>Termine o abbreviazione</td>
@@ -107,7 +107,7 @@ l’infrastruttura cloud necessaria all’erogazione del servizio sottostante.</
     <td>Il Mercato Elettronico della P.A. (MePA) è il mercato digitale gestito da CONSIP in cui le Amministrazioni abilitate possono acquistare  per valori inferiori alla soglia comunitaria, i beni e servizi offerti da fornitori abilitati a presentare i propri cataloghi sul sistema.</td>
   </tr>
 </table>
-
+</div>
 
 Si richiamano inoltre i concetti e le definizioni relativi al *Cloud computing* pubblicati dal National Institute of Standards and Technologies nel documento NIST Special Publication 800-145 "The NIST Definition of Cloud Computing", in particolare con riferimento a:
 
