@@ -117,7 +117,7 @@ Si richiamano inoltre i concetti e le definizioni relativi al *Cloud computing* 
 
 Per maggiori dettagli si veda: [http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf)
 
-# Introduzione
+## Introduzione
 
 Il presente documento allegato alla Circolare è stato redatto al fine di definire nel dettaglio i requisiti di cui all’art. 3 della Circolare che i CSP devono rispettare per ottenere la qualificazione AgID della propria soluzione SaaS. 
 
@@ -140,16 +140,12 @@ Si intende, preliminarmente, fornire un quadro di riferimento riguardante le mod
 Una soluzione SaaS prevede un tipico *ciclo di vita* attraverso attraverso  il quale viene resa disponibile agli utilizzatori (Acquirenti) da parte del Fornitore SaaS:
 
 * *Provisioning(Predisposizione)*, ossia la predisposizione delle risorse Cloud infrastrutturali necessarie all’installazione ed erogazione della soluzione SaaS. Le attività di predisposizione sono eseguite a cura del Fornitore SaaS nell’ambito dell’infrastruttura Cloud messa a disposizione dal Fornitore Cloud. Tipicamente si tratta di risorse virtuali di tipo computazionale, di storage e di rete; più in generale possono essere comprese risorse di tipo IaaS e/o PaaS;
-
 * *Deployment (Dispiegamento)*, fase in cui avviene da parte del Fornitore SaaS l’installazione e la configurazione dei moduli e componenti applicativi che costituiscono la soluzione SaaS;
-
 * *Esercizio*, fase in cui la soluzione SaaS è fruibile da parte dell’Acquirente che è in grado di utilizzarla secondo quanto previsto contrattualmente;
-
 * *Manutenzione*, fase costituita da brevi periodi temporali in cui la soluzione SaaS esce dalla fase di esercizio risultando non fruibile da parte dell’Acquirente in occasione di attività di aggiornamento, manutenzione o risoluzione di malfunzionamenti da parte del Fornitore SaaS oppure del Fornitore Cloud; al termine di tali brevi periodi si avrà nuovamente una regolare fase di esercizio;
-
 * *Disattivazione*, fase di terminazione della fornitura in seguito alla quale la soluzione SaaS non sarà più utilizzabile dall’Acquirente.
 
-**Modelli architetturali delle soluzioni SaaS**
+### Modelli architetturali delle soluzioni SaaS
 
 Esistono diversi modelli architetturali  per l’erogazione delle soluzioni SaaS che si sono sviluppati nel tempo e a cui i fornitori di soluzioni software fanno tipicamente riferimento durante l’implementazione o il porting del loro software in modalità SaaS. Tali modelli architetturali sono riepilogati anche nella raccomandazione ITU "Recommendation ITU-T X.1602 (2016)" e identificati come livelli di maturità delle applicazioni SaaS.
 
@@ -157,7 +153,7 @@ L’inquadramento rispetto al modello architetturale è importante per poter ide
 
 Si richiamano i quattro seguenti modelli architetturali delle soluzioni SaaS; ciascun modello copre le caratteristiche del precedente ed include proprietà più estese e avanzate.
 
-1. **Modello "Custom SaaS application"**
+**1. Modello "Custom SaaS application"**
 
 Il modello Custom è simile al tradizionale modello di application service provisioning (ASP), in cui ciascun acquirente (o cliente) viene associato ad una specifica istanza applicativa dedicata e quindi dimensionata e personalizzata, anche in termini di middleware, gestione dei dati e sistema operativo. Rispetto al modello ASP classico si ha come differenza principale il fatto che vengono usati dei server virtuali in ambiente cloud.
 
@@ -169,7 +165,7 @@ Il forte limite di questo modello è rappresentato dalla difficoltà con cui pu�
 
 Rispetto ai cinque elementi essenziali identificati da NIST, le caratteristiche di *resource pooling* e *rapid elasticity *risultano notevolmente limitate in questo modello.
 
-2. **Modello "Configurable SaaS application"**
+**2. Modello "Configurable SaaS application"**
 
 In questo modello l’applicazione risulta essere più standardizzata pur permettendo un certo livello di personalizzazione ("configurazione" di aspetto e comportamento), ma viene comunque dispiegata ed eseguita su risorse virtuali dedicate ed indipendenti. Un tipico esempio è quello dei servizi software offerti dai fornitori di hosting Web per poter costruire siti Web, Blog, Forum, ecc. in modalità self service. Ciascun cliente potrà configurare il software secondo le proprie preferenze, potrà scegliere anche il tipo di sistema operativo. Ciascuna istanza applicativa risulta essere una copia di un pacchetto software standard dispiegata ed eseguita su risorse virtuali assegnate esclusivamente al cliente (in questo ultimo aspetto si mantiene la similitudine col modello precedente). 
 
@@ -177,7 +173,7 @@ In questo modello l’applicazione risulta essere più standardizzata pur permet
 
 Dal punto di vista del fornitore SaaS è presente una maggiore flessibilità di gestione per cui le modifiche al codice del pacchetto software potranno essere applicate a tutti i clienti simultaneamente. Questo modello è molto simile al precedente con alcuni aspetti meno rigidi, ma comunque non abbraccia appieno la filosofia e i vantaggi offerti dal paradigma Cloud di tipo SaaS.
 
-3. **Modello "Multi-tenant SaaS application"**
+**3. Modello "Multi-tenant SaaS application"**
 
 Una singola istanza applicativa è in grado di servire contemporaneamente più clienti, i quali accedono alla medesima istanza applicativa in esecuzione su risorse virtuali condivise. L’isolamento dei dati e degli utenti avviene a livello applicativo e di gestione dei dati (DBMS), utilizzando gli opportuni meccanismi di autenticazione, autorizzazione e sicurezza. Tipici esempi di questo modello sono i software di CRM (ad es. SalesForce) e di Business Intelligence erogati in modalità SaaS. 
 
@@ -187,7 +183,7 @@ In questo modello viene esaltato l’uso efficiente delle risorse software, comp
 
 In questo modello si estrinsecano tutte le caratteristiche essenziali del Cloud computing secondo la definizione NIST. Il livello multi-tenant si sposa bene con i modelli di deployment Public, Private e Community.
 
-4. **Modello "Scalable SaaS application"**
+**4. Modello "Scalable SaaS application"**
 
 Nel modello scalabile la dinamicità e la scalabilità dell’ambiente sono messi in primo piano. Questo permette di avere configurazioni più flessibili. I clienti potranno avere la loro istanza applicativa in esecuzione su risorse condivise o dedicate (o un misto delle due) in maniera trasparente e configurabile. Il sistema di load balancing permette di implementare le politiche di allocazione (delle nuove istanze applicative) in funzione di una moltitudine di criteri (uno dei più importanti è la qualità del servizio). Da notare che le istanze applicative possono essere aggiunte e rimosse dinamicamente in qualunque momento ed in base alle esigenze. Anche le risorse virtuali necessarie alle applicazioni sono allocate in modo dinamico. L’allocazione di nuove istanze applicative o di risorse virtuali non richiede nessuna modifica architetturale del sistema che è già stato realizzato in modo da adattarsi dinamicamente. Tutto ciò permette di offrire ed attuare SLA diversificati per i vari clienti.
 
@@ -195,7 +191,7 @@ Nel modello scalabile la dinamicità e la scalabilità dell’ambiente sono mess
 
 Infine è da tenere presente che il modello scalabile, per via delle caratteristiche di dinamicità evidenziate si presta ad essere utilizzato (senza richiedere riconfigurazioni o modifiche sostanziali) anche in modalità ibrida (ad es. misto di Public e Private cloud) oppure in modalità multi-cloud in cui diversi cloud provider offrono le risorse virtuali. Un altro scenario è quello del cloud bursting, in cui si ha un misto di Private e Public Cloud oppure una modalità multi-cloud, dove le risorse di un fornitore vengono impiegate automaticamente solo in caso di necessità di espansione del sistema e di maggiori performance.
 
-# Requisiti delle soluzioni SaaS
+## Requisiti delle soluzioni SaaS
 
 Ciò premesso, AgID, come indicato all’art. 4 Circolare, ha classificato i requisiti per la qualificazione delle soluzioni SaaS come segue:
 
@@ -222,7 +218,7 @@ Le tipologie di verifiche previste sono:
 
 * **Verifica tecnica** - nei casi previsti dall’art. 4 (Fase 3) della Circolare viene eseguita una verifica tecnica del requisito nell’ambito di una complessiva attività di collaudo in cui il servizio viene posto in esercizio in un apposito ambiente messo a disposizione da AgID e le cui caratteristiche sono omogenee con quanto previsto per l’ambiente SPC Cloud Lotto 1.
 
-# Requisiti preliminari
+## Requisiti preliminari
 
 Nelle soluzioni SaaS che utilizzano PSN o Cloud SPC I fornitori dovranno indicare  il livello di automazione di cui l’applicazione dispone per ogni fase del ciclo di vita dell’applicazione. È necessario che le soluzioni SaaS  siano in grado di interagire mediante API (Application Programming Interface) con la piattaforma Cloud su cui risiedono e che tale capacità di interazione consenta di sfruttare appieno le potenzialità e i servizi della piattaforma Cloud ospitante. 
 
@@ -320,7 +316,7 @@ Verifica documentale</td>
 </table>
 
 
-# Requisiti organizzativi
+## Requisiti organizzativi
 
 È richiesto che i fornitori di servizi SaaS siano in possesso di alcuni requisiti organizzativi tra cui:
 
@@ -438,7 +434,7 @@ Verifica documentale</td>
 
 Il fornitore potrà dichiarare e documentare il possesso di ulteriori requisiti di tipo organizzativo e/o altre certificazioni tecniche che abbiano attinenza con la soluzione SaaS sottoposta alla procedura di qualificazione.
 
-# Requisiti specifici
+## Requisiti specifici
 
 I requisiti specifici riguardano le seguenti tematiche:
 
@@ -1064,7 +1060,7 @@ RCL4</td>
 </table>
 
 
-# Livelli della qualificazione SaaS
+## Livelli della qualificazione SaaS
 
 Sono previsti tre differenti livelli di qualificazione denominati L1, L2 e L3. Tutti i servizi che ottengono la qualificazione SaaS devono soddisfare obbligatoriamente tutti i requisiti di cui alla colonna L1 del seguente prospetto. Qualora soddisfino anche tutti o parte dei requisiti L2 e/o L3 potranno ottenere un differente livello di qualificazione corrispondente. All’interno della sezione dedicata del catalogo MePA sarà possibile consultare il dettaglio dei requisiti opzionali che i servizi SaaS soddisfano, in modo tale che gli acquirenti siano messi in grado di selezionare i servizi che meglio si adattano alle proprie particolari esigenze.
 
@@ -1142,7 +1138,7 @@ Gold
 </table>
 
 
-# Appendice 1 - Impegni contrattuali
+## Appendice 1 - Impegni contrattuali
 
 Nella tabella che segue si riepilogano i requisiti dai quali scaturiscono specifici impegni contrattuali e adempimenti formali che dovranno governare il rapporto di fornitura tra Fornitore SaaS e Acquirente SaaS. Per rispettare appieno i requisiti di qualificazione di cui al presente allegato, le clausole contrattuali presenti nei contratti di fornitura dovranno essere conformi ai principi e agli impegni di seguito richiamati.
 
@@ -1327,7 +1323,7 @@ CL20</td>
 </table>
 
 
-# Appendice 2 - Scheda tecnica del Servizio SaaS
+## Appendice 2 - Scheda tecnica del Servizio SaaS
 
  La seguente scheda tecnica è esemplificativa. Il formato definitivo sarà disponibile sulla piattaforma dedicata di qualificazione.
 
