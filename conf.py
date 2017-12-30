@@ -75,7 +75,7 @@ language = 'it'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['.DS_Store', ]
+exclude_patterns = ['.DS_Store', 'README', 'README.md']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -102,6 +102,7 @@ else:
     html_context = {
         'css_files': [
             '_static/css/theme.css',
+            '_static/css/table.css',
         ],
         'reference_project': settings_project_name,
         'reference_project_url': settings_project_url,
