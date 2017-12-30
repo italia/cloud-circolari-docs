@@ -301,11 +301,13 @@ Nelle more dell’attivazione della procedura di qualificazione dei CSP, solo pe
 Allegati
 ********
 
-    \ |STYLE51|\ 
+:doc:`ALLEGATO A “Requisiti per la qualificazione di soluzioni SaaS nell’ambito del Cloud della PA”** </circolari/SaaS/allegato_a_qualificazione_SaaS_v6>`
 
-    \ |STYLE52|\ 
+`ALLEGATO B “Disposizioni per il procurement dei servizi SaaS per il Cloud della PA”. <http://www.consip.it/sites/consip.it/files/Disposizioni%20per%20il%20procurement%20servizi%20SaaS%20per%20il%20Cloud%20della%20PA.PDF>`__
 
-                                        IL DIRETTORE GENERALE
+
+IL DIRETTORE GENERALE
+
 
 .. bottom of content
 
@@ -412,9 +414,6 @@ Allegati
 
 .. |STYLE50| replace:: *piattaforma dedicata*
 
-.. |STYLE51| replace:: **ALLEGATO A “Requisiti per la qualificazione di soluzioni SaaS nell’ambito del Cloud della PA”**
-
-.. |STYLE52| replace:: **ALLEGATO B “Disposizioni per il procurement dei servizi SaaS per il Cloud della PA”.**
 
 
 .. |LINK1| raw:: html
