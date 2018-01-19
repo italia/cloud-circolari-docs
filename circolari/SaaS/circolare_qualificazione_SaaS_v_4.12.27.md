@@ -423,9 +423,6 @@ ammissibilità di cui all’art.3 punto ii) e la qualificazione della soluzione
 SaaS sarà rilasciata con riserva nell’attesa che il soggetto consegua la
 necessaria qualifica CSP da AgID, ai sensi del Piano Triennale.
 
-```eval_rst
-.. disqus::
-```
 
 ## Allegati
 
@@ -438,6 +435,8 @@ della PA_"**](http://www.consip.it/sites/consip.it/files/Disposizioni%20per%20il
 IL DIRETTORE GENERALE
 
 ```eval_rst
+
+.. disqus::
 
 .. rubric:: Footnotes
 
