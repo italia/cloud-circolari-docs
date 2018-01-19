@@ -11,6 +11,7 @@ settings_basename = 'cloud-pa'
 settings_file_name = 'cloud-pa'
 settings_project_url = 'https://cloud-pa.readthedocs.org'
 disqus_shortname = 'cloud-pa'
+keep_warnings = True
 
 
 import sys
@@ -75,7 +76,7 @@ language = 'it'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['.DS_Store', 'README', 'README.md']
+exclude_patterns = ['.DS_Store', 'README', 'README.md', 'themes/README.md']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -184,10 +185,10 @@ htmlhelp_basename = settings_basename + 'doc'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'a4paper',
+'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
+'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
@@ -207,7 +208,7 @@ latex_documents = [
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
-#latex_use_parts = False
+#latex_use_parts = True
 
 # If true, show page references after internal links.
 #latex_show_pagerefs = False

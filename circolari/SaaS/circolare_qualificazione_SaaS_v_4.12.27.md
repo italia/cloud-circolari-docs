@@ -1,7 +1,6 @@
 **CIRCOLARE N. XX del XX Gennaio  2018**
 
-# Criteri per la qualificazione di servizi SaaS per il _Cloud della PA_<sup>1</sup>
-
+# Criteri per la qualificazione di servizi SaaS per il _Cloud della PA_ <sup>1</sup>
 
 ## Premessa 
 
@@ -43,90 +42,62 @@ per il procurement dei servizi SaaS per il Cloud della PA*".
 
 ## Definizioni
 
-<table>
-  <tr>
-    <td>Termine o abbreviazione</td>
-    <td>Descrizione</td>
-  </tr>
-  <tr>
-    <td>AgID, Agenzia</td>
-    <td>Agenzia per l’Italia Digitale</td>
-  </tr>
-  <tr>
-    <td>Codice /Codice dell’Amministrazione Digitale/CAD</td>
-    <td>Decreto Legislativo 7 marzo 2005, n. 82 e s.m.i. </td>
-  </tr>
-  <tr>
-    <td>Cloud della PA</td>
-    <td>Il Cloud della PA è composto dalle infrastrutture e servizi IaaS/PaaS
-      erogati da Cloud SPC, dai PSN e dagli altri CSP che saranno qualificati come
-      compatibili con i requisiti della PA.</td>
-  </tr>
-  <tr>
-    <td>Cloud</td>
-    <td>Insieme di infrastrutture tecnologiche remote utilizzate come risorsa
-      virtuale per la memorizzazione e/o l’elaborazione nell’ambito di un
-      servizio</td>
-  </tr>
-  <tr>
-    <td>Cloud SPC o SPC Cloud</td>
-    <td>Contratto Quadro stipulato da CONSIP con il RTI aggiudicatario della
-      Gara SPC Cloud Lotto 1 (https://www.cloudspc.it/ )</td>
-  </tr>
-  <tr>
-    <td>CSP</td>
-    <td>Cloud Service Provider, ovvero fornitore di servizi erogati in modalità Cloud</td>
-  </tr>
-  <tr>
-    <td>Fornitore</td>
-    <td>Soggetto richiedente la qualificazione SaaS</td>
-  </tr>
-  <tr>
-    <td>Giorni</td>
-    <td>Giorni solari</td>
-  </tr>
-  <tr>
-    <td>Marketplace SaaS</td>
-    <td>Piattaforma digitale che permette la selezione e l'acquisto di applicazioni software
-      erogate in Cloud secondo il modello Software-as-a-Service</td>
-  </tr>
-  <tr>
-    <td>Pubbliche amministrazioni/Amministrazioni/PA</td>
-    <td>
-      Le Amministrazioni, come meglio definite all’art. 2, comma 2 del Codice
-      dell’Amministrazione Digitale.
-   </td>
-  </tr>
-  <tr>
-    <td>PSN</td>
-    <td>
-     Soggetto titolare dell’insieme di infrastrutture IT (centralizzate o
-     distribuite), ad alta disponibilità, di proprietà pubblica, eletto a Polo
-     Strategico Nazionale dalla Presidenza del Consiglio dei Ministri, e qualificato
-     da AgID ad erogare  ad altre amministrazioni, in maniera continuativa e
-     sistematica,   servizi infrastrutturali on-demand, servizi di disaster recovery
-     e business continuity, servizi di gestione della sicurezza IT ed assistenza ai
-     fruitori dei servizi erogati.
-   </td>
-  </tr>
-  <tr>
-    <td>Software as a Service</td>
-    <td> Tra i modelli di servizio offerti dalle piattaforme di Cloud computing,
-    il Software as a Service (SaaS) è il servizio fully-managed in cui il gestore
-    del servizio si occupa della predisposizione, configurazione, messa in
-    esercizio e manutenzione dello stesso, lasciando al fruitore del servizio il
-    solo ruolo di utilizzatore delle funzionalità offerte e che, quindi, non senza
-    oneri di gestione, gestisce o controlla l’infrastruttura cloud necessaria
-    all’erogazione del servizio sottostante.</td>
-  </tr>
-  <tr>
-    <td>SPID</td>
-    <td>Sistema Pubblico d'Identità Digitale, ovvero la soluzione che permette
-    di accedere a tutti i servizi online della Pubblica Amministrazione e di
-    privati federati con un'unica Identità Digitale (username e password)
-    utilizzabile da computer, tablet e smartphone (http://www.spid.gov.it).</td>
-  </tr>
-</table>
+
+```eval_rst
+
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| Termine o abbreviazione                          | Descrizione                                                                          |
++==================================================+======================================================================================+
+| AgID, Agenzia                                    | Agenzia per l’Italia Digitale                                                        |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| Codice, Codice dell’Amministrazione Digitale, CAD| Decreto Legislativo 7 marzo 2005, n. 82 e s.m.i.                                     |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| Cloud della PA                                   | Il Cloud della PA è composto dalle infrastrutture e servizi IaaS/PaaS                |
+|                                                  | erogati da Cloud SPC, dai PSN e dagli altri CSP che saranno qualificati come         |
+|                                                  | compatibili con i requisiti della PA.                                                |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| Cloud                                            | Insieme di infrastrutture tecnologiche remote utilizzate come risorsa                |
+|                                                  | virtuale per la memorizzazione e/o l’elaborazione nell’ambito di un                  |
+|                                                  | servizio                                                                             |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| Cloud SPC o SPC Cloud                            | Contratto Quadro stipulato da CONSIP con il RTI aggiudicatario della                 |
+|                                                  | Gara SPC Cloud Lotto 1 (https://www.cloudspc.it/ )                                   |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| CSP                                              | Cloud Service Provider, ovvero fornitore di servizi erogati in modalità Cloud        |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| Fornitore                                        | Soggetto richiedente la qualificazione SaaS                                          |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| Giorni                                           | Giorni solari                                                                        |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| Marketplace SaaS                                 | Piattaforma digitale che permette la selezione e l'acquisto di applicazioni software |
+|                                                  | erogate in Cloud secondo il modello Software-as-a-Service                            |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| Pubbliche amministrazioni/Amministrazioni/PA     | Le Amministrazioni, come meglio definite all’art. 2, comma 2 del Codice              |
+|                                                  | dell’Amministrazione Digitale.                                                       |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| PSN                                              | Soggetto titolare dell’insieme di infrastrutture IT (centralizzate o                 |
+|                                                  | distribuite), ad alta disponibilità, di proprietà pubblica, eletto a Polo            |
+|                                                  | Strategico Nazionale dalla Presidenza del Consiglio dei Ministri, e qualificato      |
+|                                                  | da AgID ad erogare  ad altre amministrazioni, in maniera continuativa e              |
+|                                                  | sistematica,   servizi infrastrutturali on-demand, servizi di disaster recovery      |
+|                                                  | e business continuity, servizi di gestione della sicurezza IT ed assistenza ai       |
+|                                                  | fruitori dei servizi erogati.                                                        |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| Software as a Service                            | Tra i modelli di servizio offerti dalle piattaforme di Cloud computing,              |
+|                                                  | il Software as a Service (SaaS) è il servizio fully-managed in cui il gestore        |
+|                                                  | del servizio si occupa della predisposizione, configurazione, messa in               |
+|                                                  | esercizio e manutenzione dello stesso, lasciando al fruitore del servizio il         |
+|                                                  | solo ruolo di utilizzatore delle funzionalità offerte e che, quindi, non senza       |
+|                                                  | oneri di gestione, gestisce o controlla l’infrastruttura cloud necessaria            |
+|                                                  | all’erogazione del servizio sottostante.                                             |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+| SPID                                             | Sistema Pubblico d'Identità Digitale, ovvero la soluzione che permette               |
+|                                                  | di accedere a tutti i servizi online della Pubblica Amministrazione e di             |
+|                                                  | privati federati con un'unica Identità Digitale (username e password)                |
+|                                                  | utilizzabile da computer, tablet e smartphone (http://www.spid.gov.it).              |
++--------------------------------------------------+--------------------------------------------------------------------------------------+
+
+```
 
 
 ## Articolo 1 - Ambito di applicazione
@@ -168,66 +139,24 @@ ognuna delle fasi.
 Negli articoli seguenti sono previste le eccezioni di processo, in relazione
 alle fasi ed ai casi sopra elencati.
 
-<table>
-  <tr>
-    <td>N.</td>
-    <td>Fasi del processo di qualificazione</td>
-    <td>Soggetto</td>
-    <td>AgID</td>
-    <td>CONSIP</td>
-    <td>PSN / SPC Cloud</td>
-    <td>Clienti (PA)</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Richiesta di qualificazione</td>
-    <td>A, R</td>
-    <td>I</td>
-    <td>I</td>
-    <td>O</td>
-    <td>O</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Istruttoria documentale</td>
-    <td>I</td>
-    <td>R, A</td>
-    <td>C</td>
-    <td>O</td>
-    <td>O</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Test e collaudo (solo su richiesta del fornitore e in caso di
-        erogazione su SPC Cloud o PSN)
-    </td>
-    <td>R</td>
-    <td>R, A</td>
-    <td>I</td>
-    <td>I</td>
-    <td>O</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Istruttoria post-collaudo (solo su richiesta del fornitore e in caso di
-        erogazione su SPC Cloud o PSN)
-    </td>
-    <td>I</td>
-    <td>R, A</td>
-    <td>C</td>
-    <td>O</td>
-    <td>O</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Mantenimento della qualificazione (Monitoraggio)</td>
-    <td>C</td>
-    <td>A</td>
-    <td>C</td>
-    <td>O</td>
-    <td>R</td>
-  </tr>
-</table>
+```eval_rst
+
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+| N. | Fasi del processo di qualificazione                                     | Soggetto | AgID | CONSIP | PSN / SPC Cloud | Clienti (PA) |
++====+=========================================================================+==========+======+========+=================+==============+
+| 1  | Richiesta di qualificazione                                             | A, R     | I    | I      | O               | O            |
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+| 2  | Istruttoria documentale                                                 | I        | R, A | C      | O               | O            |
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+| 3  | Test e collaudo (solo su richiesta del fornitore e in caso di           | R        | R, A | I      | I               | O            |
+|    | erogazione su SPC Cloud o PSN)                                          |          |      |        |                 |              |
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+| 4  | Istruttoria post-collaudo (solo su richiesta del fornitore e in caso di | I        | R, A | C      | O               | O            |
+|    | erogazione su SPC Cloud o PSN)                                          |          |      |        |                 |              |
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+| 5  | Mantenimento della qualificazione (Monitoraggio)                        | C        | A    | C      | O               | R            |
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+```
 
 ```
 R= Responsible:  è colui che esegue le attività della fase
@@ -494,6 +423,10 @@ ammissibilità di cui all’art.3 punto ii) e la qualificazione della soluzione
 SaaS sarà rilasciata con riserva nell’attesa che il soggetto consegua la
 necessaria qualifica CSP da AgID, ai sensi del Piano Triennale.
 
+```eval_rst
+.. disqus::
+```
+
 ## Allegati
 
 [**ALLEGATO A "Requisiti per la qualificazione di soluzioni SaaS nell’ambito
@@ -504,12 +437,9 @@ della PA_"**](http://www.consip.it/sites/consip.it/files/Disposizioni%20per%20il
 
 IL DIRETTORE GENERALE
 
-
 ```eval_rst
-
-.. disqus::
 
 .. rubric:: Footnotes
 
-.. [#F1]  Per “Cloud della PA” ai fini della presente circolare, dei suoi allegati e delle successive integrazioni e/o modifiche si intende: “l’insieme delle infrastrutture e servizi IaaS/PaaS erogati da Cloud SPC, dai PSN e dagli altri CSP che saranno qualificati ai sensi di quanto disposto dal Piano Triennale”, per come definito nella seguente tabella.
+.. [1]  Per “Cloud della PA” ai fini della presente circolare, dei suoi allegati e delle successive integrazioni e/o modifiche si intende: “l’insieme delle infrastrutture e servizi IaaS/PaaS erogati da Cloud SPC, dai PSN e dagli altri CSP che saranno qualificati ai sensi di quanto disposto dal Piano Triennale”, per come definito nella seguente tabella.
 ```
