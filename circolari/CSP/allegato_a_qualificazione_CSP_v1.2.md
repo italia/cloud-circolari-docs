@@ -198,9 +198,7 @@ Le tipologie di verifiche previste sono:
    
    Nel caso in cui sia previsto un obbligo di agire, la verifica può consistere
    nell’accertare che l’obbligo sia stato riportato correttamente in uno o più
-   atti formali (ad esempio, nel contratto di fornitura (NOTE:  Si veda la tabella
-   "Impegni contrattuali" riportata in Appendice 1 in cui sono riepilogate le
-   clausole contrattuali oggetto di verifica.)). Nel caso in cui sia richiesto di
+   atti formali (ad esempio, nel contratto di fornitura). Nel caso in cui sia richiesto di
    dichiarare informazioni puntuali e/o descrittive, la verifica consiste
    nell’acquisizione delle specifiche informazioni tramite compilazione da parte
    del Fornitore Cloud dei moduli di registrazione (form) presenti sulla
