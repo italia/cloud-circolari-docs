@@ -1,3 +1,10 @@
+```eval_rst
+.. note:: Il documento rappresenta lo schema della Circolare AgID sui "Criteri per la qualificazione di servizi SaaS per il Cloud della PA". Lo schema della circolare è in consultazione e aperto ai commenti **fino al 1 Marzo 2018**.
+```
+
+```eval_rst
+.. note:: Inserisci il tuo contributo in modalità commento alla fine del testo della circolare e del suo allegato
+```
 **Allegato alla CIRCOLARE N. XX del XX Gennaio 2018**
 
 # Requisiti per la qualificazione di servizi SaaS per il Cloud della PA.
