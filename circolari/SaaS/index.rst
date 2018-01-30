@@ -6,3 +6,5 @@ Servizi SaaS
 
    circolare_qualificazione_SaaS_v_4.12.27
    allegato_a_qualificazione_SaaS_v6
+
+.. note:: Circolare in consultazione pubblica fino al 01/03/2018
