@@ -5,6 +5,7 @@ Documenti in consultazione pubblica
    :maxdepth: 4
    :caption: Circolari AgID
 
+   istruzioni-consultazione
    SaaS/index
    CSP/index
 
