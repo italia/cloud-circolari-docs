@@ -18,9 +18,9 @@
     <td>Decreto Legislativo 7 marzo 2005, n. 82 e s.m.i. </td>
   </tr>
   <tr>
-    <td> Cloud della PA</td>
-    <td> Il Cloud della PA è composto da Cloud SPC, dai PSN e dagli altri CSP che saranno
-         qualificati come compatibili con i requisiti Cloud della PA
+    <td>Cloud della PA</td>
+    <td>Il Cloud della PA è composto da Cloud SPC, dai PSN e dagli altri CSP che saranno
+        qualificati come compatibili con i requisiti Cloud della PA
    </td>
   </tr>
   <tr>
@@ -240,10 +240,7 @@ richiesta per ognuno di essi.
     <td></td>
   </tr>
   <tr>
-    <td>
-
-
-RP1</td>
+    <td>RP1</td>
     <td>Produrre l’elenco dei servizi per i quali si richiede la
         qualificazione, fornendo le informazioni di dettaglio richieste nella "scheda
         tecnica del servizio" e negli ulteriori requisiti che prevedono una
