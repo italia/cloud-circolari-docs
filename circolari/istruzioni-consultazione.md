@@ -2,13 +2,11 @@
 
 ## Informazioni sulla consultazione
 
-**Durata della consultazione:** dal 29 dicembre 2017 al 1 marzo 2018 per lo schema della circolare AgID "Criteri per la qualificazione di servizi SaaS per il Cloud della PA"
+* **Durata della consultazione:** dal 29 dicembre 2017 al 1 marzo 2018 per lo schema della circolare AgID "Criteri per la qualificazione di servizi SaaS per il Cloud della PA"
+* **Durata della consultazione:** dal 29 gennaio 2018 al 1 marzo 2018 per lo schema della circolare AgID "Criteri per la qualificazione dei Cloud Service Provider per la PA".
 
-**Durata della consultazione:** dal 29 gennaio 2018 al 1 marzo 2018 per lo schema della circolare AgID "Criteri per la qualificazione dei Cloud Service Provider per la PA".
-
-**Settore:** ICT
-
-**Servizi:** Cloud per la PA
+* **Settore:** ICT
+* **Servizi:** Cloud per la PA
 
 ## Esiti della consultazione
 
@@ -58,6 +56,9 @@ Cloud della PA.
 1. Tramite lo strumento Disqus messo a disposizione in fondo alla pagina delle
    consultazioni di cui ai link pubblicati di seguito
 2. Tramite il forum del Piano Triennale di cui ai link pubblicati di seguito
+3. Via email all’indirizzo [consultazioniCloud@agid.gov.it](mailto:consultazioniCloud@agid.gov.it) esclusivamente 
+   per le comunicazioni contenenti eventuali informazioni coperte da segreto tecnico-commerciale.
+
 
 
 ## Link correlati
