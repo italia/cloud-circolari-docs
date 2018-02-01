@@ -243,9 +243,7 @@ richiesta per ognuno di essi.
     <td>Elementi di riscontro</td>
   </tr>
   <tr>
-    <td>Informazioni necessarie per l’istruttoria</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"> <strong>Informazioni necessarie per l’istruttoria</strong></td>
   </tr>
   <tr>
     <td>RP1</td>
@@ -257,9 +255,7 @@ richiesta per ognuno di essi.
     <td>Dichiarazione Fornitore Cloud</td>
   </tr>
   <tr>
-    <td>Esperienza del Fornitore Cloud nell’ambito dei servizi IaaS/PaaS</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"> <strong>Esperienza del Fornitore Cloud nell’ambito dei servizi IaaS/PaaS</strong></td>
   </tr>
   <tr>
     <td>RP2</td>
@@ -333,15 +329,12 @@ richiesta per ognuno di essi.
     <td>Elementi di riscontro</td>
   </tr>
   <tr>
-    <td>Supporto clienti e assistenza tecnica</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"><strong>Supporto clienti e assistenza tecnica</strong></td>
   </tr>
   <tr>
     <td>RO1</td>
     <td>Il Fornitore Cloud deve mettere a disposizione dell’Acquirente un servizio di supporto tecnico disponibile 24/7 e accessibile mediante opportuni e diversificati canali di comunicazione e adeguati sistemi di gestione (issue tracking), al fine di consentire all’Acquirente di effettuare le eventuali segnalazioni di malfunzionamenti e potenziali pericoli per la sicurezza e la fruibilità del servizio, in completa autonomia.</td>
-    <td>Dichiarazione Fornitore Cloud
-</td>
+    <td>Dichiarazione Fornitore Cloud</td>
   </tr>
   <tr>
     <td>RO2</td>
@@ -365,9 +358,7 @@ richiesta per ognuno di essi.
     <td>Dichiarazione Fornitore Cloud, Verifica documentale </td>
   </tr>
   <tr>
-    <td>Gestione del cambiamento (change management)</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"> <strong>Gestione del cambiamento (change management)</strong></td>
   </tr>
   <tr>
     <td>RO4</td>
@@ -376,9 +367,7 @@ richiesta per ognuno di essi.
         infrastruttura, il Fornitore Cloud deve garantire e dare evidenza del fatto che
         i servizi offerti siano sottoposti ad un ben definito processo di gestione del
         cambiamento.
-        Quanto dichiarato deve essere coerente con le certificazioni richieste
-        in ambito della sicurezza  (ISO 27001, ISO 27017 e ISO 27018)
-    </td>
+        <br/><br/><small>Quanto dichiarato deve essere coerente con le certificazioni e le <em>best practises</em> richieste in ambito della sicurezza  (ISO/IEC 27001, ISO/IEC 27017 e ISO/IEC 27018)</small></td>
     <td>Dichiarazione Fornitore Cloud, Verifica documentale</td>
   </tr>
   <tr>
@@ -399,9 +388,7 @@ richiesta per ognuno di essi.
     <td>Dichiarazione Fornitore Cloud</td>
   </tr>
   <tr>
-    <td>Gestione della configurazione (configuration management)</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"><strong>Gestione della configurazione (configuration management)</strong></td>
   </tr>
   <tr>
     <td>RO7</td>
@@ -409,30 +396,22 @@ richiesta per ognuno di essi.
         ad un processo di gestione della configurazione che consente, mediante
         procedure standard e relativi tool, il controllo di tutte le componenti
         (hardware e software) del servizio. 
-        Quanto dichiarato deve essere coerente con le certificazioni richieste
-        in ambito della sicurezza  (ISO 27001, ISO 27017 e ISO 27018)
-    </td>
+        <br/><br/><small>Quanto dichiarato deve essere coerente con le certificazioni e le <em>best practises</em> richieste in ambito della sicurezza  (ISO/IEC 27001, ISO/IEC 27017 e ISO/IEC 27018)</small></td>
     <td>Dichiarazione Fornitore Cloud</td>
   </tr>
   <tr>
-    <td>Gestione degli Incidenti (incident & problem management)</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"><strong>Gestione degli Incidenti (incident & problem management)</strong></td>
   </tr>
   <tr>
     <td>RO8</td>
     <td>Il Fornitore Cloud deve garantire che la  gestione degli incidenti
-        avvenga mediante procedure standard conformi con lo standard di sicurezza ISO
-        27001 (e.g. ISO 27002/ ISO 27035). 
-        Quanto dichiarato deve essere coerente con le certificazioni richieste
-        in ambito della sicurezza  (ISO 27001, ISO 27017 e ISO 27018)
-    </td>
+        avvenga mediante procedure standard coerenti con gli  standard di sicurezza internazionali.
+         (p.e. ISO/IEC 27002,  ISO/IEC 27035). 
+         <br/><br/><small>Quanto dichiarato deve essere coerente con le certificazioni e le <em>best practises</em> richieste in ambito della sicurezza  (ISO/IEC 27001, ISO/IEC 27017 e ISO/IEC 27018)</small></td>
     <td>Dichiarazione Fornitore Cloud</td>
   </tr>
   <tr>
-    <td>Best practice e trasparenza</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"><strong>Best practice e trasparenza</strong></td>
   </tr>
   <tr>
     <td>RO9</td>
@@ -504,24 +483,25 @@ qualificazione.
   </tr>
   <tr>
     <td>RSI1</td>
-    <td>I servizi Cloud offerti devono essere certificati secondo lo standard ISO/IEC 27001</td>
+    <td>I servizi Cloud offerti devono essere certificati secondo lo standard ISO/IEC 27001.</td>
     <td>Dichiarazione Fornitore Cloud, Verifica documentale</td>
   </tr>
   <tr>
     <td>RSI2</td>
-    <td>Al fine di garantire adeguati livelli di  sicurezza per i servizi Cloud
-        della PA, il Fornitore Cloud deve certificare i servizi offerti in base allo
-        standard  ISO/IEC 27017
-    </td>
+    <td>Al fine di garantire adeguati livelli di  sicurezza e riservatezza dei dati per i servizi Cloud
+        della PA, il Fornitore Cloud deve rendere coerenti i servizi offerti alle <em>best practices</em>
+        proposte dallo standard  ISO/IEC 27017.
+        <br/><br/><small>(ISO/IEC 27017 è uno standard "auditabile", il certificato di
+        conformità deve essere rilasciato da un ente terzo)</small></td>
     <td>Dichiarazione Fornitore Cloud, Verifica documentale</td>
   </tr>
   <tr>
     <td>RSI3</td>
-    <td>Ai fini di garantire la protezione dei dati personali nell’ambito dei
-        servizi Cloud, il Fornitore deve certificare i propri servizi mediante lo standard ISO/IEC 27018.
-        (ISO/IEC 27018 è uno standard "auditabile" quindi il certificato di
-        conformità deve essere rilasciato da un ente terzo)
-    </td>
+    <td>Al fine di garantire adeguati livelli di sicurezza e riservatezza dei dati per i servizi Cloud
+        della PA, il Fornitore Cloud deve rendere coerenti i servizi offerti alle <em>best practices</em>
+        proposte dallo standard  ISO/IEC 27018. 
+        <br/><br/><small>(ISO/IEC 27018 è uno standard "auditabile", il certificato di
+        conformità deve essere rilasciato da un ente terzo)</small></td>
     <td>Dichiarazione Fornitore Cloud, Verifica documentale</td>
   </tr>
 </table>
@@ -538,12 +518,12 @@ del quale deve essere compresa una specifica sezione relativa ai "livelli di
 servizio garantiti" ovvero il Service Level Agreement (SLA).
 
 I livelli di servizio sono definiti dagli *indicatori del livello di servizio*
-(SLI), ovvero delle metriche che quantificano e/o qualificano alcune grandezze
-specifiche del servizio. Si definiscono invece  *obiettivi del livello di
-servizio *(SLO) i valori  (o intervalli) massimi e/o minimi degli indicatori
+(**SLI**), ovvero delle metriche che quantificano e/o qualificano alcune grandezze
+specifiche del servizio. Si definiscono invece  *obiettivi del livello di servizio* (**SLO**)
+i valori  (o intervalli) massimi e/o minimi degli indicatori
 (SLI) che si intendono come garantiti dal servizio. 
 
-Gli accordi contrattuali relativi ai *livelli di servizio *(SLA) vengono
+Gli accordi contrattuali relativi ai *livelli di servizio* (**SLA**) vengono
 definiti tramite un’opportuna combinazione degli *obiettivi* (SLO) che il
 fornitore intende mantenere per ogni indicatore (SLI).
 
@@ -596,9 +576,7 @@ utilizzano il sistema e/o volume di richieste processabili.
     <td>Elementi di riscontro</td>
   </tr>
   <tr>
-    <td>Disponibilità e continuità del servizio</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"> <strong>Disponibilità e continuità del servizio</strong></td>
   </tr>
   <tr>
     <td>RPE1</td>
@@ -611,9 +589,7 @@ utilizzano il sistema e/o volume di richieste processabili.
     <td>Dichiarazione, Fornitore Cloud</td>
   </tr>
   <tr>
-    <td>Tempi di risposta del servizio</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"><strong>Tempi di risposta del servizio</strong></td>
   </tr>
   <tr>
     <td>RPE2</td>
@@ -626,9 +602,7 @@ utilizzano il sistema e/o volume di richieste processabili.
     <td>Dichiarazione Fornitore Cloud</td>
   </tr>
   <tr>
-    <td>Performance delle componenti Infrastructure</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"><strong>Performance delle componenti Infrastructure</strong></td>
   </tr>
   <tr>
     <td>RPE3</td>
@@ -660,17 +634,15 @@ utilizzano il sistema e/o volume di richieste processabili.
         dichiarare i valori dei seguenti indicatori per i quali è previsto un livello
         di servizio garantito: 
         disponibilità, quantità di dati trasferibili al secondo (sia in input che in output), tempo massimo di ripristino dei dati (max restore time)(*)
-        latenza massima rispetto alle risorse compute(*)
+        latenza massima rispetto alle risorse compute(**)
         SLI previsti: SLI01, SLI05
-        *nel caso di risorse storage utilizzate per servizi di backup* nel caso di risorse storage utilizzate in 
-        associazione a risorse compute*
+        * nel caso di risorse storage utilizzate per servizi di backup
+        ** nel caso di risorse storage utilizzate in associazione a risorse compute
     </td>
     <td>Dichiarazione Fornitore Cloud</td>
   </tr>
   <tr>
-    <td>Performance delle componenti Platform</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"> <strong>Performance delle componenti Platform</strong></td>
   </tr>
   <tr>
     <td>RPE6</td>
@@ -820,12 +792,6 @@ essere presenti caratteristiche di portabilità atte ad evitare il lock-in
 dell’Acquirente rispetto al Fornitore Cloud, nonché rispetto a specifici
 servizi (oppure feature) offerti.
 
-Punti da trattare:
-
-* portabilità e interoperabilità tra diversi formati di VM
-* portabilità dei dati
-* portabilità dei Container
-
 A tal proposito i servizi che erogano virtual machines devono prevedere
 opportuni meccanismi di compatibilità e/o convertibilità da e verso formati
 basati su standard (ad es. Open Virtualization Format). Gli strumenti di
@@ -844,8 +810,8 @@ attuando i seguenti principi:
 * container interoperabili e compatibili con un’ampia varietà di sistemi
   operativi, architetture hardware, public Clouds.
 
-I servizi Cloud devono esporre opportune *Application Programming Interface
-*(API). Tali API dovranno rifarsi alle migliori pratiche di gestione (API
+I servizi Cloud devono esporre opportune *Application Programming Interface*
+(API). Tali API dovranno rifarsi alle migliori pratiche di gestione (API
 management), prevedendo in particolare la tracciabilità delle versioni
 disponibili, la tracciabilità delle richieste ricevute ed evase, la
 documentazione degli endpoint SOAP e/o REST disponibili e delle rispettive
@@ -867,9 +833,7 @@ fallimento del Fornitore.
     <td>Elementi di riscontro</td>
   </tr>
   <tr>
-    <td>Interoperabilità del servizio</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"> <strong>Interoperabilità del servizio</strong></td>
   </tr>
   <tr>
     <td>RIP1</td>
@@ -902,9 +866,7 @@ Verifica documentale</td>
  </td>
   </tr>
   <tr>
-    <td>Portabilità del servizio e dei dati</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"> <strong>Portabilità del servizio e dei dati</strong></td>
   </tr>
   <tr>
     <td>RIP7</td>
@@ -953,13 +915,14 @@ Dettaglio dei requisiti per la conformità legislativa:
     <td>Tipo di verifica</td>
   </tr>
   <tr>
-    <td>Riservatezza dei dati</td>
-    <td></td>
-    <td></td>
+    <td colspan="3"><strong>Riservatezza dei dati</strong></td>
   </tr>
   <tr>
     <td>RCL1</td>
-    <td>Il Fornitore Cloud deve indicare per quali aspetti il servizio offerto è conforme al regolamento GDPR (General Data Protection Regulation- Regolamento UE 2016/679).</td>
+    <td>Il Fornitore Cloud deve indicare per quali aspetti il servizio offerto
+        è conforme al regolamento GDPR (General Data Protection Regulation -
+        Regolamento UE 2017/679)
+    </td>
     <td>Dichiarazione Fornitore Cloud</td>
   </tr>
   <tr>
