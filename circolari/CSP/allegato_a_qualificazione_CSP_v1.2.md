@@ -376,8 +376,9 @@ richiesta per ognuno di essi.
         infrastruttura, il Fornitore Cloud deve garantire e dare evidenza del fatto che
         i servizi offerti siano sottoposti ad un ben definito processo di gestione del
         cambiamento.
-        Quanto dichiarato deve essere coerente con le certificazioni richieste
-        in ambito della sicurezza  (ISO 27001, ISO 27017 e ISO 27018)
+
+        <small>Quanto dichiarato deve essere coerente con le certificazioni e le <em>best practises</em>richieste
+        in ambito della sicurezza  (ISO/IEC 27001, ISO/IEC 27017 e ISO/IEC 27018)</small>
     </td>
     <td>Dichiarazione Fornitore Cloud, Verifica documentale</td>
   </tr>
@@ -409,8 +410,9 @@ richiesta per ognuno di essi.
         ad un processo di gestione della configurazione che consente, mediante
         procedure standard e relativi tool, il controllo di tutte le componenti
         (hardware e software) del servizio. 
-        Quanto dichiarato deve essere coerente con le certificazioni richieste
-        in ambito della sicurezza  (ISO 27001, ISO 27017 e ISO 27018)
+
+        <small>Quanto dichiarato deve essere coerente con le certificazioni e le <em>best practises</em>richieste
+        in ambito della sicurezza  (ISO/IEC 27001, ISO/IEC 27017 e ISO/IEC 27018)</small>
     </td>
     <td>Dichiarazione Fornitore Cloud</td>
   </tr>
@@ -422,10 +424,11 @@ richiesta per ognuno di essi.
   <tr>
     <td>RO8</td>
     <td>Il Fornitore Cloud deve garantire che la  gestione degli incidenti
-        avvenga mediante procedure standard conformi con lo standard di sicurezza ISO
-        27001 (e.g. ISO 27002/ ISO 27035). 
-        Quanto dichiarato deve essere coerente con le certificazioni richieste
-        in ambito della sicurezza  (ISO 27001, ISO 27017 e ISO 27018)
+        avvenga mediante procedure standard coerenti con gli  standard di sicurezza internazionali.
+         (p.e. ISO/IEC 27002,  ISO/IEC 27035). 
+
+        <small>Quanto dichiarato deve essere coerente con le certificazioni e le <em>best practises</em>richieste
+        in ambito della sicurezza  (ISO/IEC 27001, ISO/IEC 27017 e ISO/IEC 27018)</small>
     </td>
     <td>Dichiarazione Fornitore Cloud</td>
   </tr>
@@ -509,18 +512,24 @@ qualificazione.
   </tr>
   <tr>
     <td>RSI2</td>
-    <td>Al fine di garantire adeguati livelli di  sicurezza per i servizi Cloud
-        della PA, il Fornitore Cloud deve certificare i servizi offerti in base allo
-        standard  ISO/IEC 27017
+    <td>Al fine di garantire adeguati livelli di  sicurezza e riservatezza dei dati per i servizi Cloud
+        della PA, il Fornitore Cloud deve rendere coerenti i servizi offerti alle <em>best practices</em>
+        proposte dallo standard  ISO/IEC 27017.
+
+        <small>(ISO/IEC 27017 è uno standard "auditabile", il certificato di
+        conformità deve essere rilasciato da un ente terzo)</small>
+
     </td>
     <td>Dichiarazione Fornitore Cloud, Verifica documentale</td>
   </tr>
   <tr>
     <td>RSI3</td>
-    <td>Ai fini di garantire la protezione dei dati personali nell’ambito dei
-        servizi Cloud, il Fornitore deve certificare i propri servizi mediante lo standard ISO/IEC 27018.
-        (ISO/IEC 27018 è uno standard "auditabile" quindi il certificato di
-        conformità deve essere rilasciato da un ente terzo)
+    <td>Al fine di garantire adeguati livelli di sicurezza e riservatezza dei dati per i servizi Cloud
+        della PA, il Fornitore Cloud deve rendere coerenti i servizi offerti alle <em>best practices</em>
+        proposte dallo standard  ISO/IEC 27018. 
+
+        <small>(ISO/IEC 27018 è uno standard "auditabile", il certificato di
+        conformità deve essere rilasciato da un ente terzo)</small>
     </td>
     <td>Dichiarazione Fornitore Cloud, Verifica documentale</td>
   </tr>
@@ -819,12 +828,6 @@ diversi ambienti Cloud in uso presso il medesimo Acquirente. Devono inoltre
 essere presenti caratteristiche di portabilità atte ad evitare il lock-in
 dell’Acquirente rispetto al Fornitore Cloud, nonché rispetto a specifici
 servizi (oppure feature) offerti.
-
-Punti da trattare:
-
-* portabilità e interoperabilità tra diversi formati di VM
-* portabilità dei dati
-* portabilità dei Container
 
 A tal proposito i servizi che erogano virtual machines devono prevedere
 opportuni meccanismi di compatibilità e/o convertibilità da e verso formati
