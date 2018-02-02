@@ -1,0 +1,108 @@
+## Interoperabilità e portabilità
+
+Le soluzioni SaaS devono consentire l’interoperabilità dei sistemi informativi fra le Amministrazioni pubbliche e fra gli altri applicativi in uso presso il medesimo Acquirente. A tal fine le soluzioni SaaS devo esporre opportune *Application Programming Interface *(API).
+
+Tali API dovranno rifarsi alle migliori pratiche di gestione (API management), prevedendo in particolare la tracciabilità delle versioni disponibili, la tracciabilità delle richieste ricevute ed evase, la documentazione degli endpoint SOAP e/o REST disponibili e delle rispettive modalità di invocazione.
+
+Il Fornitore SaaS deve dichiarare se la soluzione SaaS è interoperabile con i servizi pubblici SPID e PagoPA.
+
+Deve essere sempre possibile la migrazione dell’Acquirente verso un altro Fornitore SaaS con conseguente eliminazione permanentemente dei dati di proprietà dell’Ente al termine della procedura di migrazione. In aggiunta, per quanto coerente con la piattaforma Cloud su cui sarà dispiegato il servizio, il Fornitore SaaS dovrà garantire che la portabilità della soluzione SaaS (o reversibilità) sia conforme con i criteri e gli scenari delineati nel documento "Piattaforma SPC Cloud e Reversibilità" (disponibile online all’indirizzo [https://www.cloudspc.it/files/pdf/SPC-Cloud-Reversibility-signed.pdf](https://www.cloudspc.it/files/pdf/SPC-Cloud-Reversibility-signed.pdf)). Inoltre, il Fornitore SaaS dovrà predisporre e consegnare all’Acquirente un dettagliato *piano di reversibilità*.
+
+La proprietà dei dati deve essere mantenuta dall’Acquirente durante tutto il ciclo di vita del servizio, anche in seguito ad operazioni di acquisizione o fallimento del fornitore.
+
+<table>
+  <tr>
+    <td>Codice Requisito</td>
+    <td>Requisito</td>
+    <td>Elementi di riscontro</td>
+  </tr>
+  <tr>
+    <td>Interoperabilità del servizio</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>RIP1</td>
+    <td>La soluzione SaaS deve esporre opportune Application Programming Interface (API) di tipo SOAP e/o REST associate alle funzionalità applicative, di gestione e configurazione del servizio.</td>
+    <td>Dichiarazione Fornitore SaaS
+Verifica tecnica (se prevista)</td>
+  </tr>
+  <tr>
+    <td>RIP2</td>
+    <td>Il Fornitore SaaS deve rendere disponibile una adeguata documentazione tecnica delle API che ne chiarisca l’utilizzo.</td>
+    <td>Dichiarazione Fornitore SaaS
+Verifica documentale</td>
+  </tr>
+  <tr>
+    <td>RIP3</td>
+    <td>In caso di aggiornamento delle funzionalità del servizio e/o delle relative API deve essere possibile la tracciabilità delle diverse versioni delle API disponibili, allo scopo di consentire evoluzioni non distruttive (versioning). Anche la documentazione tecnica delle API dovrà essere tempestivamente aggiornata.</td>
+    <td>Dichiarazione Fornitore SaaS
+Verifica tecnica (se prevista)
+ </td>
+  </tr>
+  <tr>
+    <td>RIP4</td>
+    <td>Devono essere implementate delle limitazioni sul numero di richieste che è possibile sottomettere alle API, collegate alle caratteristiche delle API stesse e della classe di utilizzatori (throttling).</td>
+    <td>Dichiarazione Fornitore SaaS
+Verifica tecnica (se prevista)
+ </td>
+  </tr>
+  <tr>
+    <td>RIP5</td>
+    <td>Deve essere implementata la tracciabilità delle richieste SOAP/REST ricevute e del loro esito (logging e accounting), anche al fine della non ripudiabilità della comunicazione.</td>
+    <td>Dichiarazione Fornitore SaaS
+Verifica tecnica (se prevista)
+ </td>
+  </tr>
+  <tr>
+    <td>RIP6</td>
+    <td>Il Fornitore SaaS deve dichiarare se la soluzione SaaS è interoperabile con i servizi pubblici SPID e PagoPA.
+
+La dichiarazione di compatibilità con tali servizi può essere rilasciata solo se il Fornitore SaaS ha già superato le eventuali verifiche tecniche previste dalle normative e/o linee guida in vigore per tali servizi pubblici.</td>
+    <td>Dichiarazione Fornitore SaaS
+</td>
+  </tr>
+  <tr>
+    <td>Portabilità del servizio e dei dati</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>RIP7</td>
+    <td>Deve essere sempre possibile da parte dell’Acquirente, su richiesta oppure in modalità self-service, l’estrazione di una copia completa dei dati memorizzati e gestiti dal servizio (in formato standard, non proprietario e riutilizzabile), ivi compresi i dati derivati quali log e statistiche di utilizzo, nonché le configurazioni del servizio.
+Tali prerogative devono essere garantite per un periodo di almeno due mesi (phase out) a partire dalla cessazione della fornitura (anche nel caso in cui la cessazione sia stata determinata dalla revoca della qualifica da parte di AgID).
+
+SLI previsti: SLI07 e SLI08</td>
+    <td>Dichiarazione Fornitore SaaS
+Verifica tecnica (se prevista)
+ </td>
+  </tr>
+  <tr>
+    <td>RIP8</td>
+    <td>Deve essere sempre possibile la migrazione dei dati del servizio verso un altro Fornitore SaaS con conseguente eliminazione permanente dei dati di proprietà dell’Acquirente al termine della procedura di migrazione (inclusi i dati derivati e i dati di backup).</td>
+    <td>Dichiarazione Fornitore SaaS</td>
+  </tr>
+  <tr>
+    <td>RIP9</td>
+    <td>La proprietà dei dati deve essere mantenuta dall’Acquirente anche in seguito ad operazioni di acquisizione o fallimento del Fornitore SaaS. In caso di fallimento, chiusura dell’attività o dismissione del servizio, il Fornitore SaaS deve garantire all’Acquirente di poter recuperare i dati (in formato standard, non proprietario e riutilizzabile) e di poter migrare il servizio.
+Il periodo di tempo a disposizione dell’Acquirente dovrà consentirgli di completare il recupero dei dati e la migrazione del servizio e non potrà comunque essere inferiore a due mesi.
+
+SLI previsti: SLI07 e SLI08</td>
+    <td>Dichiarazione Fornitore SaaS
+ </td>
+  </tr>
+  <tr>
+    <td>
+RIP10
+
+</td>
+    <td>Il Fornitore SaaS deve predisporre un dettagliato piano di reversibilità, contenente le procedure e le modalità per migrare il servizio SaaS e tutti i dati pertinenti (anche derivati). </td>
+    <td>Dichiarazione Fornitore SaaS
+Verifica documentale</td>
+  </tr>
+</table>
+
+```eval_rst
+.. discourse::
+   :topic_identifier: 2250
+```

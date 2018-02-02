@@ -51,21 +51,28 @@ CSP qualificati e/o servizi SaaS qualificati erogate sulle infrastrutture del
 Cloud della PA.
 
 ## Come partecipare
-È possibile partecipare alla consultazione pubblica secondo le seguenti modalità:
 
-1. Tramite lo strumento Disqus messo a disposizione in fondo alla pagina delle
-   consultazioni di cui ai link pubblicati di seguito
-2. Tramite il forum del Piano Triennale di cui ai link pubblicati di seguito
-3. Via email all’indirizzo [consultazioniCloud@agid.gov.it](mailto:consultazioniCloud@agid.gov.it) esclusivamente 
-   per le comunicazioni contenenti eventuali informazioni coperte da segreto tecnico-commerciale.
+La consultazione pubblica si arricchisce di una nuova funzionalità che rende i
+commenti più efficaci. Da oggi con [Docs
+Italia](https://docs.developers.italia.it) è possibile inserire commenti
+specifici e puntuali relativi a ciascuna sezione del documento in consultazione.
+Per farlo utilizza i link che trovi nel documento. Inoltre, i commenti saranno
+immediatamente visibili anche in [Forum Italia](https://forum.italia.it), dove
+sarà possibile continuare la discussione. 
 
+La partecipazione alla consultazione pubblica è possibile anche via email
+all’indirizzo
+[consultazioniCloud@agid.gov.it](mailto:consultazioniCloud@agid.gov.it),
+esclusivamente per le comunicazioni contenenti eventuali informazioni coperte da
+segreto tecnico-commerciale.
 
+È possibile inviare i propri commenti fino al 1 marzo 2018.
 
 ## Link correlati
 * [Consultazione Circolare CSP](http://cloud-pa.readthedocs.io/it/latest/circolari/CSP/circolare_qualificazione_CSP_v1.2.html)
 * [Consultazione Circolare SaaS](http://cloud-pa.readthedocs.io/it/latest/circolari/SaaS/circolare_qualificazione_SaaS_v_4.12.27.html)
-* [Forum Consultazione Circolare CSP](https://forum.italia.it/t/consultazione-pubblica-sulla-circolare-di-qualificazione-dei-cloud-service-provider-per-la-pa) 
-* [Forum Consultazione Circolare SaaS](https://forum.italia.it/t/consultazione-pubblica-sulla-circolare-per-la-qualificazione-dei-servizi-saas-per-il-cloud-della-pa/)
+* [Forum Consultazione Circolare CSP](https://forum.italia.it/c/documenti-in-consultazione/qualificazione-dei-cloud-service-provider) 
+* [Forum Consultazione Circolare SaaS](https://forum.italia.it/c/documenti-in-consultazione/qualificazione-servizi-saas-per-il-cloud-della-pa)
 
 ## Contatti
 
