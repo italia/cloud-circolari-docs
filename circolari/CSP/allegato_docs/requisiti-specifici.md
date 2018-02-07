@@ -15,36 +15,34 @@ Di seguito è riportato il dettaglio dei requisiti di sicurezza, privacy e
 protezione dei dati e delle verifiche previste durante la procedura di
 qualificazione.
 
-<table>
-  <tr>
-    <td>Codice Requisito</td>
-    <td>Requisito</td>
-    <td>Elementi di riscontro</td>
-  </tr>
-  <tr>
-    <td>RSI1</td>
-    <td>I servizi Cloud offerti devono essere certificati secondo lo standard ISO/IEC 27001.</td>
-    <td>Dichiarazione Fornitore Cloud, Verifica documentale</td>
-  </tr>
-  <tr>
-    <td>RSI2</td>
-    <td>Al fine di garantire adeguati livelli di  sicurezza e riservatezza dei dati per i servizi Cloud
-        della PA, il Fornitore Cloud deve rendere coerenti i servizi offerti alle <em>best practices</em>
-        proposte dallo standard  ISO/IEC 27017.
-        <br/><br/><small>(ISO/IEC 27017 è uno standard "auditabile", il certificato di
-        conformità deve essere rilasciato da un ente terzo)</small></td>
-    <td>Dichiarazione Fornitore Cloud, Verifica documentale</td>
-  </tr>
-  <tr>
-    <td>RSI3</td>
-    <td>Al fine di garantire adeguati livelli di sicurezza e riservatezza dei dati per i servizi Cloud
-        della PA, il Fornitore Cloud deve rendere coerenti i servizi offerti alle <em>best practices</em>
-        proposte dallo standard  ISO/IEC 27018. 
-        <br/><br/><small>(ISO/IEC 27018 è uno standard "auditabile", il certificato di
-        conformità deve essere rilasciato da un ente terzo)</small></td>
-    <td>Dichiarazione Fornitore Cloud, Verifica documentale</td>
-  </tr>
-</table>
+```eval_rst
+.. tabularcolumns:: |p{3cm}|p{8cm}|p{3.5cm}|
+
+.. rst-class:: longtable
+
+   +------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------+
+   | Codice Requisito | Requisito                                                                                        | Elementi di riscontro                               |
+   +------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------+
+   | RSI1             | I servizi Cloud offerti devono essere certificati secondo lo standard ISO/IEC 27001.             | Dichiarazione Fornitore Cloud, Verifica documentale |
+   +------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------+
+   | RSI2             | Al fine di garantire adeguati livelli di  sicurezza e riservatezza dei dati per i servizi Cloud  | Dichiarazione Fornitore Cloud, Verifica documentale |
+   |                  | della PA, il Fornitore Cloud deve rendere coerenti i servizi offerti alle best practices         |                                                     |
+   |                  | proposte dallo standard  ISO/IEC 27017.                                                          |                                                     |
+   |                  |                                                                                                  |                                                     |
+   |                  |                                                                                                  |                                                     |
+   |                  | (ISO/IEC 27017 è uno standard "auditabile", il certificato di                                    |                                                     |
+   |                  | conformità deve essere rilasciato da un ente terzo)                                              |                                                     |
+   +------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------+
+   | RSI3             | Al fine di garantire adeguati livelli di sicurezza e riservatezza dei dati per i servizi Cloud   | Dichiarazione Fornitore Cloud, Verifica documentale |
+   |                  | della PA, il Fornitore Cloud deve rendere coerenti i servizi offerti alle best practices         |                                                     |
+   |                  | proposte dallo standard  ISO/IEC 27018.                                                          |                                                     |
+   |                  |                                                                                                  |                                                     |
+   |                  |                                                                                                  |                                                     |
+   |                  | (ISO/IEC 27018 è uno standard "auditabile", il certificato di                                    |                                                     |
+   |                  | conformità deve essere rilasciato da un ente terzo)                                              |                                                     |
+   +------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------+
+```
+
 
 
  
@@ -109,219 +107,140 @@ Il Fornitore Cloud deve dichiarare quali sono le condizioni massime di carico
 sopportabili dal servizio sia in termini di numero di utenti concorrenti che
 utilizzano il sistema e/o volume di richieste processabili. 
 
-<table>
-  <tr>
-    <td>Codice Requisito</td>
-    <td>Requisito</td>
-    <td>Elementi di riscontro</td>
-  </tr>
-  <tr>
-    <td colspan="3"> <strong>Disponibilità e continuità del servizio</strong></td>
-  </tr>
-  <tr>
-    <td>RPE1</td>
-    <td>La disponibilità del servizio deve essere adeguata all’utilizzo previsto e corrispondente a quella dichiarata dal Fornitore Cloud.
-        Il Fornitore Cloud deve assicurare la disponibilità e fruibilità del servizio
-        nella sua interezza: non possono esserci parti di servizio non disponibili o
-        non utilizzabili appieno. 
-        SLI previsti: SLI01, SLI02, SLI03
-    </td>
-    <td>Dichiarazione, Fornitore Cloud</td>
-  </tr>
-  <tr>
-    <td colspan="3"><strong>Tempi di risposta del servizio</strong></td>
-  </tr>
-  <tr>
-    <td>RPE2</td>
-    <td>I tempi di risposta del servizio devono essere corrispondenti a quelli
-        dichiarati dal Fornitore senza scostamenti significativi, e comunque entro
-        precisi limiti prevedibili e noti a priori, al variare del numero di utenti
-        connessi e del carico di lavoro sottoposto al servizio.
-        SLI previsti: SLI04, SLI05
-    </td>
-    <td>Dichiarazione Fornitore Cloud</td>
-  </tr>
-  <tr>
-    <td colspan="3"><strong>Performance delle componenti Infrastructure</strong></td>
-  </tr>
-  <tr>
-    <td>RPE3</td>
-    <td>Servizi che includono la componente Compute Il Fornitore deve
-        dichiarare i valori dei seguenti indicatori per i quali è previsto un livello
-        di servizio garantito:
-        disponibilità, massima durata dei periodi di indisponibilità (outage
-        length), tempo medio e massimo di reboot delle VM
-        SLI previsti: SLI01, SLI13 
-    </td>
-    <td>Dichiarazione Fornitore Cloud </td>
-  </tr>
-  <tr>
-    <td>RPE4</td>
-    <td>Servizi che includono la componente Network
-        Il Fornitore deve dichiarare i valori dei seguenti indicatori per i
-        quali è previsto un livello di servizio garantito:
-        disponibilità, numero massimo di pacchetti persi (packet loss),
-        larghezza di banda (bandwith), latenza massima,
-        variazione minima e massima della latenza con cui vengono ricevuti i
-        pacchetti
-        SLI previsti: SLI01, SLI05
-    </td>
-    <td>Dichiarazione Fornitore Cloud</td>
-  </tr>
-  <tr>
-    <td>RPE5</td>
-    <td>Servizi che includono la componente Storage Il Fornitore deve
-        dichiarare i valori dei seguenti indicatori per i quali è previsto un livello
-        di servizio garantito: 
-        disponibilità, quantità di dati trasferibili al secondo (sia in input che in output), tempo massimo di ripristino dei dati (max restore time)(*)
-        latenza massima rispetto alle risorse compute(**)
-        SLI previsti: SLI01, SLI05
-        * nel caso di risorse storage utilizzate per servizi di backup
-        ** nel caso di risorse storage utilizzate in associazione a risorse compute
-    </td>
-    <td>Dichiarazione Fornitore Cloud</td>
-  </tr>
-  <tr>
-    <td colspan="3"> <strong>Performance delle componenti Platform</strong></td>
-  </tr>
-  <tr>
-    <td>RPE6</td>
-    <td>Il Fornitore deve dichiarare i valori dei seguenti indicatori per i quali è previsto un livello di servizio garantito:
-disponibilità (oppure tempo cumulativo di indisponibilità mensile),
-tempi massimi di risposta delle componenti PaaS (ad es. database, load balancer, componenti DevOps, middleware),</td>
-    <td>Dichiarazione Fornitore Cloud</td>
-  </tr>
-  <tr>
-    <td>RPE7</td>
-    <td>Nel caso in cui sia prevista la scalabilità automatica della soluzione PaaS (o di alcune sue componenti), il Fornitore deve specificare e garantire quali siano le condizioni e i tempi di attivazione delle istanze aggiuntive che vengono attivate.
+```eval_rst
+.. tabularcolumns:: |p{3cm}|p{8cm}|p{3.5cm}|
 
-SLI previsti: SLI06</td>
-    <td>Dichiarazione Fornitore Cloud</td>
-  </tr>
-  <tr>
-    <td>RPE8</td>
-    <td>La scalabilità automatica del servizio (o di sue componenti) deve attivarsi correttamente al verificarsi delle condizioni operative prestabilite (eventualmente configurabili) e deve garantire che non si verifichino interruzioni nell’erogazione del servizio.</td>
-    <td>Dichiarazione Fornitore Cloud</td>
-  </tr>
-  <tr>
-    <td>RPE9</td>
-    <td>I precedenti requisiti di scalabilità (RPE7 e RPE8) devono essere garantiti sia nel caso di scalabilità crescente che nel caso di decrescita delle risorse allocate. In particolare in fase di decrescita le istanze PaaS/IaaS non più necessarie devono risultare correttamente disattivate in modo da non comportare costi di utilizzo.</td>
-    <td>Dichiarazione Fornitore Cloud</td>
-  </tr>
-</table>
+.. rst-class:: longtable
+
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | Codice Requisito | Requisito                                                                                                                                                                                                                                                                                                                                 | Elementi di riscontro          |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | Disponibilità e continuità del servizio                                                                                                                                                                                                                                                                                                                                                       |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | RPE1             | La disponibilità del servizio deve essere adeguata all’utilizzo previsto e corrispondente a quella dichiarata dal Fornitore Cloud.                                                                                                                                                                                                        | Dichiarazione, Fornitore Cloud |
+   |                  | Il Fornitore Cloud deve assicurare la disponibilità e fruibilità del servizio                                                                                                                                                                                                                                                             |                                |
+   |                  | nella sua interezza: non possono esserci parti di servizio non disponibili o                                                                                                                                                                                                                                                              |                                |
+   |                  | non utilizzabili appieno.                                                                                                                                                                                                                                                                                                                 |                                |
+   |                  | SLI previsti: SLI01, SLI02, SLI03                                                                                                                                                                                                                                                                                                         |                                |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | Tempi di risposta del servizio                                                                                                                                                                                                                                                                                                                                                                |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | RPE2             | I tempi di risposta del servizio devono essere corrispondenti a quelli                                                                                                                                                                                                                                                                    | Dichiarazione Fornitore Cloud  |
+   |                  | dichiarati dal Fornitore senza scostamenti significativi, e comunque entro                                                                                                                                                                                                                                                                |                                |
+   |                  | precisi limiti prevedibili e noti a priori, al variare del numero di utenti                                                                                                                                                                                                                                                               |                                |
+   |                  | connessi e del carico di lavoro sottoposto al servizio.                                                                                                                                                                                                                                                                                   |                                |
+   |                  | SLI previsti: SLI04, SLI05                                                                                                                                                                                                                                                                                                                |                                |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | Performance delle componenti Infrastructure                                                                                                                                                                                                                                                                                                                                                   |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | RPE3             | Servizi che includono la componente Compute Il Fornitore deve                                                                                                                                                                                                                                                                             | Dichiarazione Fornitore Cloud  |
+   |                  | dichiarare i valori dei seguenti indicatori per i quali è previsto un livello                                                                                                                                                                                                                                                             |                                |
+   |                  | di servizio garantito:                                                                                                                                                                                                                                                                                                                    |                                |
+   |                  | disponibilità, massima durata dei periodi di indisponibilità (outage                                                                                                                                                                                                                                                                      |                                |
+   |                  | length), tempo medio e massimo di reboot delle VM                                                                                                                                                                                                                                                                                         |                                |
+   |                  | SLI previsti: SLI01, SLI13                                                                                                                                                                                                                                                                                                                |                                |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | RPE4             | Servizi che includono la componente Network                                                                                                                                                                                                                                                                                               | Dichiarazione Fornitore Cloud  |
+   |                  | Il Fornitore deve dichiarare i valori dei seguenti indicatori per i                                                                                                                                                                                                                                                                       |                                |
+   |                  | quali è previsto un livello di servizio garantito:                                                                                                                                                                                                                                                                                        |                                |
+   |                  | disponibilità, numero massimo di pacchetti persi (packet loss),                                                                                                                                                                                                                                                                           |                                |
+   |                  | larghezza di banda (bandwith), latenza massima,                                                                                                                                                                                                                                                                                           |                                |
+   |                  | variazione minima e massima della latenza con cui vengono ricevuti i                                                                                                                                                                                                                                                                      |                                |
+   |                  | pacchetti                                                                                                                                                                                                                                                                                                                                 |                                |
+   |                  | SLI previsti: SLI01, SLI05                                                                                                                                                                                                                                                                                                                |                                |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | RPE5             | Servizi che includono la componente Storage Il Fornitore deve                                                                                                                                                                                                                                                                             | Dichiarazione Fornitore Cloud  |
+   |                  | dichiarare i valori dei seguenti indicatori per i quali è previsto un livello                                                                                                                                                                                                                                                             |                                |
+   |                  | di servizio garantito:                                                                                                                                                                                                                                                                                                                    |                                |
+   |                  | disponibilità, quantità di dati trasferibili al secondo (sia in input che in output), tempo massimo di ripristino dei dati (max restore time)(*)                                                                                                                                                                                          |                                |
+   |                  | latenza massima rispetto alle risorse compute(**)                                                                                                                                                                                                                                                                                         |                                |
+   |                  | SLI previsti: SLI01, SLI05                                                                                                                                                                                                                                                                                                                |                                |
+   |                  |                                                                                                                                                                                                                                                                                                                                           |                                |
+   |                  | \* nel caso di risorse storage utilizzate per servizi di backup                                                                                                                                                                                                                                                                           |                                |
+   |                  |                                                                                                                                                                                                                                                                                                                                           |                                |
+   |                  | \*\* nel caso di risorse storage utilizzate in associazione a risorse compute                                                                                                                                                                                                                                                             |                                |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | Performance delle componenti Platform                                                                                                                                                                                                                                                                                                                                                         |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | RPE6             | Il Fornitore deve dichiarare i valori dei seguenti indicatori per i quali è previsto un livello di servizio garantito:                                                                                                                                                                                                                    | Dichiarazione Fornitore Cloud  |
+   |                  | disponibilità (oppure tempo cumulativo di indisponibilità mensile),                                                                                                                                                                                                                                                                       |                                |
+   |                  | tempi massimi di risposta delle componenti PaaS (ad es. database, load balancer, componenti DevOps, middleware),                                                                                                                                                                                                                          |                                |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | RPE7             | Nel caso in cui sia prevista la scalabilità automatica della soluzione PaaS (o di alcune sue componenti), il Fornitore deve specificare e garantire quali siano le condizioni e i tempi di attivazione delle istanze aggiuntive che vengono attivate.                                                                                     | Dichiarazione Fornitore Cloud  |
+   |                  |                                                                                                                                                                                                                                                                                                                                           |                                |
+   |                  | SLI previsti: SLI06                                                                                                                                                                                                                                                                                                                       |                                |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | RPE8             | La scalabilità automatica del servizio (o di sue componenti) deve attivarsi correttamente al verificarsi delle condizioni operative prestabilite (eventualmente configurabili) e deve garantire che non si verifichino interruzioni nell’erogazione del servizio.                                                                         | Dichiarazione Fornitore Cloud  |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+   | RPE9             | I precedenti requisiti di scalabilità (RPE7 e RPE8) devono essere garantiti sia nel caso di scalabilità crescente che nel caso di decrescita delle risorse allocate. In particolare in fase di decrescita le istanze PaaS/IaaS non più necessarie devono risultare correttamente disattivate in modo da non comportare costi di utilizzo. | Dichiarazione Fornitore Cloud  |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+```
+
 
 
 Dettaglio degli indicatori dei livelli di servizio garantiti:
 
-<table>
-  <tr>
-    <td>Codice SLI</td>
-    <td>Indicatore</td>
-    <td>Descrizione</td>
-  </tr>
-  <tr>
-    <td>SLI01</td>
-    <td>Nome:  Availability
-Origine: ISO/IEC 19086-1 / 19086-2</td>
-    <td>La disponibilità può essere calcolata come il tempo totale su un insieme di intervalli temporali definiti meno il tempo di inattività totale.</td>
-  </tr>
-  <tr>
-    <td>SLI13</td>
-    <td>Nome: Time to Service recovery
-Origine: ISO/IEC 19086-1</td>
-    <td>Il tempo che intercorre tra l’interruzione del servizio e il suo ripristino.</td>
-  </tr>
-  <tr>
-    <td>SLI14</td>
-    <td>Nome:  Mean Time to Service recovery
-Origine: ISO/IEC 19086-1</td>
-    <td>Il valore medio su un determinato periodo di tempo di una serie di valori "Time to Service recovery"</td>
-  </tr>
-  <tr>
-    <td>SLI15</td>
-    <td>Nome:  Maximum Time to Service recovery
-Origine: ISO/IEC 19086-1</td>
-    <td>Il valore massimo su un determinato periodo di tempo di una serie di valori “Time to Service recovery”</td>
-  </tr>
-  <tr>
-    <td>SLI16</td>
-    <td>Nome:  Numero di Service Failures
-Origine: ISO/IEC 19086-1</td>
-    <td>Il numero totale di interruzioni di servizio su un arco temporale.</td>
-  </tr>
-  <tr>
-    <td>SLI05</td>
-    <td>Nome: Service Bandwidth  
-Origine: ISO/IEC 19086-1</td>
-    <td>La quantità di dati che possono essere trasferiti in un determinato periodo di tempo.</td>
-  </tr>
-  <tr>
-    <td>SLI06</td>
-    <td>Nome: Elasticity speed  
-Origine: ISO/IEC 19086-1</td>
-    <td>Questa quantità descrive quanto velocemente reagisce il servizio alla richiesta di nuove risorse.</td>
-  </tr>
-  <tr>
-    <td>SLI07</td>
-    <td>Nome: Data retention period  
-Origine: ISO/IEC 19086-1</td>
-    <td>Il periodo di tempo in cui i dati del cliente vengono mantenuti dopo la notifica di cessazione del servizio.</td>
-  </tr>
-  <tr>
-    <td>SLI08</td>
-    <td>Nome: Log retention period  
-Origine: ISO/IEC 19086-1</td>
-    <td>l periodo di tempo in cui i file di log relativi al servizio vengono conservati dopo la notifica di cessazione del servizio.</td>
-  </tr>
-  <tr>
-    <td>SLI09</td>
-    <td>Nome: Support hours  
-Origine: ISO/IEC 19086-1</td>
-    <td>Le ore di funzionamento per ogni piano di supporto.</td>
-  </tr>
-  <tr>
-    <td>SLI10</td>
-    <td>Nome: Service Incident Support hours  
-Origine: ISO/IEC 19086-1</td>
-    <td>Le ore durante le quali il cliente può ottenere supporto specificamente per incidenti legati al servizio.</td>
-  </tr>
-  <tr>
-    <td>SLI11</td>
-    <td>Nome: Maximum First Support Response Time   
-Origine: ISO/IEC 19086-1</td>
-    <td>Il tempo massimo tra la segnalazione del cliente e la risposta iniziale del fornitore.</td>
-  </tr>
-  <tr>
-    <td>SLI12</td>
-    <td>Nome: Maximum Incident Resolution Time   
-Origine: ISO/IEC 19086-1</td>
-    <td>Il tempo massimo per risolvere un incidente</td>
-  </tr>
-  <tr>
-    <td>SLI17</td>
-    <td>Nome:  Backup Interval
-Origine: ISO/IEC 19086-1</td>
-    <td>Il tempo che intercorre tra un backup e l’altro</td>
-  </tr>
-  <tr>
-    <td>SLI18</td>
-    <td>Nome:  Retention period of backup data
-Origine: ISO/IEC 19086-1</td>
-    <td>Il periodo di tempo in cui vengono mantenuti i backup da parte del fornitore</td>
-  </tr>
-  <tr>
-    <td>SLI19</td>
-    <td>Nome:  Backup restoration testing
-Origine: ISO/IEC 19086-1</td>
-    <td>Il numero di test di restore eseguiti durante un determinato periodo di tempo.</td>
-  </tr>
-  <tr>
-    <td>SLI20</td>
-    <td>Nome:  Recovery Time Objective
-Origine: ISO/IEC 19086-1</td>
-    <td>Il tempo massimo necessario a ripristinare completamente il servizio dopo un’interruzione</td>
-  </tr>
-</table>
+```eval_rst
+.. tabularcolumns:: |p{2cm}|p{5cm}|p{7.5cm}|
+
+.. rst-class:: longtable
+
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | Codice SLI | Indicatore                                | Descrizione                                                                                                                                   |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI01      | Nome:  Availability                       | La disponibilità può essere calcolata come il tempo totale su un insieme di intervalli temporali definiti meno il tempo di inattività totale. |
+   |            | Origine: ISO/IEC 19086-1 / 19086-2        |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI13      | Nome: Time to Service recovery            | Il tempo che intercorre tra l’interruzione del servizio e il suo ripristino.                                                                  |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI14      | Nome:  Mean Time to Service recovery      | Il valore medio su un determinato periodo di tempo di una serie di valori "Time to Service recovery"                                          |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI15      | Nome:  Maximum Time to Service recovery   | Il valore massimo su un determinato periodo di tempo di una serie di valori “Time to Service recovery”                                        |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI16      | Nome:  Numero di Service Failures         | Il numero totale di interruzioni di servizio su un arco temporale.                                                                            |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI05      | Nome: Service Bandwidth                   | La quantità di dati che possono essere trasferiti in un determinato periodo di tempo.                                                         |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI06      | Nome: Elasticity speed                    | Questa quantità descrive quanto velocemente reagisce il servizio alla richiesta di nuove risorse.                                             |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI07      | Nome: Data retention period               | Il periodo di tempo in cui i dati del cliente vengono mantenuti dopo la notifica di cessazione del servizio.                                  |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI08      | Nome: Log retention period                | l periodo di tempo in cui i file di log relativi al servizio vengono conservati dopo la notifica di cessazione del servizio.                  |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI09      | Nome: Support hours                       | Le ore di funzionamento per ogni piano di supporto.                                                                                           |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI10      | Nome: Service Incident Support hours      | Le ore durante le quali il cliente può ottenere supporto specificamente per incidenti legati al servizio.                                     |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI11      | Nome: Maximum First Support Response Time | Il tempo massimo tra la segnalazione del cliente e la risposta iniziale del fornitore.                                                        |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI12      | Nome: Maximum Incident Resolution Time    | Il tempo massimo per risolvere un incidente                                                                                                   |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI17      | Nome:  Backup Interval                    | Il tempo che intercorre tra un backup e l’altro                                                                                               |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI18      | Nome:  Retention period of backup data    | Il periodo di tempo in cui vengono mantenuti i backup da parte del fornitore                                                                  |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI19      | Nome:  Backup restoration testing         | Il numero di test di restore eseguiti durante un determinato periodo di tempo.                                                                |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI20      | Nome:  Recovery Time Objective            | Il tempo massimo necessario a ripristinare completamente il servizio dopo un’interruzione                                                     |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+```
+
 
 
 ### Interoperabilità e portabilità
@@ -366,72 +285,43 @@ La proprietà dei dati deve essere mantenuta dall’Acquirente durante tutto il
 ciclo di vita del servizio, anche in seguito ad operazioni di acquisizione o
 fallimento del Fornitore.
 
-<table>
-  <tr>
-    <td>Codice Requisito</td>
-    <td>Requisito</td>
-    <td>Elementi di riscontro</td>
-  </tr>
-  <tr>
-    <td colspan="3"> <strong>Interoperabilità del servizio</strong></td>
-  </tr>
-  <tr>
-    <td>RIP1</td>
-    <td>Le soluzioni IaaS/PaaS devono esporre opportune Application Programming Interface (API) di tipo SOAP e/o REST associate alle funzionalità del servizio, per la  gestione e la configurazione del servizio.</td>
-    <td>Dichiarazione Fornitore Cloud
-</td>
-  </tr>
-  <tr>
-    <td>RIP2</td>
-    <td>Il Fornitore Cloud deve rendere disponibile una adeguata documentazione tecnica delle API che ne chiarisca l’utilizzo.</td>
-    <td>Dichiarazione Fornitore Cloud
-Verifica documentale</td>
-  </tr>
-  <tr>
-    <td>RIP3</td>
-    <td>In caso di aggiornamento delle funzionalità del servizio e/o delle relative API deve essere possibile la tracciabilità delle diverse versioni delle API disponibili, allo scopo di consentire evoluzioni non distruttive (versioning). Anche la documentazione tecnica delle API dovrà essere tempestivamente aggiornata.</td>
-    <td>Dichiarazione Fornitore Cloud
- </td>
-  </tr>
-  <tr>
-    <td>RIP4</td>
-    <td>Devono essere implementate delle limitazioni sul numero di richieste che è possibile sottomettere alle API, collegate alle caratteristiche delle API stesse e della classe di utilizzatori (throttling).</td>
-    <td>Dichiarazione Fornitore Cloud
- </td>
-  </tr>
-  <tr>
-    <td>RIP5</td>
-    <td>Deve essere implementata la tracciabilità delle richieste SOAP/REST ricevute e del loro esito (logging e accounting), anche al fine della non ripudiabilità della comunicazione.</td>
-    <td>Dichiarazione Fornitore Cloud
- </td>
-  </tr>
-  <tr>
-    <td colspan="3"> <strong>Portabilità del servizio e dei dati</strong></td>
-  </tr>
-  <tr>
-    <td>RIP7</td>
-    <td>Deve essere sempre possibile da parte dell’Acquirente, su richiesta oppure in modalità self-service, l’estrazione di una copia completa dei dati memorizzati e gestiti dal servizio (in formato standard, non proprietario e riutilizzabile), ivi compresi i dati derivati quali log e statistiche di utilizzo, nonché le configurazioni del servizio.
-Tali prerogative devono essere garantite per un periodo di almeno due mesi (phase out) a partire dalla cessazione della fornitura (anche nel caso in cui la cessazione sia stata determinata dalla revoca della qualifica da parte di AgID).
+```eval_rst
+.. tabularcolumns:: |p{3cm}|p{8cm}|p{3.5cm}|
 
-SLI previsti: SLI07 e SLI08</td>
-    <td>Dichiarazione Fornitore Cloud
- </td>
-  </tr>
-  <tr>
-    <td>RIP8</td>
-    <td>Deve essere sempre possibile la migrazione dei dati del servizio verso un altro Fornitore Cloud con conseguente eliminazione permanente dei dati di proprietà dell’Acquirente al termine della procedura di migrazione (inclusi i dati derivati e i dati di backup).</td>
-    <td>Dichiarazione Fornitore Cloud</td>
-  </tr>
-  <tr>
-    <td>RIP9</td>
-    <td>La proprietà dei dati deve essere mantenuta dall’Acquirente anche in seguito ad operazioni di acquisizione o fallimento del Fornitore Cloud. In caso di fallimento, chiusura dell’attività o dismissione del servizio, il Fornitore Cloud deve garantire all’Acquirente di poter recuperare i dati (in formato standard, non proprietario e riutilizzabile) e di poter migrare il servizio.
-Il periodo di tempo a disposizione dell’Acquirente dovrà consentirgli di completare il recupero dei dati e la migrazione del servizio e non potrà comunque essere inferiore a due mesi.
+.. rst-class:: longtable
 
-SLI previsti: SLI07 e SLI08</td>
-    <td>Dichiarazione Fornitore Cloud
- </td>
-  </tr>
-</table>
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | Codice Requisito | Requisito                                                                                                                                                                                                                                                                                                                                                                                   | Elementi di riscontro         |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | Interoperabilità del servizio                                                                                                                                                                                                                                                                                                                                                                                                                  |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | RIP1             | Le soluzioni IaaS/PaaS devono esporre opportune Application Programming Interface (API) di tipo SOAP e/o REST associate alle funzionalità del servizio, per la  gestione e la configurazione del servizio.                                                                                                                                                                                  | Dichiarazione Fornitore Cloud |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | RIP2             | Il Fornitore Cloud deve rendere disponibile una adeguata documentazione tecnica delle API che ne chiarisca l’utilizzo.                                                                                                                                                                                                                                                                      | Dichiarazione Fornitore Cloud |
+   |                  |                                                                                                                                                                                                                                                                                                                                                                                             | Verifica documentale          |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | RIP3             | In caso di aggiornamento delle funzionalità del servizio e/o delle relative API deve essere possibile la tracciabilità delle diverse versioni delle API disponibili, allo scopo di consentire evoluzioni non distruttive (versioning). Anche la documentazione tecnica delle API dovrà essere tempestivamente aggiornata.                                                                   | Dichiarazione Fornitore Cloud |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | RIP4             | Devono essere implementate delle limitazioni sul numero di richieste che è possibile sottomettere alle API, collegate alle caratteristiche delle API stesse e della classe di utilizzatori (throttling).                                                                                                                                                                                    | Dichiarazione Fornitore Cloud |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | RIP5             | Deve essere implementata la tracciabilità delle richieste SOAP/REST ricevute e del loro esito (logging e accounting), anche al fine della non ripudiabilità della comunicazione.                                                                                                                                                                                                            | Dichiarazione Fornitore Cloud |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | Portabilità del servizio e dei dati                                                                                                                                                                                                                                                                                                                                                                                                            |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | RIP7             | Deve essere sempre possibile da parte dell’Acquirente, su richiesta oppure in modalità self-service, l’estrazione di una copia completa dei dati memorizzati e gestiti dal servizio (in formato standard, non proprietario e riutilizzabile), ivi compresi i dati derivati quali log e statistiche di utilizzo, nonché le configurazioni del servizio.                                      | Dichiarazione Fornitore Cloud |
+   |                  | Tali prerogative devono essere garantite per un periodo di almeno due mesi (phase out) a partire dalla cessazione della fornitura (anche nel caso in cui la cessazione sia stata determinata dalla revoca della qualifica da parte di AgID).                                                                                                                                                |                               |
+   |                  |                                                                                                                                                                                                                                                                                                                                                                                             |                               |
+   |                  | SLI previsti: SLI07 e SLI08                                                                                                                                                                                                                                                                                                                                                                 |                               |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | RIP8             | Deve essere sempre possibile la migrazione dei dati del servizio verso un altro Fornitore Cloud con conseguente eliminazione permanente dei dati di proprietà dell’Acquirente al termine della procedura di migrazione (inclusi i dati derivati e i dati di backup).                                                                                                                        | Dichiarazione Fornitore Cloud |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | RIP9             | La proprietà dei dati deve essere mantenuta dall’Acquirente anche in seguito ad operazioni di acquisizione o fallimento del Fornitore Cloud. In caso di fallimento, chiusura dell’attività o dismissione del servizio, il Fornitore Cloud deve garantire all’Acquirente di poter recuperare i dati (in formato standard, non proprietario e riutilizzabile) e di poter migrare il servizio. | Dichiarazione Fornitore Cloud |
+   |                  | Il periodo di tempo a disposizione dell’Acquirente dovrà consentirgli di completare il recupero dei dati e la migrazione del servizio e non potrà comunque essere inferiore a due mesi.                                                                                                                                                                                                     |                               |
+   |                  |                                                                                                                                                                                                                                                                                                                                                                                             |                               |
+   |                  | SLI previsti: SLI07 e SLI08                                                                                                                                                                                                                                                                                                                                                                 |                               |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+```
+
 
 
 ### Conformità legislativa
@@ -448,37 +338,27 @@ transiteranno anche temporaneamente i dati gestiti dal servizio.
 
 Dettaglio dei requisiti per la conformità legislativa:
 
-<table>
-  <tr>
-    <td>Codice Requisito</td>
-    <td>Requisito</td>
-    <td>Tipo di verifica</td>
-  </tr>
-  <tr>
-    <td colspan="3"><strong>Riservatezza dei dati</strong></td>
-  </tr>
-  <tr>
-    <td>RCL1</td>
-    <td>Il Fornitore Cloud deve indicare per quali aspetti il servizio offerto
-        è conforme al regolamento GDPR (General Data Protection Regulation -
-        Regolamento UE 2017/679)
-    </td>
-    <td>Dichiarazione Fornitore Cloud</td>
-  </tr>
-  <tr>
-    <td>
-RCL2</td>
-    <td>Il Fornitore Cloud deve rendere noti gli eventuali Stati esteri in cui sono dislocati i data center, propri e/o dell’infrastruttura Cloud utilizzata per erogare anche parzialmente il servizio e/o all’interno dei quali transiteranno anche temporaneamente i dati gestiti dal servizio (ivi compresi i siti di disaster recovery e di backup).</td>
-    <td>Dichiarazione Fornitore Cloud
-</td>
-  </tr>
-  <tr>
-    <td>RCL3</td>
-    <td>Il Fornitore Cloud, nei casi applicabili, dichiara la conformità ad accordi bilaterali (Privacy Shield EU-USA ecc.) volti alla salvaguardia dei dati elaborati, conservati ed a vario titolo gestiti per erogare il servizio.</td>
-    <td>Dichiarazione Fornitore Cloud
-</td>
-  </tr>
-</table>
+```eval_rst
+
+.. tabularcolumns:: |p{3cm}|p{8cm}|p{3.5cm}|
+
+.. rst-class:: longtable
+
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | Codice Requisito | Requisito                                                                                                                                                                                                                                                                                                                                         | Tipo di verifica              |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | Riservatezza dei dati                                                                                                                                                                                                                                                                                                                                                                                |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | RCL1             | Il Fornitore Cloud deve indicare per quali aspetti il servizio offerto                                                                                                                                                                                                                                                                            | Dichiarazione Fornitore Cloud |
+   |                  | è conforme al regolamento GDPR (General Data Protection Regulation -                                                                                                                                                                                                                                                                              |                               |
+   |                  | Regolamento UE 2017/679)                                                                                                                                                                                                                                                                                                                          |                               |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | RCL2             | Il Fornitore Cloud deve rendere noti gli eventuali Stati esteri in cui sono dislocati i data center, propri e/o dell’infrastruttura Cloud utilizzata per erogare anche parzialmente il servizio e/o all’interno dei quali transiteranno anche temporaneamente i dati gestiti dal servizio (ivi compresi i siti di disaster recovery e di backup). | Dichiarazione Fornitore Cloud |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+   | RCL3             | Il Fornitore Cloud, nei casi applicabili, dichiara la conformità ad accordi bilaterali (Privacy Shield EU-USA ecc.) volti alla salvaguardia dei dati elaborati, conservati ed a vario titolo gestiti per erogare il servizio.                                                                                                                     | Dichiarazione Fornitore Cloud |
+   +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+```
+
 
 ```eval_rst
 .. discourse::
