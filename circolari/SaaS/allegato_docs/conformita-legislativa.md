@@ -8,60 +8,30 @@ Per consentire all’Acquirente di venire a conoscenza e valutare potenziali inc
 
 Dettaglio dei requisiti per la conformità legislativa:
 
-<table>
-  <tr>
-    <td>Codice Requisito</td>
-    <td>Requisito</td>
-    <td>Tipo di verifica</td>
-  </tr>
-  <tr>
-    <td>Riservatezza dei dati</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>RCL1</td>
-    <td>Tutti i dati trattati e memorizzati dal servizio devono sottostare ai  regolamenti e alle normative vigenti in materia di trattamento e riservatezza dei dati (D.Lgs. n. 196 del 2003, detto Testo unico sulla Privacy).</td>
-    <td>Dichiarazione Fornitore SaaS
- </td>
-  </tr>
-  <tr>
-    <td>RCL2</td>
-    <td>Se nell’ambito delle attività della soluzione SaaS è previsto il trattamento di dati sensibili dei dipendenti dell’amministrazione e/o dei cittadini devono essere implementate le procedure e le funzioni opportune per consentire all’Acquirente di espletare tutte le incombenze e obbligazioni che da ciò ne derivano (ad es. consultazione da parte dell’interessato, cancellazione, ecc.).</td>
-    <td>Dichiarazione Fornitore SaaS
 
- </td>
-  </tr>
-  <tr>
-    <td>RCL3</td>
-    <td>Il Fornitore SaaS deve indicare  per quali aspetti la soluzione SaaS proposta è  conforme agli obblighi e agli adempimenti previsti dal GDPR (General Data Protection Regulation- Regolamento UE 2016/679).</td>
-    <td>Dichiarazione Fornitore SaaS</td>
-  </tr>
-  <tr>
-    <td>
-RCL4</td>
-    <td>Il Fornitore SaaS deve rendere noti gli eventuali Stati esteri in cui sono dislocati i data center, propri e/o dell’infrastruttura Cloud utilizzata, e tramite i quali verrà erogato anche parzialmente il servizio SaaS e/o all’interno dei quali transiteranno anche temporaneamente i dati gestiti dal servizio (ivi compresi i siti di disaster recovery e di backup).</td>
-    <td>Dichiarazione Fornitore SaaS
-</td>
-  </tr>
-  <tr>
-    <td>RCL5</td>
-    <td>Il Fornitore SaaS, nei casi applicabili, dichiara la conformità ad accordi bilaterali (Privacy Shield EU-USA ecc.) volti alla salvaguardia dei dati elaborati, conservati ed a vario titolo gestiti per erogare il servizio.</td>
-    <td>Dichiarazione Fornitore SaaS
-</td>
-  </tr>
-  <tr>
-    <td>Normative specifiche per il settore di attività</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>RCL6</td>
-    <td>Qualora siano previste delle norme derivanti da leggi o regolamenti specifici per il settore di attività in cui si colloca il servizio SaaS, il Fornitore SaaS deve garantire la conformità a tutti gli adempimenti e gli obblighi che ne conseguono e/o sono funzionali alla sua erogazione ed utilizzo da parte dell’Acquirente.</td>
-    <td>Dichiarazione Fornitore SaaS
-</td>
-  </tr>
-</table>
+```eval_rst
+
++-------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------+
+| Codice Requisito                                | Requisito                                                                                                                                                                                                                                                                                                                                                                                        | Tipo di verifica             |
++=================================================+==================================================================================================================================================================================================================================================================================================================================================================================================+==============================+
+| Riservatezza dei dati                           |                                                                                                                                                                                                                                                                                                                                                                                                  |                              |
++-------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------+
+| RCL1                                            | Tutti i dati trattati e memorizzati dal servizio devono sottostare ai  regolamenti e alle normative vigenti in materia di trattamento e riservatezza dei dati (D.Lgs. n. 196 del 2003, detto Testo unico sulla Privacy).                                                                                                                                                                         | Dichiarazione Fornitore SaaS |
++-------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------+
+| RCL2                                            | Se nell’ambito delle attività della soluzione SaaS è previsto il trattamento di dati sensibili dei dipendenti dell’amministrazione e/o dei cittadini devono essere implementate le procedure e le funzioni opportune per consentire all’Acquirente di espletare tutte le incombenze e obbligazioni che da ciò ne derivano (ad es. consultazione da parte dell’interessato, cancellazione, ecc.). | Dichiarazione Fornitore SaaS |
++-------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------+
+| RCL3                                            | Il Fornitore SaaS deve indicare  per quali aspetti la soluzione SaaS proposta è  conforme agli obblighi e agli adempimenti previsti dal GDPR (General Data Protection Regulation- Regolamento UE 2016/679).                                                                                                                                                                                      | Dichiarazione Fornitore SaaS |
++-------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------+
+| RCL4                                            | Il Fornitore SaaS deve rendere noti gli eventuali Stati esteri in cui sono dislocati i data center, propri e/o dell’infrastruttura Cloud utilizzata, e tramite i quali verrà erogato anche parzialmente il servizio SaaS e/o all’interno dei quali transiteranno anche temporaneamente i dati gestiti dal servizio (ivi compresi i siti di disaster recovery e di backup).                       | Dichiarazione Fornitore SaaS |
++-------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------+
+| RCL5                                            | Il Fornitore SaaS, nei casi applicabili, dichiara la conformità ad accordi bilaterali (Privacy Shield EU-USA ecc.) volti alla salvaguardia dei dati elaborati, conservati ed a vario titolo gestiti per erogare il servizio.                                                                                                                                                                     | Dichiarazione Fornitore SaaS |
++-------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------+
+| Normative specifiche per il settore di attività |                                                                                                                                                                                                                                                                                                                                                                                                  |                              |
++-------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------+
+| RCL6                                            | Qualora siano previste delle norme derivanti da leggi o regolamenti specifici per il settore di attività in cui si colloca il servizio SaaS, il Fornitore SaaS deve garantire la conformità a tutti gli adempimenti e gli obblighi che ne conseguono e/o sono funzionali alla sua erogazione ed utilizzo da parte dell’Acquirente.                                                               | Dichiarazione Fornitore SaaS |
++-------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------+
+
+```
 
 ```eval_rst
 .. discourse::

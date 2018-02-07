@@ -10,97 +10,50 @@ Deve essere sempre possibile la migrazione dell’Acquirente verso un altro Forn
 
 La proprietà dei dati deve essere mantenuta dall’Acquirente durante tutto il ciclo di vita del servizio, anche in seguito ad operazioni di acquisizione o fallimento del fornitore.
 
-<table>
-  <tr>
-    <td>Codice Requisito</td>
-    <td>Requisito</td>
-    <td>Elementi di riscontro</td>
-  </tr>
-  <tr>
-    <td>Interoperabilità del servizio</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>RIP1</td>
-    <td>La soluzione SaaS deve esporre opportune Application Programming Interface (API) di tipo SOAP e/o REST associate alle funzionalità applicative, di gestione e configurazione del servizio.</td>
-    <td>Dichiarazione Fornitore SaaS
-Verifica tecnica (se prevista)</td>
-  </tr>
-  <tr>
-    <td>RIP2</td>
-    <td>Il Fornitore SaaS deve rendere disponibile una adeguata documentazione tecnica delle API che ne chiarisca l’utilizzo.</td>
-    <td>Dichiarazione Fornitore SaaS
-Verifica documentale</td>
-  </tr>
-  <tr>
-    <td>RIP3</td>
-    <td>In caso di aggiornamento delle funzionalità del servizio e/o delle relative API deve essere possibile la tracciabilità delle diverse versioni delle API disponibili, allo scopo di consentire evoluzioni non distruttive (versioning). Anche la documentazione tecnica delle API dovrà essere tempestivamente aggiornata.</td>
-    <td>Dichiarazione Fornitore SaaS
-Verifica tecnica (se prevista)
- </td>
-  </tr>
-  <tr>
-    <td>RIP4</td>
-    <td>Devono essere implementate delle limitazioni sul numero di richieste che è possibile sottomettere alle API, collegate alle caratteristiche delle API stesse e della classe di utilizzatori (throttling).</td>
-    <td>Dichiarazione Fornitore SaaS
-Verifica tecnica (se prevista)
- </td>
-  </tr>
-  <tr>
-    <td>RIP5</td>
-    <td>Deve essere implementata la tracciabilità delle richieste SOAP/REST ricevute e del loro esito (logging e accounting), anche al fine della non ripudiabilità della comunicazione.</td>
-    <td>Dichiarazione Fornitore SaaS
-Verifica tecnica (se prevista)
- </td>
-  </tr>
-  <tr>
-    <td>RIP6</td>
-    <td>Il Fornitore SaaS deve dichiarare se la soluzione SaaS è interoperabile con i servizi pubblici SPID e PagoPA.
+```eval_rst
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| Codice Requisito                    | Requisito                                                                                                                                                                                                                                                                                                                                                                                 | Elementi di riscontro          |
++=====================================+===========================================================================================================================================================================================================================================================================================================================================================================================+================================+
+| Interoperabilità del servizio       |                                                                                                                                                                                                                                                                                                                                                                                           |                                |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| RIP1                                | La soluzione SaaS deve esporre opportune Application Programming Interface (API) di tipo SOAP e/o REST associate alle funzionalità applicative, di gestione e configurazione del servizio.                                                                                                                                                                                                | Dichiarazione Fornitore SaaS   |
+|                                     |                                                                                                                                                                                                                                                                                                                                                                                           | Verifica tecnica (se prevista) |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| RIP2                                | Il Fornitore SaaS deve rendere disponibile una adeguata documentazione tecnica delle API che ne chiarisca l’utilizzo.                                                                                                                                                                                                                                                                     | Dichiarazione Fornitore SaaS   |
+|                                     |                                                                                                                                                                                                                                                                                                                                                                                           | Verifica documentale           |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| RIP3                                | In caso di aggiornamento delle funzionalità del servizio e/o delle relative API deve essere possibile la tracciabilità delle diverse versioni delle API disponibili, allo scopo di consentire evoluzioni non distruttive (versioning). Anche la documentazione tecnica delle API dovrà essere tempestivamente aggiornata.                                                                 | Dichiarazione Fornitore SaaS   |
+|                                     |                                                                                                                                                                                                                                                                                                                                                                                           | Verifica tecnica (se prevista) |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| RIP4                                | Devono essere implementate delle limitazioni sul numero di richieste che è possibile sottomettere alle API, collegate alle caratteristiche delle API stesse e della classe di utilizzatori (throttling).                                                                                                                                                                                  | Dichiarazione Fornitore SaaS   |
+|                                     |                                                                                                                                                                                                                                                                                                                                                                                           | Verifica tecnica (se prevista) |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| RIP5                                | Deve essere implementata la tracciabilità delle richieste SOAP/REST ricevute e del loro esito (logging e accounting), anche al fine della non ripudiabilità della comunicazione.                                                                                                                                                                                                          | Dichiarazione Fornitore SaaS   |
+|                                     |                                                                                                                                                                                                                                                                                                                                                                                           | Verifica tecnica (se prevista) |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| RIP6                                | Il Fornitore SaaS deve dichiarare se la soluzione SaaS è interoperabile con i servizi pubblici SPID e PagoPA.                                                                                                                                                                                                                                                                             | Dichiarazione Fornitore SaaS   |
+|                                     |                                                                                                                                                                                                                                                                                                                                                                                           |                                |
+|                                     | La dichiarazione di compatibilità con tali servizi può essere rilasciata solo se il Fornitore SaaS ha già superato le eventuali verifiche tecniche previste dalle normative e/o linee guida in vigore per tali servizi pubblici.                                                                                                                                                          |                                |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| Portabilità del servizio e dei dati |                                                                                                                                                                                                                                                                                                                                                                                           |                                |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| RIP7                                | Deve essere sempre possibile da parte dell’Acquirente, su richiesta oppure in modalità self-service, l’estrazione di una copia completa dei dati memorizzati e gestiti dal servizio (in formato standard, non proprietario e riutilizzabile), ivi compresi i dati derivati quali log e statistiche di utilizzo, nonché le configurazioni del servizio.                                    | Dichiarazione Fornitore SaaS   |
+|                                     | Tali prerogative devono essere garantite per un periodo di almeno due mesi (phase out) a partire dalla cessazione della fornitura (anche nel caso in cui la cessazione sia stata determinata dalla revoca della qualifica da parte di AgID).                                                                                                                                              | Verifica tecnica (se prevista) |
+|                                     |                                                                                                                                                                                                                                                                                                                                                                                           |                                |
+|                                     | SLI previsti: SLI07 e SLI08                                                                                                                                                                                                                                                                                                                                                               |                                |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| RIP8                                | Deve essere sempre possibile la migrazione dei dati del servizio verso un altro Fornitore SaaS con conseguente eliminazione permanente dei dati di proprietà dell’Acquirente al termine della procedura di migrazione (inclusi i dati derivati e i dati di backup).                                                                                                                       | Dichiarazione Fornitore SaaS   |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| RIP9                                | La proprietà dei dati deve essere mantenuta dall’Acquirente anche in seguito ad operazioni di acquisizione o fallimento del Fornitore SaaS. In caso di fallimento, chiusura dell’attività o dismissione del servizio, il Fornitore SaaS deve garantire all’Acquirente di poter recuperare i dati (in formato standard, non proprietario e riutilizzabile) e di poter migrare il servizio. | Dichiarazione Fornitore SaaS   |
+|                                     | Il periodo di tempo a disposizione dell’Acquirente dovrà consentirgli di completare il recupero dei dati e la migrazione del servizio e non potrà comunque essere inferiore a due mesi.                                                                                                                                                                                                   |                                |
+|                                     |                                                                                                                                                                                                                                                                                                                                                                                           |                                |
+|                                     | SLI previsti: SLI07 e SLI08                                                                                                                                                                                                                                                                                                                                                               |                                |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| RIP10                               | Il Fornitore SaaS deve predisporre un dettagliato piano di reversibilità, contenente le procedure e le modalità per migrare il servizio SaaS e tutti i dati pertinenti (anche derivati).                                                                                                                                                                                                  | Dichiarazione Fornitore SaaS   |
+|                                     |                                                                                                                                                                                                                                                                                                                                                                                           | Verifica documentale           |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+```
 
-La dichiarazione di compatibilità con tali servizi può essere rilasciata solo se il Fornitore SaaS ha già superato le eventuali verifiche tecniche previste dalle normative e/o linee guida in vigore per tali servizi pubblici.</td>
-    <td>Dichiarazione Fornitore SaaS
-</td>
-  </tr>
-  <tr>
-    <td>Portabilità del servizio e dei dati</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>RIP7</td>
-    <td>Deve essere sempre possibile da parte dell’Acquirente, su richiesta oppure in modalità self-service, l’estrazione di una copia completa dei dati memorizzati e gestiti dal servizio (in formato standard, non proprietario e riutilizzabile), ivi compresi i dati derivati quali log e statistiche di utilizzo, nonché le configurazioni del servizio.
-Tali prerogative devono essere garantite per un periodo di almeno due mesi (phase out) a partire dalla cessazione della fornitura (anche nel caso in cui la cessazione sia stata determinata dalla revoca della qualifica da parte di AgID).
-
-SLI previsti: SLI07 e SLI08</td>
-    <td>Dichiarazione Fornitore SaaS
-Verifica tecnica (se prevista)
- </td>
-  </tr>
-  <tr>
-    <td>RIP8</td>
-    <td>Deve essere sempre possibile la migrazione dei dati del servizio verso un altro Fornitore SaaS con conseguente eliminazione permanente dei dati di proprietà dell’Acquirente al termine della procedura di migrazione (inclusi i dati derivati e i dati di backup).</td>
-    <td>Dichiarazione Fornitore SaaS</td>
-  </tr>
-  <tr>
-    <td>RIP9</td>
-    <td>La proprietà dei dati deve essere mantenuta dall’Acquirente anche in seguito ad operazioni di acquisizione o fallimento del Fornitore SaaS. In caso di fallimento, chiusura dell’attività o dismissione del servizio, il Fornitore SaaS deve garantire all’Acquirente di poter recuperare i dati (in formato standard, non proprietario e riutilizzabile) e di poter migrare il servizio.
-Il periodo di tempo a disposizione dell’Acquirente dovrà consentirgli di completare il recupero dei dati e la migrazione del servizio e non potrà comunque essere inferiore a due mesi.
-
-SLI previsti: SLI07 e SLI08</td>
-    <td>Dichiarazione Fornitore SaaS
- </td>
-  </tr>
-  <tr>
-    <td>
-RIP10
-
-</td>
-    <td>Il Fornitore SaaS deve predisporre un dettagliato piano di reversibilità, contenente le procedure e le modalità per migrare il servizio SaaS e tutti i dati pertinenti (anche derivati). </td>
-    <td>Dichiarazione Fornitore SaaS
-Verifica documentale</td>
-  </tr>
-</table>
 
 ```eval_rst
 .. discourse::
