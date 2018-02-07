@@ -15,7 +15,7 @@ Il Fornitore SaaS deve garantire che il verificarsi di incidenti di sicurezza op
 Di seguito è riportato il dettaglio dei requisiti di sicurezza e delle verifiche previste durante la procedura di qualificazione.
 
 ```eval_rst
-.. tabularcolumns:: |p{3cm}|p{7cm}|p{4cm}|
+.. tabularcolumns:: |p{3cm}|p{8cm}|p{3.5cm}|
 
 .. rst-class:: longtable
 

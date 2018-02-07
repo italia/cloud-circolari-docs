@@ -33,7 +33,7 @@ alle fasi ed ai casi sopra elencati.
 .. tabularcolumns:: |p{1cm}|p{4cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
 
 +----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
-| N. | Fasi del processo di qualificazione                                     | Soggetto | AgID | CONSIP | PSN / SPC Cloud | Clienti (PA) |
+| N\.| Fasi del processo di qualificazione                                     | Soggetto | AgID | CONSIP | PSN / SPC Cloud | Clienti (PA) |
 +====+=========================================================================+==========+======+========+=================+==============+
 | 1  | Richiesta di qualificazione                                             | A, R     | I    | I      | O               | O            |
 +----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+

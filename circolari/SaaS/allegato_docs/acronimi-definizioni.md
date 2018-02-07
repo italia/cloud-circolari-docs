@@ -2,7 +2,7 @@
 
 
 ```eval_rst
-.. tabularcolumns:: |p{5cm}|p{9cm}|
+.. tabularcolumns:: |p{5cm}|p{10cm}|
 
 .. rst-class:: longtable
 

@@ -23,7 +23,7 @@ Il Fornitore SaaS deve implementare delle politiche e dei piani operativi per ga
 Il Fornitore SaaS deve dichiarare quali sono le condizioni massime di carico sopportabili dal servizio sia in termini di numero di utenti concorrenti che utilizzano il sistema e/o volume di richieste processabili. Nel caso in cui sia prevista la scalabilità automatica dell’applicativo, il fornitore deve specificare e garantire quali sono le condizioni e i tempi di attivazione delle istanze aggiuntive.
 
 ```eval_rst
-.. tabularcolumns:: |p{3cm}|p{7cm}|p{4cm}|
+.. tabularcolumns:: |p{3cm}|p{8cm}|p{3.5cm}|
 
 .. rst-class:: longtable
 
@@ -85,65 +85,70 @@ Il Fornitore SaaS deve dichiarare quali sono le condizioni massime di carico sop
    | RPS13                                   | I requisiti di performance precedenti devono valere per tutti i tipi di dispositivi client supportati (PC, tablet, mobile, ecc.).                                                                                                                                                                                                                                         | Dichiarazione Fornitore SaaS   |
    |                                         |                                                                                                                                                                                                                                                                                                                                                                           | Verifica tecnica (se prevista) |
    +-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------+
+```
 
 Dettaglio degli indicatori dei livelli di servizio garantiti:
 
 ```eval_rst
 
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| Codice SLI | Indicatore                                | Descrizione                                                                                                                                   |
-+============+===========================================+===============================================================================================================================================+
-| SLI01      | Nome:  Availability                       | La disponibilità può essere calcolata come il tempo totale su un insieme di intervalli temporali definiti meno il tempo di inattività totale. |
-|            | Origine: ISO/IEC 19086-1 / 19086-2        |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI13      | Nome: Time to Service recovery            | Il tempo che intercorre tra l’interruzione del servizio e il suo ripristino.                                                                  |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI14      | Nome:  Mean Time to Service recovery      | Il valore medio su un determinato periodo di tempo di una serie di valori "Time to Service recovery"                                          |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI15      | Nome:  Maximum Time to Service recovery   | Il valore massimo su un determinato periodo di tempo di una serie di valori “Time to Service recovery”                                        |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI16      | Nome:  Numero di Service Failures         | Il numero totale di interruzioni di servizio su un arco temporale.                                                                            |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI05      | Nome: Service Bandwidth                   | La quantità di dati che possono essere trasferiti in un determinato periodo di tempo.                                                         |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI06      | Nome: Elasticity speed                    | Questa quantità descrive quanto velocemente reagisce il servizio alla richiesta di nuove risorse.                                             |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI07      | Nome: Data retention period               | Il periodo di tempo in cui i dati del cliente vengono mantenuti dopo la notifica di cessazione del servizio.                                  |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI08      | Nome: Log retention period                | l periodo di tempo in cui i file di log relativi al servizio vengono conservati dopo la notifica di cessazione del servizio.                  |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI09      | Nome: Support hours                       | Le ore di funzionamento per ogni piano di supporto.                                                                                           |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI10      | Nome: Service Incident Support hours      | Le ore durante le quali il cliente può ottenere supporto specificamente per incidenti legati al servizio.                                     |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI11      | Nome: Maximum First Support Response Time | Il tempo massimo tra la segnalazione del cliente e la risposta iniziale del fornitore.                                                        |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI12      | Nome: Maximum Incident Resolution Time    | Il tempo massimo per risolvere un incidente                                                                                                   |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI17      | Nome:  Backup Interval                    | Il tempo che intercorre tra un backup e l’altro                                                                                               |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI18      | Nome:  Retention period of backup data    | Il periodo di tempo in cui vengono mantenuti i backup da parte del fornitore                                                                  |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI19      | Nome:  Backup restoration testing         | Il numero di test di restore eseguiti durante un determinato periodo di tempo.                                                                |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| SLI20      | Nome:  Recovery Time Objective            | Il tempo massimo necessario a ripristinare completamente il servizio dopo un’interruzione                                                     |
-|            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
-+------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+.. tabularcolumns:: |p{2cm}|p{5cm}|p{7.5cm}|
+
+.. rst-class:: longtable
+
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | Codice SLI | Indicatore                                | Descrizione                                                                                                                                   |
+   +============+===========================================+===============================================================================================================================================+
+   | SLI01      | Nome:  Availability                       | La disponibilità può essere calcolata come il tempo totale su un insieme di intervalli temporali definiti meno il tempo di inattività totale. |
+   |            | Origine: ISO/IEC 19086-1 / 19086-2        |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI13      | Nome: Time to Service recovery            | Il tempo che intercorre tra l’interruzione del servizio e il suo ripristino.                                                                  |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI14      | Nome:  Mean Time to Service recovery      | Il valore medio su un determinato periodo di tempo di una serie di valori "Time to Service recovery"                                          |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI15      | Nome:  Maximum Time to Service recovery   | Il valore massimo su un determinato periodo di tempo di una serie di valori “Time to Service recovery”                                        |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI16      | Nome:  Numero di Service Failures         | Il numero totale di interruzioni di servizio su un arco temporale.                                                                            |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI05      | Nome: Service Bandwidth                   | La quantità di dati che possono essere trasferiti in un determinato periodo di tempo.                                                         |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI06      | Nome: Elasticity speed                    | Questa quantità descrive quanto velocemente reagisce il servizio alla richiesta di nuove risorse.                                             |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI07      | Nome: Data retention period               | Il periodo di tempo in cui i dati del cliente vengono mantenuti dopo la notifica di cessazione del servizio.                                  |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI08      | Nome: Log retention period                | l periodo di tempo in cui i file di log relativi al servizio vengono conservati dopo la notifica di cessazione del servizio.                  |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI09      | Nome: Support hours                       | Le ore di funzionamento per ogni piano di supporto.                                                                                           |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI10      | Nome: Service Incident Support hours      | Le ore durante le quali il cliente può ottenere supporto specificamente per incidenti legati al servizio.                                     |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI11      | Nome: Maximum First Support Response Time | Il tempo massimo tra la segnalazione del cliente e la risposta iniziale del fornitore.                                                        |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI12      | Nome: Maximum Incident Resolution Time    | Il tempo massimo per risolvere un incidente                                                                                                   |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI17      | Nome:  Backup Interval                    | Il tempo che intercorre tra un backup e l’altro                                                                                               |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI18      | Nome:  Retention period of backup data    | Il periodo di tempo in cui vengono mantenuti i backup da parte del fornitore                                                                  |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI19      | Nome:  Backup restoration testing         | Il numero di test di restore eseguiti durante un determinato periodo di tempo.                                                                |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | SLI20      | Nome:  Recovery Time Objective            | Il tempo massimo necessario a ripristinare completamente il servizio dopo un’interruzione                                                     |
+   |            | Origine: ISO/IEC 19086-1                  |                                                                                                                                               |
+   +------------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 ```
 
 ```eval_rst

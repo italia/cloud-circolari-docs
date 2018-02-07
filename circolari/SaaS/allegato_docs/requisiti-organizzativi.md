@@ -12,7 +12,7 @@ Nello specifico, si riporta l’elenco dei requisiti organizzativi:
 
 
 ```eval_rst
-.. tabularcolumns:: |p{3cm}|p{7cm}|p{4cm}|
+.. tabularcolumns:: |p{3cm}|p{8cm}|p{3.5cm}|
 
 .. rst-class:: longtable
 
