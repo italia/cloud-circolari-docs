@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import sys, os
+import sphinx_italia_theme
+from recommonmark.transform import AutoStructify
+from recommonmark.parser import CommonMarkParser
+
 # -- PROJECT Variables ----------------------------------------------------
 settings_project_name = 'Cloud PA'
 settings_copyright_copyleft = 'Creative Commons Attribution 4.0'
@@ -10,18 +15,33 @@ settings_doc_release = 'versione 0.1'
 settings_basename = 'cloud-pa'
 settings_file_name = 'cloud-pa'
 settings_project_url = 'https://cloud-pa.readthedocs.org'
+settings_discourse_url = 'https://forum.italia.it/'
 disqus_shortname = 'cloud-pa'
 
+# -- RTD configuration ------------------------------------------------
 
-import sys
-import os
-from recommonmark.transform import AutoStructify
-from recommonmark.parser import CommonMarkParser
+# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
+# This is used for linking and such so we link to the thing we're building
+rtd_version = os.environ.get('READTHEDOCS_VERSION', 'latest')
+if rtd_version not in ['stable', 'latest']:
+    rtd_version = 'stable'
+
+rtd_project = os.environ.get('READTHEDOCS_PROJECT', '')
+
+# If extensions (or modules to document with autodoc) are in another directory,
+# add these directories to sys.path here. If the directory is relative to the
+# documentation root, use os.path.abspath to make it absolute, like shown here.
+#sys.path.insert(0, os.path.abspath('.'))
+
+# -- General configuration -----------------------------------------------------
+
+# If your documentation needs a minimal Sphinx version, state it here.
+#needs_sphinx = '1.0'
 
 # Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
+# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
@@ -29,7 +49,9 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
+    'sphinx_italia_theme',
     'sphinxcontrib.disqus',
+    'sphinxcontrib.discourse'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -53,6 +75,9 @@ master_doc = 'index'
 project = settings_project_name
 copyright = settings_copyright_copyleft
 
+# URL of Discourse instance used by sphinxcontrib.discourse extension
+discourse_url = settings_discourse_url
+
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -75,28 +100,42 @@ language = 'it'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['.DS_Store', 'README', 'README.md']
+exclude_patterns = ['.DS_Store', 'README', 'README.md', '.venv*']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
+# -- AutoStructify --------------------------------------------------------
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+        'auto_toc_tree_section': 'Contents',
+        'enable_eval_rst': True,
+        'enable_auto_doc_ref': True
+    }, True)
+    app.add_transform(AutoStructify)
+
+
 # -- Options for HTML output ----------------------------------------------
-html_theme = 'docs-italia-theme'
+html_theme = 'sphinx_italia_theme'
 
-html_theme_path = ["themes", ]
+html_theme_path = [sphinx_italia_theme.get_html_theme_path()]
 
+# Theme options are theme-specific and customize the look and feel of a theme
+# further.  For a list of options available for each theme, see the
+# documentation.
+html_theme_options = {
+    # This option can be used with sphinx_italia_theme to customise how the versions "badge" is shown:
+    # 'False': default (alabaster) badge | 'True': custom (italia) badge
+    'custom_versions_badge': 'True',
+}
 # -- ReadTheDoc requirements and local template generation---------------------
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 if not on_rtd:  # only import and set the theme if we're building docs locally
-    html_theme = 'docs-italia-theme'
-    html_theme_path = ["themes", ]
-    html_context = {
-        'reference_project': settings_project_name,
-        'reference_project_url': settings_project_url,
-    }
+    html_theme = 'sphinx_italia_theme'
+    #html_theme_path = ["themes", ]
 else:
     # Override default css to get a larger width for ReadTheDoc build
     html_context = {
@@ -104,14 +143,12 @@ else:
             '_static/css/theme.css',
             '_static/css/table.css',
         ],
-        'reference_project': settings_project_name,
-        'reference_project_url': settings_project_url,
     }
 
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = settings_project_name
+#html_title = settings_project_name
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -141,7 +178,7 @@ html_last_updated_fmt = '%d/%m/%Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
-html_use_smartypants = True
+#html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
 #html_sidebars = {}
@@ -245,13 +282,3 @@ texinfo_documents = [
    settings_copyright_copyleft, settings_project_name, settings_project_name,
    'Miscellaneous'),
 ]
-
-def setup(app):
-    app.add_stylesheet('css/table.css')
-    app.add_config_value('recommonmark_config', {
-        'auto_toc_tree_section': 'Contents',
-        'enable_eval_rst': True,
-        'enable_auto_doc_ref': True
-    }, True)
-    app.add_transform(AutoStructify)
-
