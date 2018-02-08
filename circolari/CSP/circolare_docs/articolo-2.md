@@ -18,46 +18,27 @@ di qualificazione ed il loro ruolo in termini di responsabilità (RACI). Negli
 articoli seguenti sono previste le eccezioni di processo, in relazione alle
 fasi ed ai casi sopra elencati.
 
-<table>
-  <tr>
-    <td>N.</td>
-    <td>Fasi del processo di qualificazione</td>
-    <td>Soggetto</td>
-    <td>AgID</td>
-    <td>CONSIP</td>
-    <td>Clienti (PA)</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Richiesta di qualificazione</td>
-    <td>R, A</td>
-    <td>I</td>
-    <td>I</td>
-    <td>O</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Istruttoria documentale</td>
-    <td>I</td>
-    <td>R, A</td>
-    <td>C</td>
-    <td>O</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Mantenimento della qualificazione (Monitoraggio)</td>
-    <td>C</td>
-    <td>R, A</td>
-    <td>C</td>
-    <td>R</td>
-  </tr>
-</table>
+```eval_rst
+.. tabularcolumns:: |p{1cm}|p{4cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
+
++----+--------------------------------------------------+----------+------+--------+--------------+
+| N\.| Fasi del processo di qualificazione              | Soggetto | AgID | CONSIP | Clienti (PA) |
++----+--------------------------------------------------+----------+------+--------+--------------+
+| 1  | Richiesta di qualificazione                      | R, A     | I    | I      | O            |
++----+--------------------------------------------------+----------+------+--------+--------------+
+| 2  | Istruttoria documentale                          | I        | R, A | C      | O            |
++----+--------------------------------------------------+----------+------+--------+--------------+
+| 3  | Mantenimento della qualificazione (Monitoraggio) | C        | R, A | C      | R            |
++----+--------------------------------------------------+----------+------+--------+--------------+
+```
+
 
 ```
 R= Responsible:  è colui che esegue le attività della fase
 A= Accountable: è colui che è responsabile del risultato della fase
 C= Consulted: è colui che deve essere consultato prima di una decisione
-I= Informed:  è colui che  deve essere informato relativamente ad una decisione presa O= Out of the loop: è colui che non partecipa nel contesto della fase
+I= Informed:  è colui che  deve essere informato relativamente ad una decisione presa 
+O= Out of the loop: è colui che non partecipa nel contesto della fase
 ```
 
 A supporto del processo di qualificazione è previsto l’utilizzo della

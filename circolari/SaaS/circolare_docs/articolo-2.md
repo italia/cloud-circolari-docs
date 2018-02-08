@@ -29,66 +29,25 @@ ognuna delle fasi.
 Negli articoli seguenti sono previste le eccezioni di processo, in relazione
 alle fasi ed ai casi sopra elencati.
 
-<table>
-  <tr>
-    <td>N.</td>
-    <td>Fasi del processo di qualificazione</td>
-    <td>Soggetto</td>
-    <td>AgID</td>
-    <td>CONSIP</td>
-    <td>PSN / SPC Cloud</td>
-    <td>Clienti (PA)</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Richiesta di qualificazione</td>
-    <td>A, R</td>
-    <td>I</td>
-    <td>I</td>
-    <td>O</td>
-    <td>O</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Istruttoria documentale</td>
-    <td>I</td>
-    <td>R, A</td>
-    <td>C</td>
-    <td>O</td>
-    <td>O</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Test e collaudo (solo su richiesta del fornitore e in caso di
-        erogazione su SPC Cloud o PSN)
-    </td>
-    <td>R</td>
-    <td>R, A</td>
-    <td>I</td>
-    <td>I</td>
-    <td>O</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Istruttoria post-collaudo (solo su richiesta del fornitore e in caso di
-        erogazione su SPC Cloud o PSN)
-    </td>
-    <td>I</td>
-    <td>R, A</td>
-    <td>C</td>
-    <td>O</td>
-    <td>O</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Mantenimento della qualificazione (Monitoraggio)</td>
-    <td>C</td>
-    <td>A</td>
-    <td>C</td>
-    <td>O</td>
-    <td>R</td>
-  </tr>
-</table>
+```eval_rst
+.. tabularcolumns:: |p{1cm}|p{4cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
+
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+| N\.| Fasi del processo di qualificazione                                     | Soggetto | AgID | CONSIP | PSN / SPC Cloud | Clienti (PA) |
++====+=========================================================================+==========+======+========+=================+==============+
+| 1  | Richiesta di qualificazione                                             | A, R     | I    | I      | O               | O            |
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+| 2  | Istruttoria documentale                                                 | I        | R, A | C      | O               | O            |
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+| 3  | Test e collaudo (solo su richiesta del fornitore e in caso di           | R        | R, A | I      | I               | O            |
+|    | erogazione su SPC Cloud o PSN)                                          |          |      |        |                 |              |
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+| 4  | Istruttoria post-collaudo (solo su richiesta del fornitore e in caso di | I        | R, A | C      | O               | O            |
+|    | erogazione su SPC Cloud o PSN)                                          |          |      |        |                 |              |
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+| 5  | Mantenimento della qualificazione (Monitoraggio)                        | C        | A    | C      | O               | R            |
++----+-------------------------------------------------------------------------+----------+------+--------+-----------------+--------------+
+```
 
 ```
 R= Responsible:  è colui che esegue le attività della fase
