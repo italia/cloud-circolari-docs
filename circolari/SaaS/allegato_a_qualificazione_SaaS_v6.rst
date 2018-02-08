@@ -25,5 +25,3 @@ Requisiti per la qualificazione di servizi SaaS per il Cloud della PA.
    allegato_docs/appendice-1
    allegato_docs/appendice-2
 
-
-.. disqus::
