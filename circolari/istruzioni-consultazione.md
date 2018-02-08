@@ -32,7 +32,7 @@ relativa procedura di qualificazione. Il possesso dei predetti requisiti è
 presupposto per l’inserimento dei CSP tra i soggetti del *Cloud della PA*. 
 
 Per "Cloud della PA" si intende l’insieme delle infrastrutture e servizi
-aaS/PaaS erogati da Cloud SPC, dai PSN e dai CSP qualificati da AgID.
+IaaS/PaaS erogati da Cloud SPC, dai PSN e dai CSP qualificati da AgID.
 
 Ai sensi del Piano Triennale, gli obiettivi strategici nell’ambito della
 razionalizzazione delle infrastrutture fisiche sono costituiti da:
