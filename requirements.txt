@@ -1,4 +1,4 @@
 git+https://github.com/paolo-de-rosa/sphinxcontrib-disqus.git
 git+https://github.com/pdavide/sphinxcontrib-discourse
-git+https://github.com/pdavide/sphinx_italia_theme.git@v2-patch
+git+https://github.com/italia/sphinx_italia_theme.git@v2
 PyYAML==3.12
