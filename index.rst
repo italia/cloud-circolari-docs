@@ -30,8 +30,8 @@ Per maggiori informazioni, consulta le `Istruzioni per la consultazione pubblica
    con Forum Italia per commentare i documenti. È possibile lasciare commenti o
    feedback riguardo a questo cambiamento nel `Forum
    <https://forum.italia.it/t/consultazioni-pubbliche-con-docs-italia/2318>`_ o
-   nel repository `sphinx_italia_theme
-   <https://github.com/italia/sphinx_italia_theme/tree/v2>`_.
+   nel repository `docs-italia-theme
+   <https://github.com/italia/docs-italia-theme>`_.
 
 
 .. toctree::
