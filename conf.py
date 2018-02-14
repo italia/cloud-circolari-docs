@@ -49,7 +49,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
-    'sphinx_italia_theme',
+    'docs-italia-theme',
     'sphinxcontrib.disqus',
     'sphinxcontrib.discourse'
 ]
