@@ -3,7 +3,7 @@
 ### Fase 1 - Richiesta di qualificazione
 
 Il soggetto interessato alla qualificazione della soluzione SaaS provvede ad
-inserire sulla *piattaforma AgID dedicata *apposita richiesta, fornendo le
+inserire sulla *piattaforma AgID dedicata* apposita richiesta, fornendo le
 informazioni e la documentazione relativa sia ai criteri di ammissibilità sia
 al possesso dei requisiti di cui all’allegato "A" alla presente Circolare.
 
@@ -48,23 +48,23 @@ L’esito della verifica delle richieste ammesse potrà essere:
    prima della data concordata. A garanzia del fornitore, il “Piano di Test” dovrà
    contenere le istruzioni per effettuare le fasi di *provisioning* e *deployment*
    della soluzione SaaS e consentirne la verifica del corretto funzionamento,
-   secondo i requisiti indicati nell’allegato “A” alla presente Circolare. ;
+   secondo i requisiti indicati nell’allegato “A” alla presente Circolare;
 
 2. **Negativo con riserva**: la richiesta di qualificazione deve essere oggetto
    di ulteriori verifiche. AgID trasmette l’esito negativo con riserva e
    contestuale richiesta di documentazione ed informazioni ad integrazione e
    completamento di quanto inserito nella *piattaforma AgID dedicata*. Il soggetto
    richiedente fornisce i documenti e le informazioni integrative all’Agenzia
-   entro 20 giorni dalla ricezione della richiesta.. Qualora il soggetto
-   richiedente invii nei termini i documenti e le informazioni integrative ,
+   entro 20 giorni dalla ricezione della richiesta. Qualora il soggetto
+   richiedente invii nei termini i documenti e le informazioni integrative,
    l’Agenzia, previa verifica, comunicherà l’esito dell’istruttoria (Positivo o
-   Negativo).Qualora il soggetto richiedente non invii nei termini i documenti e
+   Negativo). Qualora il soggetto richiedente non invii nei termini i documenti e
    le informazioni integrative, la richiesta di qualificazione SaaS si intenderà
    respinta;
 
 3. **Negativo**: la richiesta di qualificazione è respinta. Il soggetto non può
    presentare una nuova richiesta per la medesima soluzione SaaS se non siano
-   venute meno  le cause che hanno determinato il mancato accoglimento e/o
+   venute meno le cause che hanno determinato il mancato accoglimento e/o
    superamento del collaudo e comunque non prima di 90 giorni dalla comunicazione
    dell’esito negativo.
 
@@ -76,10 +76,10 @@ riserva, il termine di 60 giorni si intende interrotto.
 ### Fase 3 – Test e collaudo (Opzionale)
 
 Nel caso di richieste di qualificazione SaaS erogate su SPC Cloud o su PSN,
-qualora il fornitore ne abbia fatta esplicita richiesta,   in seguito   alla
+qualora il fornitore ne abbia fatta esplicita richiesta, in seguito alla
 notifica positiva della Fase 2 "Istruttoria documentale", avrà luogo la fase di
 test e collaudo su ambiente SPC Cloud Lotto 1 o equivalente. L’ambiente SPC
-Cloud Lotto 1  o altro ambiente tecnologicamente omogeneo  sarà messo a
+Cloud Lotto 1 o altro ambiente tecnologicamente omogeneo sarà messo a
 disposizione e comunicato da AgID al fornitore SaaS.
 
 Durante questa fase il fornitore SaaS ed AgID eseguono congiuntamente i test
