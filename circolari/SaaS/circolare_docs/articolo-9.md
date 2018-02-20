@@ -3,10 +3,9 @@
 La presente Circolare entra in vigore alla data di pubblicazione nella Gazzetta
 Ufficiale della Repubblica italiana.
 
-Le PA che intendono approvvigionarsi delle soluzioni SaaS qualificate
-dall'Agenzia consultano il marketplace SaaS a partire dalla data di rilascio in
-esercizio della *piattaforma AgID dedicata *di cui all’art.2 della presente
-Circolare.
+Le Amministrazioni acquisiscono esclusivamente servizi SaaS  qualificati
+dall'Agenzia consultando il marketplace Cloud a decorrere da sei mesi dalla data di pubblicazione nella Gazzetta
+Ufficiale della Repubblica italiana della presente Circolare.
 
 La data di attivazione della *piattaforma dedicata e del marketplace SaaS *sarà
 comunicata insieme alle modalità operative della procedura di qualificazione
