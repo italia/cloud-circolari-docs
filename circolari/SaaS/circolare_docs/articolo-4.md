@@ -1,7 +1,7 @@
 ## Articolo 4 - Requisiti per la qualificazione
 
 Sulla base degli obiettivi definiti nel Piano Triennale, AgID ha individuato i
-requisiti per la qualificazione di soluzioni SaaS, suddividendoli in:
+requisiti per la qualificazione dei servizi SaaS, suddividendoli in:
 
 1. Requisiti preliminari;
 
@@ -10,7 +10,7 @@ requisiti per la qualificazione di soluzioni SaaS, suddividendoli in:
 3. Requisiti specifici.
 
 Il dettaglio di tali requisiti è fornito all’interno dell’allegato "A" alla
-presente Circolare, denominato “*Requisiti per la qualificazione di soluzioni
+presente Circolare, denominato “*Requisiti per la qualificazione dei servizi
 SaaS nell’ambito del Cloud della PA*”.
 
 AgID si riserva la facoltà di modificare/aggiornare/integrare tali requisiti
