@@ -44,7 +44,7 @@ L’Agenzia si riserva la facoltà di avvalersi di soggetti terzi per l'espletam
 attività di verifica.
 
 Al fine del mantenimento della qualifica, il soggetto richiedente si
-impegna a comunicare tempestivamente all’Agenzia ogni evento che modifichi il
+impegna a comunicare tempestivamente all’Agenzia, tramite la piattaforma dedicata, ogni evento che modifichi il
 rispetto dei requisiti di cui all’allegato "A" alla presente Circolare.
 
 Le difformità riscontrate nel corso dell’attività di verifica sono causa 
