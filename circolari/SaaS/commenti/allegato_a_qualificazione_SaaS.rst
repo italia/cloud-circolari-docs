@@ -1,5 +1,5 @@
 Archivio dei commenti a "Requisiti per la qualificazione di servizi SaaS per il Cloud della PA"
-==============================================================================================
+===============================================================================================
 
 In questa sezione è presente l’archivio dei commenti all’allegato della
 Circolare SaaS pubblicati in precedenza.
