@@ -1,9 +1,6 @@
 ## Articolo 2 – Il processo di qualificazione
 
-I soggetti interessati ad offrire servizi Cloud per la PA devono seguire uno
-specifico processo di qualificazione, articolato in tre fasi.
-
-È possibile che il soggetto richiedente sia:
+Il soggetto richiedente può essere:
 
 1. un fornitore privato di soluzioni Cloud che intende ottenere da AgID la
    qualificazione per erogare servizi di tipo Public Cloud (IaaS o PaaS) per la PA;
@@ -12,6 +9,14 @@ specifico processo di qualificazione, articolato in tre fasi.
    qualificazione delle proprie soluzioni SaaS ai sensi della Circolare AgID
    "Criteri per la qualificazione di servizi SaaS per il *Cloud della PA"* 
    per erogare servizi sfruttando la propria infrastruttura Cloud.
+   
+Il processo di qualificazione è articolato in tre fasi:
+
+1. Richiesta di qualificazione
+
+2. Rilascio qualificazione
+
+3. Mantenimento della qualificazione *(Monitoraggio)*
 
 Nella tabella successiva sono riportati tutti gli attori coinvolti nel processo
 di qualificazione ed il loro ruolo in termini di responsabilità (RACI). Negli
@@ -24,11 +29,11 @@ fasi ed ai casi sopra elencati.
 +----+--------------------------------------------------+----------+------+--------+--------------+
 | N\.| Fasi del processo di qualificazione              | Soggetto | AgID | CONSIP | Clienti (PA) |
 +----+--------------------------------------------------+----------+------+--------+--------------+
-| 1  | Richiesta di qualificazione                      | R, A     | I    | I      | O            |
+| 1  | Richiesta di qualificazione                      | A, R     | I    | O      | O            |
 +----+--------------------------------------------------+----------+------+--------+--------------+
-| 2  | Istruttoria documentale                          | I        | R, A | C      | O            |
+| 2  | Rilascio qualificazione                          | I        | A, R | I      | O            |
 +----+--------------------------------------------------+----------+------+--------+--------------+
-| 3  | Mantenimento della qualificazione (Monitoraggio) | C        | R, A | C      | R            |
+| 3  | Mantenimento della qualificazione (Monitoraggio) | C        | A, R | C      | R            |
 +----+--------------------------------------------------+----------+------+--------+--------------+
 ```
 
@@ -46,10 +51,7 @@ A supporto del processo di qualificazione è previsto l’utilizzo della
 della Circolare AgID "Criteri per la qualificazione di servizi SaaS per il
 *Cloud della PA"* ed integrata con il marketplace Cloud. Tale piattaforma
 consentirà, tra l’altro, l’accesso tramite SPID e la trasmissione telematica
-dei documenti ai sensi degli art.45 e 65 comma 1/b del CAD anche mediante la
-sottomissione di un’unica richiesta valida sia ai fini della presente Circolare
-sia ai fini della richiesta di cui alla Circolare AgID “Criteri per la
-qualificazione di servizi SaaS per il *Cloud della PA*. Le modalità
+dei documenti ai sensi degli art.45 e 65 comma 1/b del CAD. Le modalità
 operative di trasmissione saranno definite in apposita comunicazione pubblicata
 sul sito AgID.
 
