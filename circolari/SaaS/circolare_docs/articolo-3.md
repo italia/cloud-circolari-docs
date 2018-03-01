@@ -2,8 +2,9 @@
 
 Al momento della richiesta di qualificazione:
 
-1. il soggetto richiedente deve risultare abilitato
-   sul sistema "Acquistinretepa" di Consip;
+1. il fornitore deve risultare abilitato
+   sul sistema di acquisto di Consip "Acquistinretepa" 
+   o ad altra centrale di committenza o altro soggetto aggregatore qualificato;
   
 2. i servizi SaaS proposti per la qualificazione devono essere erogati
    mediante una o più infrastrutture del *Cloud della PA* (PSN, Cloud SPC o CSP
