@@ -26,7 +26,7 @@
    | CSP                                              | Cloud Service Provider, ovvero fornitore di servizi erogati in modalità Cloud        |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Fornitore                                        | Soggetto ammesso a partecipare alle procedure di affidamento ai sensi del codice     | 
-   |                                                  | dei contratti pubblici e della normativa comunitaria in materia.                     |
+   |                                                  | dei contratti pubblici e della normativa comunitaria in materia, o Pubblica      Amministazione interessata ad erogare servizi SaaS ad altre PA.                     |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Giorni                                           | Giorni solari                                                                        |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
