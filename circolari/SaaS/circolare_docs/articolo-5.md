@@ -2,19 +2,19 @@
 
 ### Fase 1 - Richiesta di qualificazione
 
-Il soggetto interessato alla qualificazione dei servizi SaaS provvede ad
+Il fornitore interessato alla qualificazione dei servizi SaaS provvede ad
 inserire sulla *piattaforma AgID dedicata* apposita richiesta, fornendo le
 informazioni e la documentazione in lingua italiana relativa al possesso dei 
 requisiti di cui all’allegato "A" alla presente Circolare.
 
 All’atto della presentazione della richiesta di qualificazione SaaS, il
-soggetto richiedente dovrà dichiarare che, conseguita la qualificazione, si
+fornitore dovrà dichiarare che, conseguita la qualificazione, si
 impegna a rispettare, in maniera integrale e incondizionata, senza eccezione,
 deroga o riserva alcuna, per tutta la durata dei contratti di fornitura
 stipulati con le Amministrazioni clienti, quanto previsto all’appendice 1
 dell’Allegato "A" alla presente Circolare.
 
-Il soggetto richiedente dovrà altresì dichiarare che si impegna ad accettare
+Il fornitore dovrà altresì dichiarare che si impegna ad accettare
 nei contratti con le Amministrazioni clienti la clausola di risoluzione
 anticipata in caso di revoca della qualificazione dei servizi SaaS da parte
 di AgID ed a sottoporsi a qualsiasi verifica che l’Agenzia potrà disporre a
@@ -23,9 +23,8 @@ dei criteri di ammissibilità richiesti.
 
 ### Fase 2 - Rilascio qualificazione
 
-Sulla base delle dichiarazioni e della documentazione fornita dal soggetto 
-interessato, l'Agenzia, attraverso la piattaforma dedicata rilascia 
-la qualificazione ad effetto immediato,riservandosi di effettuare  le verifiche 
+L'Agenzia, attraverso la piattaforma dedicata, rilascia automaticamente 
+la qualificazione ad effetto immediato, riservandosi di effettuare le verifiche 
 necessarie di cui alla fase successiva.
 
 I servizi SaaS qualificati da AgID sono inseriti nel marketplace Cloud. 
@@ -48,7 +47,7 @@ impegna a comunicare tempestivamente all’Agenzia, tramite la piattaforma dedic
 rispetto dei requisiti di cui all’allegato "A" alla presente Circolare.
 
 Le difformità riscontrate nel corso dell’attività di verifica sono causa 
-di revoca della qualificazione e comunicate al soggetto interessato. 
+di revoca della qualificazione e comunicate al fornitore ai sensi del successivo articolo 6. 
 
 Qualora durante le attività di verifica dovessero emergere
 elementi relativi a possibili violazioni della normativa sulla privacy,
