@@ -1,22 +1,20 @@
 ## Articolo 6 - Revoca della qualificazione
 
-L’Agenzia dispone la revoca della qualificazione SaaS, con provvedimento
-motivato nel caso di:
+L’Agenzia nel caso di:
 
 * perdita dei criteri di ammissibilità;
-* mancato rispetto del termine assegnato, ove non sussistano adeguati motivi di
-  proroga, per l’eliminazione delle difformità riscontrate;
+* perdita di almeno uno dei requisiti di cui all'Allegato A;
 * riscontro da parte dei competenti organi di violazioni di norme relative
-  all’attività oggetto di qualificazione.
+  all’attività oggetto di qualificazione;
 
-La revoca della qualificazione comporta l’eliminazione del servizio dal
-marketplace Cloud.
+comunica al fornitore il preavviso di revoca della qualificazione del servizio
+con previsione di un termine per le eventuali controdeduzioni. 
+Nel caso di infruttuoso esperimento del termine o mancato accoglimento delle 
+controdeduzioni presentate, l'Agenzia procede alla revoca della qualificazione del servizio 
+con provvedimento motivato, disponendone la contestuale eliminazione dal marketplace Cloud 
+nonchè relativa pubblicità. 
 
-L’eliminazione del servizio dal marketplace Cloud è comunicata a tutte le PA
-che abbiano stipulato contratti ancora attivi alla data del provvedimento di
-revoca da parte dell’Agenzia.
-
-Nei casi di revoca della qualificazione SaaS, il soggetto interessato non può
+Nei casi di revoca della qualificazione SaaS, il fornitore non può
 presentare una nuova richiesta di qualificazione all’Agenzia se non siano
 venute meno le cause che hanno determinato la revoca.
 
