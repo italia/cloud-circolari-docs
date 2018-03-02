@@ -27,18 +27,8 @@ Per il raggiungimento di tali obiettivi, AgID ha previsto, tra le altre
 attività, una specifica procedura di qualificazione dei servizi IaaS e PaaS dei 
 Cloud Service Provider nell’ambito della strategia di evoluzione del modello *Cloud della PA*. 
 
-Tale procedura consentirà alle Amministrazioni di utilizzare, nell’ambito del
-*Cloud della PA*, soluzioni IaaS e PaaS fornite dai CSP qualificati o altresì
-servizi SaaS basati su tali soluzioni di cui alla Circolare n. XX del YYY
-"Criteri per la qualificazione di servizi SaaS per il *Cloud della PA*". 
-
-A tale scopo AgID realizza il "Marketplace Cloud" che contiene 
-il catalogo di tutti i servizi IaaS e PaaS dei CSP qualificati e acquisibili dal mercato. 
-Tali servizi saranno acquisibili secondo le disposizioni di legge vigenti 
-in materia di procurement e in particolare per quanto riguarda gli strumenti 
-di acquisto Consip secondo quanto previsto nelle *Disposizioni 
-per il procurement dei servizi IaaS, PaaS e SaaS per il 
-Cloud della PA* redatte da Consip e riportate nell’allegato B alla presente Circolare.
+Tale procedura consentirà alle Amministrazioni di utilizzare, nell’ambito del *Cloud della PA*,
+servizi IaaS e PaaS conformi ad un insieme di requisiti comuni definiti dalla presente Circolare.
 
 ```eval_rst
 .. discourse::
