@@ -2,12 +2,12 @@
 
 Il soggetto richiedente può essere:
 
-1. un fornitore privato di soluzioni Cloud che intende ottenere da AgID la
+1. un fornitore di servizi Cloud che intende ottenere da AgID la
    qualificazione per erogare servizi di tipo Public Cloud (IaaS o PaaS) per la PA;
 
-2. un fornitore privato di soluzioni Cloud SaaS che intende ottenere da AgID la
-   qualificazione delle proprie soluzioni SaaS ai sensi della Circolare AgID
-   "Criteri per la qualificazione di servizi SaaS per il *Cloud della PA"* 
+2. un fornitore di servizi Cloud SaaS che intende ottenere da AgID la
+   qualificazione delle proprie servizi SaaS ai sensi della Circolare AgID
+   "Criteri per la qualificazione di servizi SaaS per il *Cloud della PA*" 
    per erogare servizi sfruttando la propria infrastruttura Cloud.
    
 Il processo di qualificazione è articolato in tre fasi:
@@ -24,36 +24,32 @@ articoli seguenti sono previste le eccezioni di processo, in relazione alle
 fasi ed ai casi sopra elencati.
 
 ```eval_rst
-.. tabularcolumns:: |p{1cm}|p{4cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
+.. tabularcolumns:: |p{1cm}|p{4cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
 
-+----+--------------------------------------------------+----------+------+--------+--------------+
-| N\.| Fasi del processo di qualificazione              | Soggetto | AgID | CONSIP | Clienti (PA) |
-+----+--------------------------------------------------+----------+------+--------+--------------+
-| 1  | Richiesta di qualificazione                      | A, R     | I    | O      | O            |
-+----+--------------------------------------------------+----------+------+--------+--------------+
-| 2  | Rilascio qualificazione                          | I        | A, R | I      | O            |
-+----+--------------------------------------------------+----------+------+--------+--------------+
-| 3  | Mantenimento della qualificazione (Monitoraggio) | C        | A, R | C      | R            |
-+----+--------------------------------------------------+----------+------+--------+--------------+
++----+-------------------------------------------------------------------------+--------------+------+---------------+
+| N\.| Fasi del processo di qualificazione                                     | Fornitore/PA | AgID | PA acquirente |
++====+=========================================================================+==============+======+===============+
+| 1  | Richiesta di qualificazione                                             | A, R         | I    | O             |
++----+-------------------------------------------------------------------------+--------------+------+---------------+
+| 2  | Rilascio qualificazione                                                 | I            | A, R | O             |
++----+-------------------------------------------------------------------------+--------------+------+---------------+
+| 3  | Mantenimento della qualificazione (Monitoraggio)                        | C            | A, R | R             |
++----+-------------------------------------------------------------------------+--------------+------+---------------+
 ```
-
 
 ```
 R= Responsible:  è colui che esegue le attività della fase
 A= Accountable: è colui che è responsabile del risultato della fase
 C= Consulted: è colui che deve essere consultato prima di una decisione
-I= Informed:  è colui che  deve essere informato relativamente ad una decisione presa 
+I= Informed:  è colui che  deve essere informato relativamente ad una decisione presa
 O= Out of the loop: è colui che non partecipa nel contesto della fase
 ```
 
-A supporto del processo di qualificazione è previsto l’utilizzo della
-*piattaforma AgID dedicata* alla gestione del workflow di cui all’articolo 2
-della Circolare AgID "Criteri per la qualificazione di servizi SaaS per il
-*Cloud della PA"* ed integrata con il marketplace Cloud. Tale piattaforma
-consentirà, tra l’altro, l’accesso tramite SPID e la trasmissione telematica
-dei documenti ai sensi degli art.45 e 65 comma 1/b del CAD. Le modalità
-operative di trasmissione saranno definite in apposita comunicazione pubblicata
-sul sito AgID.
+A supporto del processo di qualificazione è previsto l’utilizzo di una
+piattaforma AgID dedicata alla gestione del workflow ed integrata con il
+marketplace Cloud. Tale piattaforma consentirà, tra l’altro, l’accesso tramite
+SPID e la trasmissione telematica dei documenti ai sensi degli art.45 e 65
+comma 1/b del CAD secondo le modalità operative che saranno pubblicate sul sito https://cloud.italia.it.
 
 ```eval_rst
 .. discourse::
