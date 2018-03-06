@@ -5,18 +5,16 @@ previsto nel "Piano Triennale per l’informatica nella Pubblica amministrazione
 2017- 2019", approvato con DPCM del 31 maggio 2017, i requisiti di
 qualificazione dei Cloud Service Provider (qui di seguito indicati
 semplicemente CSP), nonché la relativa procedura di qualificazione. Il possesso
-dei predetti requisiti è presupposto per l’inserimento dei CSP tra i soggetti
+dei predetti requisiti è presupposto per essere dichiarati CSP qualificati nell'ambito
 del *Cloud della Pa* (NOTE:  Per “Cloud della PA” ai fini della presente
 circolare, dei suoi allegati e delle successive integrazioni e/o modifiche si
 intende: l’insieme delle infrastrutture e servizi IaaS/PaaS erogati da Cloud
 SPC, dai PSN e dai CSP qualificati ai sensi di quanto disposto da questa
 Circolare.). 
 
-L'inserimento dei CSP tra i soggetti del Cloud della PA comporta: 
-- l'abilitazione alla richiesta  da parte del CSP qualificato di pubblicare i propri 
-servizi IaaS e PaaS nel *Marketplace Cloud*
-- l'abilitazione dei fornitori di servizi SaaS di erogare tali servizi sull'infrastruttura
-dei CSP qualificati
+I CSP qualificati sono abilitati a richiedere l'inserimento nel *Marketplace Cloud* 
+dei servizi IaaS e PaaS, nonchè i SaaS qualificati ai sensi della Circolare 
+"Criteri per la qualificazione di servizi SaaS per il Cloud della PA".
 
 Ai sensi del Piano Triennale, gli obiettivi strategici nell’ambito della
 razionalizzazione delle infrastrutture fisiche sono costituiti da:
@@ -33,10 +31,9 @@ Per il raggiungimento di tali obiettivi, AgID ha previsto, tra le altre
 attività, una specifica procedura di qualificazione dei CSP 
 nell’ambito della strategia di evoluzione del modello *Cloud della PA*. 
 
-Tale procedura consentirà alle Amministrazioni di: 
-- acquisire, nell’ambito del *Cloud della PA*,
-servizi IaaS e PaaS conformi ad un insieme di requisiti comuni definiti dalla presente Circolare;
-- utilizzare servizi SaaS erogati sull'infrastruttura di CSP qualificati
+Tale procedura consentirà alle Amministrazioni di acquisire, nell’ambito del *Cloud della PA*,
+servizi IaaS e PaaS conformi ad un insieme di requisiti comuni definiti dalla presente Circolare.
+
 
 ```eval_rst
 .. discourse::
