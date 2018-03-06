@@ -2,19 +2,19 @@
 
 ### Fase 1 - Richiesta di qualificazione
 
-Il soggetto interessato alla qualificazione CSP provvede ad
+Il fornitore CSP interessato alla qualificazione dei servizi IaaS e PaaS provvede ad
 inserire sulla *piattaforma AgID dedicata* apposita richiesta, fornendo le
 informazioni e la documentazione in lingua italiana relativa al possesso dei 
 requisiti di cui all’allegato "A" alla presente Circolare.
 
-All’atto della presentazione della richiesta di qualificazione CSP, il
-soggetto richiedente dovrà dichiarare che, conseguita la qualificazione, si
+All’atto della presentazione della richiesta di qualificazione, il
+fornitore dovrà dichiarare che, conseguita la qualificazione, si
 impegna a rispettare, in maniera integrale e incondizionata, senza eccezione,
 deroga o riserva alcuna, per tutta la durata dei contratti di fornitura
 stipulati con le Amministrazioni clienti, quanto previsto all’appendice 1
 dell’Allegato "A" alla presente Circolare.
 
-Il soggetto richiedente dovrà altresì dichiarare che si impegna ad accettare
+Il fornitore dovrà altresì dichiarare che si impegna ad accettare
 nei contratti con le Amministrazioni clienti la clausola di risoluzione
 anticipata in caso di revoca della qualificazione CSP da parte
 di AgID ed a sottoporsi a qualsiasi verifica che l’Agenzia potrà disporre a
@@ -23,18 +23,16 @@ dei criteri di ammissibilità richiesti.
 
 ### Fase 2 - Rilascio qualificazione
 
-Sulla base delle dichiarazioni e della documentazione fornita dal soggetto 
-interessato, l'Agenzia, attraverso la piattaforma dedicata rilascia 
-la qualificazione ad effetto immediato,riservandosi di effettuare  le verifiche 
-necessarie di cui alla fase successiva.
+L'Agenzia, attraverso la piattaforma dedicata, rilascia automaticamente la qualificazione ad effetto immediato, 
+riservandosi di effettuare le verifiche necessarie di cui alla fase successiva.
 
-I servizi IaaS/PaaS dei CSP qualificati da AgID sono inseriti nel marketplace Cloud. 
+I servizi IaaS e PaaS qualificati da AgID sono inseriti nel marketplace Cloud. 
 
 
 ### Fase 3 – Mantenimento della qualificazione
 
-L’Agenzia potrà verificare in ogni momento il possesso dei criteri di ammissibilità e
-dei requisiti previsti per la qualificazione di ogni servizio IaaS/PaaS del CSP qualificato.
+L’Agenzia potrà verificare in ogni momento il possesso del criterio di ammissibilità e
+dei requisiti previsti per la qualificazione di ogni servizio IaaS e PaaS del CSP.
 
 Le verifiche potranno essere avviate anche sulla base di segnalazioni formali indirizzate
 all’Agenzia da parte dell’Amministrazione cliente/utente del servizio IaaS/PaaS
@@ -47,8 +45,7 @@ Al fine del mantenimento della qualifica, il soggetto richiedente si
 impegna a comunicare tempestivamente all’Agenzia, tramite la piattaforma dedicata, ogni evento che modifichi il
 rispetto dei requisiti di cui all’allegato "A" alla presente Circolare.
 
-Le difformità riscontrate nel corso dell’attività di verifica sono causa 
-di revoca della qualificazione e comunicate al soggetto interessato. 
+Le difformità riscontrate nel corso dell’attività di verifica sono causa di revoca della qualificazione e comunicate al fornitore ai sensi del successivo articolo 5.
 
 Qualora durante le attività di verifica dovessero emergere
 elementi relativi a possibili violazioni della normativa sulla privacy,
