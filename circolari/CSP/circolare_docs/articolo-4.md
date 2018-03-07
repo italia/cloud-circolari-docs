@@ -28,7 +28,7 @@ riservandosi di effettuare le verifiche necessarie di cui alla fase successiva.
 
 I servizi IaaS e PaaS qualificati da AgID sono inseriti nel marketplace Cloud.
 
-I CSP qualificati sono inseriti in apposito registro pubblico a cura di AgID.
+I CSP qualificati sono inseriti in apposito registro pubblico nell'ambito di marketplace Cloud.
 
 
 ### Fase 3 – Mantenimento della qualificazione
