@@ -2,7 +2,7 @@
 
 ### Fase 1 - Richiesta di qualificazione
 
-Il fornitore CSP interessato alla qualificazione dei servizi IaaS e PaaS provvede ad
+Il fornitore interessato alla qualificazione CSP provvede ad
 inserire sulla *piattaforma AgID dedicata* apposita richiesta, fornendo le
 informazioni e la documentazione in lingua italiana relativa al possesso dei 
 requisiti di cui all’allegato "A" alla presente Circolare.
@@ -23,20 +23,21 @@ dei criteri di ammissibilità richiesti.
 
 ### Fase 2 - Rilascio qualificazione
 
-L'Agenzia, attraverso la piattaforma dedicata, rilascia automaticamente la qualificazione ad effetto immediato, 
+L'Agenzia, attraverso la piattaforma dedicata, rilascia automaticamente la qualificazione CSP ad effetto immediato, 
 riservandosi di effettuare le verifiche necessarie di cui alla fase successiva.
 
-I servizi IaaS e PaaS qualificati da AgID sono inseriti nel marketplace Cloud. 
+I servizi IaaS e PaaS qualificati da AgID sono inseriti nel marketplace Cloud.
+
+I CSP qualificati sono inseriti in apposito registro pubblico a cura di AgID.
 
 
 ### Fase 3 – Mantenimento della qualificazione
 
 L’Agenzia potrà verificare in ogni momento il possesso del criterio di ammissibilità e
-dei requisiti previsti per la qualificazione di ogni servizio IaaS e PaaS del CSP.
+dei requisiti previsti per la qualificazione CSP.
 
 Le verifiche potranno essere avviate anche sulla base di segnalazioni formali indirizzate
-all’Agenzia da parte dell’Amministrazione cliente/utente del servizio IaaS/PaaS
-qualificato.
+all’Agenzia da parte dell’Amministrazione cliente/utente del CSP qualificato.
 
 L’Agenzia si riserva la facoltà di avvalersi di soggetti terzi per l'espletamento delle
 attività di verifica.
