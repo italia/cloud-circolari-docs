@@ -5,10 +5,11 @@ previsto nel "Piano Triennale per l’informatica nella Pubblica amministrazione
 2017- 2019", approvato con DPCM del 31 maggio 2017, i requisiti di
 qualificazione dei Cloud Service Provider (qui di seguito indicati
 semplicemente CSP), nonché la relativa procedura di qualificazione. Il possesso
-dei predetti requisiti è presupposto per essere dichiarati CSP qualificati nell'ambito
-del *Cloud della Pa* (NOTE:  Per “Cloud della PA” ai fini della presente
+dei predetti requisiti è presupposto affinchè le infrastrutture e i servizi IaaS e PaaS
+erogati dal fornitore possano ricevere la qualificazione "CSP"
+nell'ambito del *Cloud della Pa* (NOTE:  Per “Cloud della PA” ai fini della presente
 circolare, dei suoi allegati e delle successive integrazioni e/o modifiche si
-intende: l’insieme delle infrastrutture e servizi IaaS/PaaS erogati da Cloud
+intende: l’insieme delle infrastrutture e servizi IaaS e PaaS erogati da Cloud
 SPC, dai PSN e dai CSP qualificati ai sensi di quanto disposto da questa
 Circolare.). 
 
@@ -32,7 +33,8 @@ attività, una specifica procedura di qualificazione dei CSP
 nell’ambito della strategia di evoluzione del modello *Cloud della PA*. 
 
 Tale procedura consentirà alle Amministrazioni di acquisire, nell’ambito del *Cloud della PA*,
-servizi IaaS e PaaS conformi ad un insieme di requisiti comuni definiti dalla presente Circolare.
+servizi IaaS e PaaS conformi ad un insieme di requisiti comuni definiti dalla presente Circolare
+e dal relativo allegato.
 
 
 ```eval_rst
