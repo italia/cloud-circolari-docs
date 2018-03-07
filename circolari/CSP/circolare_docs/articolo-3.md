@@ -1,8 +1,7 @@
 ## Articolo 3 - Criteri di ammissibilità e requisiti della qualificazione
 
-La richiesta di qualificazione è ammissibile, se all’atto della presentazione
-della richiesta di qualificazione, il fornitore privato è abilitato da Consip
-sui propri sistemi d’acquisto.
+Al momento della richiesta di qualificazione il fornitore deve risultare abilitato
+sul sistema di acquisto di Consip "Acquistinretepa" o ad altra centrale di committenza o altro soggetto aggregatore qualificato;
 
 I requisiti per la qualificazione si suddividono in:
 
