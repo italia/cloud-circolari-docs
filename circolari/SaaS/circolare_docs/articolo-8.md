@@ -1,11 +1,10 @@
-## Articolo 8 - Contributo per la procedura di qualificazione
+## Articolo 8 - Disposizioni transitorie
 
-Al fine del ristoro dei costi sostenuti dall’Agenzia, per ciascuna richiesta di
-qualificazione delle soluzioni SaaS è dovuto il pagamento di un contributo.
-L’Agenzia determina entro il mese di aprile di ogni anno il valore del
-corrispettivo dovuto per richiesta.
-Il mancato pagamento entro i termini prescritti dall’Agenzia, comporta il
-decadimento della richiesta presentata e/o la revoca della qualificazione SaaS.
+Nelle more dell'attivazione della piattaforma dedicata la richiesta di qualificazione 
+potrà essere sottomessa mediante le modalità pubblicate sul sito https://cloud.italia.it 
+
+Nelle more dell'attivazione del marketplace Cloud l'elenco dei servizi SaaS qualificati sarà
+pubblicato sul sito  https://cloud.italia.it
 
 ```eval_rst
 .. discourse::

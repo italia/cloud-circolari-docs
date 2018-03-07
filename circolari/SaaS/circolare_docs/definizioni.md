@@ -13,8 +13,8 @@
    | Codice, Codice dell’Amministrazione Digitale, CAD| Decreto Legislativo 7 marzo 2005, n. 82 e s.m.i.                                     |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Cloud della PA                                   | Il Cloud della PA è composto dalle infrastrutture e servizi IaaS/PaaS                |
-   |                                                  | erogati da Cloud SPC, dai PSN e dagli altri CSP che saranno qualificati come         |
-   |                                                  | compatibili con i requisiti della PA.                                                |
+   |                                                  | erogati da Cloud SPC, dai PSN e dagli altri CSP  qualificati  ai sensi della         |
+   |                                                  | circolare "Criteri per la qualificazione dei Cloud Service Provider della PA".       |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Cloud                                            | Insieme di infrastrutture tecnologiche remote utilizzate come risorsa                |
    |                                                  | virtuale per la memorizzazione e/o l’elaborazione nell’ambito di un                  |
@@ -25,12 +25,15 @@
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | CSP                                              | Cloud Service Provider, ovvero fornitore di servizi erogati in modalità Cloud        |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
-   | Fornitore                                        | Soggetto richiedente la qualificazione SaaS                                          |
+   | Fornitore                                        | Soggetto ammesso a partecipare alle procedure di affidamento ai sensi del codice     | 
+   |                                                  | dei contratti pubblici e della normativa comunitaria in materia, o Pubblica      Amministazione interessata ad erogare servizi SaaS ad altre PA.                     |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Giorni                                           | Giorni solari                                                                        |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
-   | Marketplace SaaS                                 | Piattaforma digitale che permette la selezione e l'acquisto di applicazioni software |
-   |                                                  | erogate in Cloud secondo il modello Software-as-a-Service                            |
+   | Marketplace Cloud                                | Piattaforma digitale che espone il catalogo dei servizi SaaS
+   |                                                  | qualificati ai sensi della presente Circolare, nonchè i servizi IaaS e PaaS          |
+   |                                                  | offerti dai CSP qualificati da AgID ai sensi della circolare "Criteri per            |
+   |                                                  | la qualificazione dei Cloud Service Provider per la PA"                              |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Pubbliche amministrazioni/Amministrazioni/PA     | Le Amministrazioni, come meglio definite all’art. 2, comma 2 del Codice              |
    |                                                  | dell’Amministrazione Digitale.                                                       |

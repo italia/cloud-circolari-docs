@@ -1,12 +1,8 @@
-## Articolo 7 – Utilizzo della qualificazione SaaS.
+## Articolo 7 – Durata della qualificazione dei servizi SaaS.
 
-Ai soggetti la cui soluzione SaaS ha ricevuto esito positivo nell’istruttoria
-di qualificazione sarà rilasciato da AgID apposito "Attestato di qualificazione
-SaaS" con specifico *logo* appositamente registrato.
+Salvo i casi di revoca, la qualificazione dei servizi SaaS ha durata pari a 24 mesi 
+a decorrere dalla data di iscrizione al marketplace Cloud.
 
-Tali soggetti potranno utilizzare la qualificazione della soluzione SaaS nei
-propri rapporti commerciali con le Pubbliche amministrazioni o gli altri
-soggetti – clienti.
 
 ```eval_rst
 .. discourse::
