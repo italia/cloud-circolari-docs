@@ -1,7 +1,7 @@
-## Articolo 6 – Durata della qualificazione IaaS e PaaS dei CSP
+## Articolo 6 – Durata della qualificazione CSP
 
-Salvo i casi di revoca, la qualificazione dei servizi IaaS e PaaS dei CSP ha durata pari a 24 mesi 
-a decorrere dalla data di iscrizione dei servizi al marketplace Cloud.
+Salvo i casi di revoca, la qualificazione CSP ha durata pari a 24 mesi 
+a decorrere dalla data di iscrizione nel registro pubblico di cui all'articolo 4.
 
 
 ```eval_rst
