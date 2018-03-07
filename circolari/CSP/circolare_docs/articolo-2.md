@@ -3,13 +3,17 @@
 Il soggetto richiedente può essere:
 
 1. un fornitore di servizi Cloud che intende ottenere da AgID la
-   qualificazione per erogare servizi di tipo Public Cloud (IaaS o PaaS) per la PA;
+   qualificazione della propria infrastruttura per erogare servizi 
+   di tipo Public Cloud (IaaS o PaaS) per la PA;
 
-2. un fornitore di servizi Cloud SaaS che intende ottenere da AgID la
-   qualificazione delle proprie servizi SaaS ai sensi della Circolare AgID
-   "Criteri per la qualificazione di servizi SaaS per il *Cloud della PA*" 
-   per erogare servizi sfruttando la propria infrastruttura Cloud.
-   
+2. un fornitore di servizi Cloud che intende ottenere da AgID la
+   qualificazione della propria infrastruttura per erogare servizi SaaS da qualificare 
+   ai sensi della Circolare AgID "Criteri per la qualificazione di servizi SaaS per il *Cloud della PA*" 
+   sfruttando la propria infrastruttura Cloud;
+  
+3. un fornitore di servizi Cloud che intende ottenere da AgID la qualificazione della propria infrastruttura 
+   per erogare tutti i servizi previsti nei punti precedenti.
+   
 Il processo di qualificazione è articolato in tre fasi:
 
 1. Richiesta di qualificazione
