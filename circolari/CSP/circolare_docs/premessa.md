@@ -32,7 +32,7 @@ Per il raggiungimento di tali obiettivi, AgID ha previsto, tra le altre
 attività, una specifica procedura di qualificazione dei CSP 
 nell’ambito della strategia di evoluzione del modello *Cloud della PA*. 
 
-Tale procedura consentirà alle Amministrazioni di acquisire, nell’ambito del *Cloud della PA*,
+Tale procedura consentirà alle Amministrazioni di individuare, nell’ambito del *Marketplace Cloud*,
 servizi IaaS e PaaS conformi ad un insieme di requisiti comuni definiti dalla presente Circolare
 e dal relativo allegato.
 
