@@ -26,11 +26,12 @@
    | CSP                                              | Cloud Service Provider, ovvero fornitore di servizi erogati in modalità Cloud        |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Fornitore                                        | Soggetto ammesso a partecipare alle procedure di affidamento ai sensi del codice     | 
-   |                                                  | dei contratti pubblici e della normativa comunitaria in materia, o Pubblica      Amministazione interessata ad erogare servizi SaaS ad altre PA.                     |
+   |                                                  | dei contratti pubblici e della normativa comunitaria in materia, o Pubblica          |
+   |                                                  | Amministazione interessata ad erogare servizi SaaS ad altre PA.                      |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Giorni                                           | Giorni solari                                                                        |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
-   | Marketplace Cloud                                | Piattaforma digitale che espone il catalogo dei servizi SaaS
+   | Marketplace Cloud                                | Piattaforma digitale che espone il catalogo dei servizi SaaS                         |
    |                                                  | qualificati ai sensi della presente Circolare, nonchè i servizi IaaS e PaaS          |
    |                                                  | offerti dai CSP qualificati da AgID ai sensi della circolare "Criteri per            |
    |                                                  | la qualificazione dei Cloud Service Provider per la PA"                              |
@@ -59,6 +60,7 @@
    |                                                  | privati federati con un'unica Identità Digitale (username e password)                |
    |                                                  | utilizzabile da computer, tablet e smartphone (http://www.spid.gov.it).              |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
+
 ```
 
 ```eval_rst

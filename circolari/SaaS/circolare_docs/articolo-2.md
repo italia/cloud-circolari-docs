@@ -26,10 +26,10 @@ Negli articoli seguenti sono previste le eccezioni di processo, in relazione
 alle fasi ed ai casi sopra elencati.
 
 ```eval_rst
-.. tabularcolumns:: |p{1cm}|p{4cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
+.. tabularcolumns:: |p{1cm}|p{4cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
 
 +----+-------------------------------------------------------------------------+--------------+------+---------------+
-| N\.| Fasi del processo di qualificazione                                     | Fornitore/PA | AgID | PA acquirente |
+| N\.| Fasi del processo di qualificazione                                     | Fornitore    | AgID | PA acquirente |
 +====+=========================================================================+==============+======+===============+
 | 1  | Richiesta di qualificazione                                             | A, R         | I    | O             |
 +----+-------------------------------------------------------------------------+--------------+------+---------------+

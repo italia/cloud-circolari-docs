@@ -35,7 +35,7 @@ Per maggiori informazioni, consulta le `Istruzioni per la consultazione pubblica
 
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
 
    circolari/istruzioni-consultazione
    circolari/SaaS/index

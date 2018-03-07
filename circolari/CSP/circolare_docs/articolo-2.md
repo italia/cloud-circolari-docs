@@ -6,14 +6,15 @@ Il soggetto richiedente può essere:
    qualificazione della propria infrastruttura per erogare servizi 
    di tipo Public Cloud (IaaS o PaaS) per la PA;
 
-2. un fornitore di servizi Cloud che intende ottenere da AgID la
-   qualificazione della propria infrastruttura per erogare servizi SaaS da qualificare 
+2. un fornitore di servizi Cloud che intende ottenere da AgID la qualificazione
+   della propria infrastruttura per erogare servizi SaaS da qualificare 
    ai sensi della Circolare AgID "Criteri per la qualificazione di servizi SaaS per il *Cloud della PA*" 
    sfruttando la propria infrastruttura Cloud;
   
-3. un fornitore di servizi Cloud che intende ottenere da AgID la qualificazione della propria infrastruttura 
-   per erogare tutti i servizi previsti nei punti precedenti.
+3. un fornitore di servizi Cloud che intende ottenere da AgID la qualificazione
+   della propria infrastruttura per erogare tutti i servizi previsti nei punti precedenti.
    
+
 Il processo di qualificazione è articolato in tre fasi:
 
 1. Richiesta di qualificazione
@@ -28,10 +29,10 @@ articoli seguenti sono previste le eccezioni di processo, in relazione alle
 fasi ed ai casi sopra elencati.
 
 ```eval_rst
-.. tabularcolumns:: |p{1cm}|p{4cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
+.. tabularcolumns:: |p{1cm}|p{4cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
 
 +----+-------------------------------------------------------------------------+--------------+------+---------------+
-| N\.| Fasi del processo di qualificazione                                     | Fornitore/PA | AgID | PA acquirente |
+| N\.| Fasi del processo di qualificazione                                     | Fornitore    | AgID | PA acquirente |
 +====+=========================================================================+==============+======+===============+
 | 1  | Richiesta di qualificazione                                             | A, R         | I    | O             |
 +----+-------------------------------------------------------------------------+--------------+------+---------------+
