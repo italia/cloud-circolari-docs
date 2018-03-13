@@ -5,7 +5,9 @@
 Il fornitore interessato alla qualificazione dei servizi SaaS provvede ad
 inserire sulla *piattaforma AgID dedicata* apposita richiesta, fornendo le
 informazioni e la documentazione in lingua italiana relativa al possesso dei 
-requisiti di cui all’allegato "A" alla presente Circolare.
+requisiti di cui all’allegato "A" alla presente Circolare. Per l'eventuale 
+documentazione d'accompagnamento presentata in lingua straniera dovrà essere 
+allegata idonea traduzione, anche per estratto.
 
 All’atto della presentazione della richiesta di qualificazione SaaS, il
 fornitore dovrà dichiarare che, conseguita la qualificazione, si
