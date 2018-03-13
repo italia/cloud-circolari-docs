@@ -48,7 +48,8 @@ Al fine del mantenimento della qualifica, il soggetto richiedente si
 impegna a comunicare tempestivamente all’Agenzia, tramite la piattaforma dedicata, ogni evento che modifichi il
 rispetto dei requisiti di cui all’allegato "A" alla presente Circolare.
 
-Le difformità riscontrate nel corso dell’attività di verifica sono causa di revoca della qualificazione e comunicate al fornitore ai sensi del successivo articolo 5.
+La perdita del possesso del/i criterio/i di ammissibilità e/o di almeno uno dei requisiti di cui all'allegato A, 
+comporta la revoca della qualificazione, ai sensi del successivo articolo 5.
 
 Qualora durante le attività di verifica dovessero emergere
 elementi relativi a possibili violazioni della normativa sulla privacy,
