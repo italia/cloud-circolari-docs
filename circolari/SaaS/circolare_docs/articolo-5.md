@@ -9,19 +9,6 @@ requisiti di cui all’allegato "A" alla presente Circolare. Per l'eventuale
 documentazione d'accompagnamento presentata in lingua straniera dovrà essere 
 allegata idonea traduzione, anche per estratto.
 
-All’atto della presentazione della richiesta di qualificazione SaaS, il
-fornitore dovrà dichiarare che, conseguita la qualificazione, si
-impegna a rispettare, in maniera integrale e incondizionata, senza eccezione,
-deroga o riserva alcuna, per tutta la durata dei contratti di fornitura
-stipulati con le Amministrazioni clienti, quanto previsto all’appendice 1
-dell’Allegato "A" alla presente Circolare.
-
-Il fornitore dovrà altresì dichiarare che si impegna ad accettare
-nei contratti con le Amministrazioni clienti la clausola di risoluzione
-anticipata in caso di revoca della qualificazione dei servizi SaaS da parte
-di AgID ed a sottoporsi a qualsiasi verifica che l’Agenzia potrà disporre a
-garanzia del rispetto degli impegni assunti e del mantenimento dei requisiti e
-dei criteri di ammissibilità richiesti.
 
 ### Fase 2 - Rilascio qualificazione
 
