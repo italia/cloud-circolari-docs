@@ -10,13 +10,13 @@ Per l'eventuale documentazione d'accompagnamento presentata in lingua straniera
 dovrà essere allegata idonea traduzione, anche per estratto.
 
 
-### Fase 2 - Rilascio qualificazione
+### Fase 2 - Conseguimento qualificazione
 
-L'Agenzia, attraverso la piattaforma dedicata, rilascia automaticamente la qualificazione CSP ad effetto immediato, 
-riservandosi di effettuare le verifiche necessarie di cui alla fase successiva.
-
+Il conseguimento della qualificazione CSP coincide con la corretta acquisizione in 
+*piattaforma AgID dedicata* della richiesta di qualificazione. 
+L'Agenzia si riserva di effettuare le verifiche necessarie di cui alla fase successiva 
+del presente processo.
 I servizi IaaS e PaaS qualificati da AgID sono inseriti nel marketplace Cloud.
-
 I CSP qualificati sono inseriti in apposito registro pubblico nell'ambito di marketplace Cloud.
 
 
