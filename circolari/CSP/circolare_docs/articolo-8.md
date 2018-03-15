@@ -7,6 +7,9 @@ A decorrere da sei mesi dall'entrata in vigore della presente Circolare,
 le Amministrazioni acquisiscono esclusivamente servizi IaaS e PaaS qualificati e
 pubblicati sul marketplace Cloud.
 
+Nei contratti aventi ad oggetto servizi IaaS e PaaS qualificati, le Amministrazioni prevedono 
+gli SLI obbligatori indicati nella tabella "SLI obbligatori" di cui all'Allegato A. 
+
 La data di attivazione della *piattaforma dedicata e del marketplace Cloud* sarà
 comunicata insieme alle modalità operative della procedura di qualificazione
 sul sito https://cloud.italia.it.
