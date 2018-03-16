@@ -1,7 +1,4 @@
-## Articolo 3 - Criteri di ammissibilità e requisiti della qualificazione
-
-Al momento della richiesta di qualificazione il fornitore deve risultare abilitato
-sul sistema di acquisto di Consip "Acquistinretepa" o ad altra centrale di committenza o altro soggetto aggregatore qualificato;
+## Articolo 3 - Requisiti della qualificazione
 
 I requisiti per la qualificazione si suddividono in:
 
