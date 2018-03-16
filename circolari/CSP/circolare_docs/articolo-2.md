@@ -18,7 +18,7 @@ Il processo di qualificazione è articolato in tre fasi:
 
 1. Richiesta di qualificazione
 
-2. Rilascio qualificazione
+2. Conseguimento della qualificazione
 
 3. Mantenimento della qualificazione *(Monitoraggio)*
 
@@ -35,7 +35,7 @@ fasi ed ai casi sopra elencati.
 +====+=========================================================================+==============+======+===============+
 | 1  | Richiesta di qualificazione                                             | A, R         | I    | O             |
 +----+-------------------------------------------------------------------------+--------------+------+---------------+
-| 2  | Rilascio qualificazione                                                 | I            | A, R | O             |
+| 2  | Conseguimento della qualificazione                                      | I            | A, R | O             |
 +----+-------------------------------------------------------------------------+--------------+------+---------------+
 | 3  | Mantenimento della qualificazione (Monitoraggio)                        | C            | A, R | R             |
 +----+-------------------------------------------------------------------------+--------------+------+---------------+
