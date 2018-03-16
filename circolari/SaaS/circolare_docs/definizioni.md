@@ -25,9 +25,9 @@
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | CSP                                              | Cloud Service Provider, ovvero fornitore di servizi erogati in modalità Cloud        |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
-   | Fornitore                                        | Soggetto ammesso a partecipare alle procedure di affidamento ai sensi del codice     | 
-   |                                                  | dei contratti pubblici e della normativa comunitaria in materia, o Pubblica          |
-   |                                                  | Amministazione interessata ad erogare servizi SaaS ad altre PA.                      |
+   | Fornitore                                        | Soggetto titolare del/i servizi/o SaaS con stabile organizzazione sul territorio     |
+   |                                                  | della Comunità Europea, o Pubblica Amministazione interessata ad erogare servizi     |
+   |                                                  | SaaS ad altre PA.                                                                    |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Giorni                                           | Giorni solari                                                                        |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
@@ -59,6 +59,10 @@
    |                                                  | di accedere a tutti i servizi online della Pubblica Amministrazione e di             |
    |                                                  | privati federati con un'unica Identità Digitale (username e password)                |
    |                                                  | utilizzabile da computer, tablet e smartphone (http://www.spid.gov.it).              |
+   +--------------------------------------------------+--------------------------------------------------------------------------------------+
+   | SLI                                              | Service Level Indicator, una misura quantitativa definita di un determinato aspetto  | 
+   |                                                  | del livello di servizio (ad es. numero di richieste al secondo, latency, throughput, |
+   |                                                  | availability, etc)                                                                   |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
 
 ```
