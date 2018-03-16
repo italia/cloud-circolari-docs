@@ -2,7 +2,7 @@
 
 L’Agenzia nel caso di:
 
-* perdita dei criteri di ammissibilità;
+* perdita del criterio di ammissibilità;
 * perdita di almeno uno dei requisiti di cui all'Allegato A;
 * riscontro da parte dei competenti organi di violazioni di norme relative
   all’attività oggetto di qualificazione;
