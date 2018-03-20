@@ -18,8 +18,7 @@ visibili nel documento, nelle sezioni [Archivio dei commenti alla circolare
 e [Archivio dei commenti alla circolare «Qualificazione dei Cloud Service
 Provider per servizi IaaS/PaaS»](
 http://cloud-pa.readthedocs.io/it/latest/circolari/CSP/archivio_commenti_CSP.html).
-Per maggiori informazioni, consulta le [Istruzioni per la consultazione pubblica]
-(http://cloud-pa.readthedocs.io/it/latest/circolari/istruzioni-consultazione.html). 
+Per maggiori informazioni, consulta le [Istruzioni per la consultazione pubblica](http://cloud-pa.readthedocs.io/it/latest/circolari/istruzioni-consultazione.html). 
 
 
 
