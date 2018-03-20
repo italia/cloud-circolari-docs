@@ -12,6 +12,13 @@
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Codice, Codice dell’Amministrazione Digitale, CAD| Decreto Legislativo 7 marzo 2005, n. 82 e s.m.i.                                     |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
+   | Pubbliche amministrazioni/Amministrazioni/PA     | Le Amministrazioni, come meglio definite all’art. 2, comma 2 del Codice              |
+   |                                                  | dell’Amministrazione Digitale.                                                       |
+   +--------------------------------------------------+--------------------------------------------------------------------------------------+
+   | Fornitore                                        | Soggetto economico che opera sul mercato della fornitura e/o distribuzione di        |
+   |                                                  | servizi SaaS o PA interessata ad erogare servizi SaaS ad altre                       |
+   |                                                  | Amministrazioni                                                                      |
+   +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Cloud della PA                                   | Il Cloud della PA è composto dalle infrastrutture e servizi IaaS/PaaS                |
    |                                                  | erogati da Cloud SPC, dai PSN e dagli altri CSP  qualificati  ai sensi della         |
    |                                                  | circolare "Criteri per la qualificazione dei Cloud Service Provider della PA".       |
@@ -25,19 +32,12 @@
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | CSP                                              | Cloud Service Provider, ovvero fornitore di servizi erogati in modalità Cloud        |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
-   | Fornitore                                        | Soggetto titolare del/i servizi/o SaaS con stabile organizzazione sul territorio     |
-   |                                                  | della Comunità Europea, o Pubblica Amministazione interessata ad erogare servizi     |
-   |                                                  | SaaS ad altre PA.                                                                    |
-   +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Giorni                                           | Giorni solari                                                                        |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Marketplace Cloud                                | Piattaforma digitale che espone il catalogo dei servizi SaaS                         |
    |                                                  | qualificati ai sensi della presente Circolare, nonchè i servizi IaaS e PaaS          |
    |                                                  | offerti dai CSP qualificati da AgID ai sensi della circolare "Criteri per            |
    |                                                  | la qualificazione dei Cloud Service Provider per la PA"                              |
-   +--------------------------------------------------+--------------------------------------------------------------------------------------+
-   | Pubbliche amministrazioni/Amministrazioni/PA     | Le Amministrazioni, come meglio definite all’art. 2, comma 2 del Codice              |
-   |                                                  | dell’Amministrazione Digitale.                                                       |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | PSN                                              | Soggetto titolare dell’insieme di infrastrutture IT (centralizzate o                 |
    |                                                  | distribuite), ad alta disponibilità, di proprietà pubblica, eletto a Polo            |
