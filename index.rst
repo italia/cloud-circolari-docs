@@ -1,6 +1,10 @@
 Cloud PA
 ========
 
+.. note::
+   *La consultazione pubblica per le circolari AgID per la qualificazione
+   del Cloud della PA si è conclusa in data 1 Marzo 2018*
+
 Il progetto per il Cloud della Pubblica Amministrazione ("Cloud PA") dà
 attuazione a quanto previsto dal `Piano Triennale per l'informatica nella
 Pubblica amministrazione 2017- 2019
