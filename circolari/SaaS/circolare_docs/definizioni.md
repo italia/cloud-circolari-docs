@@ -34,7 +34,7 @@
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | Giorni                                           | Giorni solari                                                                        |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
-   | Marketplace Cloud                                | Piattaforma digitale che permette la selezione e l'acquisto di servizi SaaS          |
+   | Marketplace Cloud                                | Piattaforma digitale che espone il catalogo dei servizi SaaS
    |                                                  | qualificati ai sensi della presente Circolare, nonchè i servizi IaaS e PaaS          |
    |                                                  | offerti dai CSP qualificati da AgID ai sensi della circolare "Criteri per            |
    |                                                  | la qualificazione dei Cloud Service Provider per la PA"                              |

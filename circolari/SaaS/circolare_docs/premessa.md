@@ -26,13 +26,6 @@ Tale procedura consentirà alle Amministrazioni di utilizzare, nell’ambito del
 *Cloud della PA*, servizi SaaS conformi ad un insieme di requisiti comuni definiti
 dalla presente Circolare.
 
-A tale scopo AgID realizza il "Marketplace Cloud" che contiene il 
-catalogo di tutti servizi SaaS qualificati e acquisibili dal mercato.
-Tali servizi saranno acquisibili secondo le disposizioni
-di legge vigenti in materia di procurement  e in particolare per quanto 
-riguarda gli strumenti di acquisto Consip secondo quanto previsto nelle 
-*Disposizioni per il procurement dei servizi IaaS, PaaS e SaaS per il Cloud della PA* 
-redatte da CONSIP e riportate nell’allegato B alla presente Circolare.
 
 ```eval_rst
 .. discourse::
