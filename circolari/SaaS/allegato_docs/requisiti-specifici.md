@@ -6,7 +6,9 @@ I requisiti specifici riguardano le seguenti tematiche:
 
 * performance e scalabilità,
 
-* interoperabilità e portabilità.
+* interoperabilità e portabilità,
+
+* conformità legislativa.
 
 ```eval_rst
 .. discourse::
