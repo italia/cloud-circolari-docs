@@ -8,7 +8,7 @@ from recommonmark.parser import CommonMarkParser
 
 # -- PROJECT Variables ----------------------------------------------------
 settings_project_name = 'Cloud PA'
-settings_copyright_copyleft = 'Creative Commons Attribution 4.0'
+settings_copyright_copyleft = 'Creative Commons Zero v1.0 Universal'
 settings_editor_name = 'Agenzia per l\'Italia Digitale'
 settings_doc_version = 'Version 0.1'
 settings_doc_release = '20180321'
