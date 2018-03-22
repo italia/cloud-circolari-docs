@@ -1,19 +1,15 @@
 ## Articolo 2 – Il processo di qualificazione
 
-Il soggetto richiedente può essere:
+Il fornitore di servizi Cloud, che intende ottenere da AgID la qualificazione della propria 
+infrastruttura, può richiedere la qualificazione CSP per:
 
-1. un fornitore di servizi Cloud che intende ottenere da AgID la
-   qualificazione della propria infrastruttura per erogare servizi 
-   di tipo Public Cloud (IaaS o PaaS) per la PA;
+1. erogare servizi di tipo Public Cloud (IaaS o PaaS) per la PA - Richiesta "Tipo A";
 
-2. un fornitore di servizi Cloud che intende ottenere da AgID la qualificazione
-   della propria infrastruttura per erogare servizi SaaS da qualificare 
-   ai sensi della Circolare AgID "Criteri per la qualificazione di servizi SaaS per il *Cloud della PA*" 
-   sfruttando la propria infrastruttura Cloud;
+2. erogare servizi SaaS da qualificare ai sensi della Circolare AgID "Criteri per la
+qualificazione di servizi SaaS per il *Cloud della PA*" utilizzando la propria infrastruttura 
+Cloud - Richiesta "Tipo B";
   
-3. un fornitore di servizi Cloud che intende ottenere da AgID la qualificazione
-   della propria infrastruttura per erogare tutti i servizi previsti nei punti precedenti.
-   
+3. erogare tutti i servizi previsti nei punti precedenti - Richiesta "Tipo C".
 
 Il processo di qualificazione è articolato in tre fasi:
 
