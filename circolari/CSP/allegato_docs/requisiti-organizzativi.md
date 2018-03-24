@@ -1,8 +1,14 @@
 ## Requisiti organizzativi
 
-Per quanto concerne le soluzioni IaaS/PaaS oggetto di qualificazione, al
-Fornitore Cloud viene richiesto di  produrre la documentazione necessaria al
-fine di dimostrare il possesso dei seguenti requisiti organizzativi,:
+Il Fornitore Cloud produce la documentazione necessaria al
+fine di provare il rispetto dei seguenti requisiti organizzativi:
+
+* di aver gestito in passato ed essere in grado di gestire "situazioni
+  critiche" quali: operazioni di disaster recovery, verifica dell’integrità dei
+  dati e eventuale recupero;
+
+* di disporre di un adeguato sistema di gestione della qualità applicato
+  all’erogazione dei servizi offerti. 
 
 * di disporre un servizio di *supporto clienti* strutturato (24x7) ed in grado
   di coprire le esigenze operative che possono manifestarsi nel contesto
@@ -20,39 +26,20 @@ appartengono alla famiglia ISO/IEC 20000, in particolare gli standard ISO/IEC
 20000-1 e ISO/IEC TR 20000-9.
 
 Al fine di garantire un’adeguata gestione della fornitura il Fornitore Cloud
-deve permettere all’Acquirente di di amministrare in maniera strutturata e
+deve permettere all’Acquirente di amministrare in maniera strutturata e
 automatizzata le fasi di acquisto e di gestione/configurazione di ciascun
 servizio e, ove applicabile, di tutte le risorse/elementi/funzionalità
 associate (ad es. selezione dei template PaaS, configurazione dei server
 virtuali, gestione delle risorse di rete, ecc.), garantendo controlli di
-coerenza durante tutto il processo. Tali prerogative dovranno essere rese
-disponibili almeno attraverso:
+coerenza durante il processo.
 
-* uno strumento (console o pannello) fruibile in modalità Web-based e con accesso sicuro; 
-* la disponibilità di API invocabili da remoto in modalità SOAP/REST.
 
-Analoghi strumenti, possibilmente integrati con i precedenti e tra di loro,
-dovranno essere messi a disposizione al fine di consentire all’Acquirente il
-monitoraggio delle performance e dell’utilizzo delle risorse (compreso
-l’accesso ai log), nonché per la gestione amministrativa degli ordini e il
-controllo dei costi. Si vedano a tal proposito i requisiti RO11 e RO12.
 
-La tabella seguente riporta i requisiti organizzativi e il tipo di verifica
-richiesta per ognuno di essi.
+### Supporto clienti e assistenza tecnica                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+**RO1**: Il Fornitore Cloud deve mettere a disposizione dell’Acquirente un servizio di supporto tecnico disponibile 24/7 e accessibile mediante opportuni e diversificati canali di comunicazione e adeguati sistemi di gestione (issue tracking), al fine di consentire all’Acquirente di effettuare le eventuali segnalazioni di malfunzionamenti e potenziali pericoli per la sicurezza e la fruibilità del servizio, in completa autonomia.
+   
 
-```eval_rst
-.. tabularcolumns:: |p{3cm}|p{8cm}|p{3.5cm}|
-
-.. rst-class:: longtable
-
-   +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-   | Codice Requisito | Requisito                                                                                                                                                                                                                                                                                                                                                                                                                              | Elementi di riscontro                               |
-   +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-   | Supporto clienti e assistenza tecnica                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-   +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-   | RO1              | Il Fornitore Cloud deve mettere a disposizione dell’Acquirente un servizio di supporto tecnico disponibile 24/7 e accessibile mediante opportuni e diversificati canali di comunicazione e adeguati sistemi di gestione (issue tracking), al fine di consentire all’Acquirente di effettuare le eventuali segnalazioni di malfunzionamenti e potenziali pericoli per la sicurezza e la fruibilità del servizio, in completa autonomia. | Dichiarazione Fornitore Cloud                       |
-   +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------+
-   | RO2              | Il Fornitore Cloud deve assicurare la massima trasparenza nella                                                                                                                                                                                                                                                                                                                                                                        | Dichiarazione, Fornitore Cloud                      |
+**RO2**      Il Fornitore Cloud deve assicurare la massima trasparenza nella                                                                                                
    |                  | gestione delle segnalazioni,  garantendo all’Acquirente piena visibilità dei                                                                                                                                                                                                                                                                                                                                                           |                                                     |
    |                  | processi di issue tracking e assistenza tecnica.                                                                                                                                                                                                                                                                                                                                                                                       |                                                     |
    |                  | Il Fornitore Cloud deve definire le tempistiche per la presa in carico e                                                                                                                                                                                                                                                                                                                                                               |                                                     |

@@ -18,16 +18,6 @@ richiesta per ognuno di essi.
 
 .. rst-class:: longtable
 
-+------------------+---------------------------------------------------------------------------------------+-----------------------------------------------------+
-| Codice Requisito | Requisito                                                                             | Elementi di riscontro                               |
-+------------------+---------------------------------------------------------------------------------------+-----------------------------------------------------+
-| Informazioni necessarie per l’istruttoria                                                                                                                      |
-+------------------+---------------------------------------------------------------------------------------+-----------------------------------------------------+
-| RP1              | Produrre l’elenco dei servizi per i quali si richiede la                              | Dichiarazione Fornitore Cloud                       |
-|                  | qualificazione, fornendo le informazioni di dettaglio richieste nella "scheda         |                                                     |
-|                  | tecnica del servizio" e negli ulteriori requisiti che prevedono una                   |                                                     |
-|                  | dichiarazione da parte del Fornitore.                                                 |                                                     |
-+------------------+---------------------------------------------------------------------------------------+-----------------------------------------------------+
 | Esperienza del Fornitore Cloud nell’ambito dei servizi IaaS/PaaS                                                                                               |
 +------------------+---------------------------------------------------------------------------------------+-----------------------------------------------------+
 | RP2              | Produrre una documentazione storica (almeno 2 case studies negli ultimi 24            | Dichiarazione Fornitore Cloud, Verifica documentale |
