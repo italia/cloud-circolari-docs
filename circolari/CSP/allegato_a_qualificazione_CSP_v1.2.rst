@@ -12,7 +12,6 @@ Requisiti per la qualificazione dei Cloud Service Provider per la PA
    allegato_docs/acronimi-definizioni
    allegato_docs/introduzione
    allegato_docs/requisiti-soluzioni-cloud
-   allegato_docs/requisiti-preliminari
    allegato_docs/requisiti-organizzativi
    allegato_docs/requisiti-specifici
    allegato_docs/appendice-1
