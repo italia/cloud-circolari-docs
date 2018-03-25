@@ -16,13 +16,6 @@ raggruppati in:
 * interoperabilità e portabilità (RIP), 
 * conformità legislativa  (RCL).
 
-### Tipologie di verifiche previste
-
-Nelle sezioni che seguono sono definiti tutti i requisiti previsti per le
-soluzioni IaaS/PaaS secondo la classificazione sopra richiamata. 
-
-Le tipologie di verifiche previste sono:
-
 
 ```eval_rst
 .. discourse::
