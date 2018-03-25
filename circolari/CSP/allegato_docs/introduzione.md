@@ -18,11 +18,11 @@ Sono individuati i seguenti soggetti come attori del processo di qualificazione:
 * *Fornitore Cloud o CSP*, che fornisce, gestisce e amministra i l'infrastruttura 
   e i servizi  Cloud infrastrutturali di tipologia IaaS e/o PaaS, oggetto della
   qualificazione;
-* *Acquirente o CSC*, PA che acquisisce e/o  utilizza i servizi Cloud.
+* *Acquirente o CSC*, PA che acquisisce e/o  utilizza i servizi Cloud;
 * *Partner o CSN*, è un soggetto terzo che può svolgere attività di supporto
   e/o di consulenza per conto del CSP. Qualora il partner agisse per
   conto del Fornitore Cloud per mezzo di opportuna delega e dandone visibilità,
-  può richiedere la qualificazione per conto del CSP.
+  può richiedere la qualificazione per conto del CSP;
 * *AgID o Agenzia*, Agenzia per l’Italia Digitale in qualità di soggetto
   responsabile della procedura di qualificazione.
 
