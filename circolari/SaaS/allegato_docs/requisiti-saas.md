@@ -1,8 +1,7 @@
 ## Requisiti delle soluzioni SaaS
 
-Ciò premesso, AgID, come indicato all’art. 4 Circolare, ha classificato i requisiti per la qualificazione delle soluzioni SaaS come segue:
+Ciò premesso, AgID, come indicato all’art. 4 della Circolare, ha classificato i requisiti per la qualificazione delle soluzioni SaaS come segue:
 
-* Requisiti preliminari (RP),
 * Requisiti organizzativi (RO),
 * Requisiti specifici.
 
