@@ -184,7 +184,3 @@ modalità multi-cloud, dove le risorse di un fornitore vengono impiegate
 automaticamente solo in caso di necessità di espansione del sistema e di
 maggiori performance.
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2242
-```

@@ -17,7 +17,3 @@ raggruppati in:
 * conformità legislativa  (RCL).
 
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2269
-```

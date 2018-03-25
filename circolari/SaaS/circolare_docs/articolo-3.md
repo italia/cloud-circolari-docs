@@ -8,7 +8,3 @@ tale infrastruttura deve essere qualificata come CSP da AgID ai sensi di quanto 
 la qualificazione dei Cloud Service Provider per la PA".
 
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2232
-```

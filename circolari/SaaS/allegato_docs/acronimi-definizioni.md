@@ -69,7 +69,3 @@ Si richiamano inoltre i concetti e le definizioni relativi al *Cloud computing* 
 
 Per maggiori dettagli si veda: [http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf)
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2241
-```

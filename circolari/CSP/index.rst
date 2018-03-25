@@ -7,5 +7,4 @@ Cloud Service Provider
    circolare_qualificazione_CSP_v1.2.rst
    allegato_a_qualificazione_CSP_v1.2.rst
 
-   archivio_commenti_CSP.rst
 

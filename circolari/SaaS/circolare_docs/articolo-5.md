@@ -37,7 +37,3 @@ elementi relativi a possibili violazioni della normativa sulla privacy,
 l’Agenzia ne informa tempestivamente il Garante per la protezione dei dati
 personali.
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2234
-```

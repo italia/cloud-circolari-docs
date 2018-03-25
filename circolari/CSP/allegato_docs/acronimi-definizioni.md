@@ -74,7 +74,3 @@ in particolare i concetti di:
 * le caratteristiche essenziali del Cloud computing: on-demand self-service,
   broad network access, resource pooling, rapid elasticity, measured service.
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2267
-```

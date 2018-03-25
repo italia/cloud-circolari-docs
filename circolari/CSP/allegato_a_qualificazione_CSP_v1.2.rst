@@ -1,7 +1,3 @@
-.. note:: Il documento rappresenta lo schema della Circolare AgID sui "Criteri per la qualificazione dei Cloud Service Provider per la PA". Lo schema della circolare è in consultazione e aperto ai commenti **fino al 1 Marzo 2018**.
-
-.. note:: Inserisci il tuo contributo: scegli l’argomento cliccando su una delle voci dell’indice e inserisci i tuoi commenti usando il link apposito.
-
 **Allegato alla CIRCOLARE N. XX del YY gennaio 2018**
 
 Requisiti per la qualificazione dei Cloud Service Provider per la PA 

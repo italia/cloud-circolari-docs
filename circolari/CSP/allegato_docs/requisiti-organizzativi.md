@@ -117,7 +117,3 @@ all’Acquirente una dashboard e le API che permettono di acquisire le
 informazioni sulle metriche di "billing".
 
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2271
-```

@@ -10,7 +10,3 @@ I requisiti specifici riguardano le seguenti tematiche:
 
 * conformità legislativa.
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2247
-```

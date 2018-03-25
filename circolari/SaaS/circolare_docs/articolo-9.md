@@ -15,7 +15,3 @@ comunicata insieme alle modalità operative della procedura di qualificazione
 sul sito https://cloud.italia.it.
 
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2238
-```

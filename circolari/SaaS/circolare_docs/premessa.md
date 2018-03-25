@@ -26,8 +26,3 @@ Tale procedura consentirà alle Amministrazioni di utilizzare, nell’ambito del
 *Cloud della PA*, servizi SaaS conformi ad un insieme di requisiti comuni definiti
 dalla presente Circolare.
 
-
-```eval_rst
-.. discourse::
-   :topic_identifier: 2228
-```

@@ -14,7 +14,3 @@ SaaS nell’ambito del Cloud della PA*”.
 AgID si riserva la facoltà di modificare/aggiornare/integrare tali requisiti
 sulla base dell’evoluzione del contesto e delle tecnologie.
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2233
-```

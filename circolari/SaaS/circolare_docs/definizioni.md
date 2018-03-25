@@ -67,9 +67,3 @@
 
 ```
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2229
-```
-
-

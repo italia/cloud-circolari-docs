@@ -14,7 +14,3 @@ raggruppati in:
 * interoperabilità e portabilità (RIP), 
 * conformità legislativa (RCL).
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2243
-```

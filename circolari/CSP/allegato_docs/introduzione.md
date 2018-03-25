@@ -26,7 +26,3 @@ Sono individuati i seguenti soggetti come attori del processo di qualificazione:
 * *AgID o Agenzia*, Agenzia per l’Italia Digitale in qualità di soggetto
   responsabile della procedura di qualificazione.
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2268
-```

@@ -4,7 +4,3 @@ La presente circolare definisce i requisiti e la procedura per la qualificazione
 
 In particolare come previsto dal Piano Triennale per l'informatica nella PA 2017 - 2019, con riferimento alle acquisizioni tramite Consip di servizi SaaS qualificati da AgID, si rimanda al documento “Disposizioni per il procurement dei servizi SaaS per il Cloud della PA” pubblicato da Consip e riportato nell’allegato "B" alla presente Circolare.
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2230
-```

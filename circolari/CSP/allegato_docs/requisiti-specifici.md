@@ -126,7 +126,3 @@ Shield EU-USA, ecc.) volti alla salvaguardia dei dati elaborati, conservati ed
 a vario titolo gestiti per erogare il servizio.
 
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2272
-```
