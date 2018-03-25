@@ -33,7 +33,6 @@ associate (ad es. selezione dei template PaaS, configurazione dei server
 virtuali, gestione delle risorse di rete, ecc.), garantendo controlli di
 coerenza durante il processo.
 
-### Supporto clienti e assistenza tecnica                                                                                                                                                   
 
 ### Esperienza del Fornitore Cloud nell’ambito dei servizi IaaS/PaaS 
 
