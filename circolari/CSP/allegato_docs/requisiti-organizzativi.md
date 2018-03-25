@@ -36,7 +36,7 @@ coerenza durante il processo.
 
 ### Esperienza del Fornitore Cloud nell’ambito dei servizi IaaS/PaaS 
 
-**RO01** - Produrre una documentazione storica (almeno 2 case studies negli
+**RO1** - Produrre una documentazione storica (almeno 2 case studies negli
 ultimi 24 mesi) che fornisca evidenza della gestione di “situazioni critiche” e
 conseguente ripristino dell’infrastruttura (rapporti post mortem). Nel caso in
 cui non si siano registrate “situazioni critiche” negli ultimi 24 mesi, può
@@ -44,47 +44,47 @@ essere prodotta analoga documentazione riferita ai test di DR.
 
 ### Supporto clienti e assistenza tecnica
 
-**RO02** - Il Fornitore Cloud deve essere in possesso della certificazione ISO
+**RO2** - Il Fornitore Cloud deve essere in possesso della certificazione ISO
 9001 per la gestione della qualità aziendale.
 
-**RO03** - Il Fornitore Cloud mette a disposizione dell’Acquirente un servizio
+**RO3** - Il Fornitore Cloud mette a disposizione dell’Acquirente un servizio
 di supporto tecnico disponibile 24/7 e accessibile mediante opportuni canali di
 comunicazione e adeguati sistemi di gestione (issue tracking), al fine di
 consentire all’Acquirente di effettuare in completa autonomia le eventuali
 segnalazioni di malfunzionamenti e potenziali pericoli per la sicurezza e la
 fruibilità del servizio.
 
-**RO04** - Il Fornitore Cloud assicura la massima trasparenza nella gestione
+**RO4** - Il Fornitore Cloud assicura la massima trasparenza nella gestione
 delle segnalazioni, garantendo all’Acquirente appropriata visibilità dei
 processi di issue tracking e assistenza tecnica. Il Fornitore Cloud deve
 definire le tempistiche per la presa in carico e gestione delle segnalazioni in
 funzione delle diverse priorità, dichiarando i livelli di servizio garantiti.
 
-**RO05** - Il Fornitore Cloud fornisce la documentazione tecnica, le guide d’uso
+**RO5** - Il Fornitore Cloud fornisce la documentazione tecnica, le guide d’uso
 e/o altro materiale di supporto, ivi compresa la documentazione dettagliata
 delle API e delle interfacce CLI e GUI se previste dal servizio.
 
 ### Gestione del cambiamento (change management) 
 
-**RO06** - Al fine di garantire che vengano utilizzate procedure e metodi
+**RO6** - Al fine di garantire che vengano utilizzate procedure e metodi
 standard per la gestione tempestiva ed efficiente di ogni cambiamento
 nell'ambito dell'infrastruttura e dei servizi offerti, il Fornitore Cloud
 garantisce l'applicazione di un processo di change management, dandone evidenza
 mediante opportuna documentazione.
 
-**RO07** - Il Fornitore Cloud garantisce la disponibilità tempestiva di
+**RO7** - Il Fornitore Cloud garantisce la disponibilità tempestiva di
 informazioni all’Acquirente circa i cambiamenti e le migliorie introdotti in
 seguito ad aggiornamenti apportati alle modalità di funzionamento e fruizione
 dei servizi Cloud erogati. In caso di interventi di manutenzione il Fornitore
 comunica all'Acquirente con almeno 3 giorni lavorativi di anticipo utilizzando
 un canale di comunicazione diretto.
 
-**RO08** - Il Fornitore Cloud garantisce che la documentazione tecnica sia
+**RO8** - Il Fornitore Cloud garantisce che la documentazione tecnica sia
 sempre aggiornata e coerente con la versione del servizio in esercizio.
 
 ### Gestione della configurazione (configuration management)  
 
-**RO09** - Il Fornitore Cloud garantisce che i servizi offerti siano soggetti ad
+**RO9** - Il Fornitore Cloud garantisce che i servizi offerti siano soggetti ad
 un processo di gestione della configurazione che consente, mediante procedure
 standard e relativi tool, il controllo di tutte il controllo di tutte le
 componenti rilevanti del servizio, indicando inoltre la compliance alle buone
