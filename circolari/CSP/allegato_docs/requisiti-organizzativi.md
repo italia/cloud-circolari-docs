@@ -93,7 +93,7 @@ indicando inoltre la compliance alle buone pratiche presenti nello standard ISO/
 
 **RO10** - Il Fornitore Cloud garantisce l'adozione di processi di gestione
 degli incidenti coerenti con quanto raccomandato dagli standard di sicurezza
-internazionali. (p.e. ISO/IEC 27002, ISO/IEC 27035).
+internazionali (p.e. ISO/IEC 27002, ISO/IEC 27035).
 
 ### Livelli di servizio e trasparenza
 
