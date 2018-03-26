@@ -76,8 +76,8 @@ mediante opportuna documentazione.
 informazioni all’Acquirente circa i cambiamenti e le migliorie introdotti in
 seguito ad aggiornamenti apportati alle modalità di funzionamento e fruizione
 dei servizi Cloud erogati. In caso di interventi di manutenzione il Fornitore
-comunica all'Acquirente con almeno 3 giorni lavorativi di anticipo utilizzando
-un canale di comunicazione diretto.
+ne dà comunicazione all'Acquirente con almeno 3 giorni lavorativi di anticipo
+utilizzando un canale di comunicazione diretto.
 
 **RO8** - Il Fornitore Cloud garantisce che la documentazione tecnica sia
 sempre aggiornata e coerente con la versione del servizio in esercizio.
