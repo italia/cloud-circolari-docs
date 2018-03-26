@@ -11,7 +11,7 @@ concernenti le seguenti tematiche:
 
 ### Sicurezza, Privacy e protezione dei dati
 
-**RSI1**: Il Fornitore Cloud dichiara di esserere in possesso della
+**RSI1** - Il Fornitore Cloud dichiara di esserere in possesso della
 certificazione secondo lo standard ISO/IEC 27001 estesa con i controlli degli
 standard ISO/IEC 27017 e ISO/IEC 27018. La certificazione deve essere stata
 rilasciata da organismi nazionali di accreditamento riconosciuti dalla Unione
