@@ -46,22 +46,22 @@ complesso, devono essere osservate le seguenti prescrizioni:
 * il Fornitore Cloud deve dichiarare esplicitamente e preventivamente il
   periodo di tempo minimo e massimo di conservazione dei dati di monitoraggio
   degli SLI associati a ciascun servizio erogato;
-* il Fornitore Cloud comunica al consumatore, tramite report periodico,
+* il Fornitore Cloud comunica all'Acquirente, tramite report periodico,
   l’andamento degli indicatori (SLI) dei livelli di servizio, evidenziando eventuali 
   anomalie rispetto agli obiettivi dichiarati in fase di qualificazione (SLO).
 
-**RPS1** - Il Fornitore Cloud descrive la performance del servizio utilizzando
-gli indicatori nella tabella "Performance" oppure altri indicatori non presenti
-in tabella.
+**RPE1** - Il Fornitore Cloud descrive la performance del servizio utilizzando
+gli indicatori presenti nella tabella "Indicatori della Qualità del Servizio"
+oppure altri indicatori non presenti in tabella.
 
-**RPS2** - Nel caso in cui sia prevista la scalabilità automatica del servizio
-(o di alcune sue componenti), il Fornitore dichiara gli indicatori associati
-alle caratteristiche di elasticità e scalabilità.
+**RPE2** - Nel caso in cui sia prevista la scalabilità automatica del servizio
+(o di alcune sue componenti), il Fornitore Cloud dichiara gli indicatori di performance
+associati alle caratteristiche di elasticità e scalabilità.
 
-**RPS3** - Dove prevista la scalabilità automatica del servizio (o di sue componenti) deve
+**RPE3** - Laddove prevista, la scalabilità automatica del servizio (o di sue componenti) deve
 attivarsi correttamente al verificarsi delle condizioni operative prestabilite
-(eventualmente configurabili) e deve garantire che non si verifichino
-interruzioni nell’erogazione del servizio.
+(eventualmente configurabili) e deve garantire che non si verifichino interruzioni 
+nell’erogazione del servizio.
 
 ### Interoperabilità e portabilità
 
