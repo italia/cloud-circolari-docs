@@ -9,7 +9,6 @@ Requisiti per la qualificazione di servizi SaaS per il Cloud della PA.
    allegato_docs/acronimi-definizioni
    allegato_docs/introduzione
    allegato_docs/requisiti-saas
-   allegato_docs/requisiti-preliminari
    allegato_docs/requisiti-organizzativi
    allegato_docs/requisiti-specifici
    allegato_docs/sicurezza
