@@ -86,9 +86,8 @@ sempre aggiornata e coerente con la versione del servizio in esercizio.
 
 **RO9** - Il Fornitore Cloud garantisce che i servizi offerti siano soggetti ad
 un processo di gestione della configurazione che consente, mediante procedure
-standard e relativi tool, il controllo di tutte il controllo di tutte le
-componenti rilevanti del servizio, indicando inoltre la compliance alle buone
-pratiche presenti nello standard ISO/IEC 20000-2.
+standard e relativi tool, il controllo di tutte le componenti rilevanti del servizio,
+indicando inoltre la compliance alle buone pratiche presenti nello standard ISO/IEC 20000-2.
 
 ### Gestione degli Incidenti (incident & problem management)
 
