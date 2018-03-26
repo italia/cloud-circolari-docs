@@ -79,14 +79,14 @@ dell’Acquirente nei confronti del Fornitore Cloud.
 
 
 **RIP1** - I servizi IaaS/PaaS espongono opportune Application Programming
-Interface (API) di tipo SOAP e/o REST associate alle funzionalità del servizio,
-per la gestione e la configurazione del servizio.
+Interface (API) di tipo SOAP e/o REST associate alle funzionalità del servizio e
+alle procedure di gestione e configurazione del servizio.
 
 **RIP2** - Il Fornitore Cloud rende disponibile una adeguata documentazione
-tecnica delle API che ne chiarisca l’utilizzo.
+tecnica delle API che ne chiarisce l’utilizzo.
 
 **RIP3** - In caso di aggiornamento delle funzionalità del servizio e/o delle
-relative API il Fornitore Cloud garantisce tracciabilità delle diverse versioni
+relative API il Fornitore Cloud garantisce la tracciabilità delle diverse versioni
 delle API disponibili, allo scopo di consentire evoluzioni non distruttive
 (versioning). Anche la documentazione tecnica delle API dovrà essere
 tempestivamente aggiornata.
