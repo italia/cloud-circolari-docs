@@ -117,11 +117,11 @@ proposto è conforme agli obblighi e agli adempimenti previsti dalla normativa
 propri e/o dell’infrastruttura Cloud utilizzata per erogare anche parzialmente
 il servizio e/o all’interno dei quali transiteranno anche temporaneamente i
 dati gestiti dal servizio (ivi compresi i siti di disaster recovery e di
-backup), specificando quando sia all'interno del territorio nazionale,
-all'interno della UE o extra UE.
+backup), specificando quando la localizzazione sia all'interno del territorio
+nazionale, all'interno della UE oppure extra UE.
 
 **RCL3** - Il Fornitore Cloud, in caso di localizzazione dei data center in
-territorio extra UE, dichiara l'applicabilità di accordi bilaterali (Privacy
+territorio extra UE, dichiara l'eventuale applicabilità di accordi bilaterali (Privacy
 Shield EU-USA, ecc.) volti alla salvaguardia dei dati elaborati, conservati ed
 a vario titolo gestiti per erogare il servizio.
 
