@@ -99,19 +99,19 @@ internazionali (p.e. ISO/IEC 27002, ISO/IEC 27035).
 
 **RO11** - Il Fornitore Cloud dichiara gli obiettivi (SLO) corrispondenti agli
 indicatori di servizio (SLI) identificati come obbligatori nella tabella
-"Indicatori Qualità del Servizio" e ne garantisce il rispetto nei rapporti
+"Indicatori della Qualità del Servizio" e ne garantisce il rispetto nei rapporti
 contrattuali. Il Fornitore può comunicare eventuali ulteriori indicatori della
 medesima tabella, o indicarne di nuovi, che potranno essere inseriti come
 impegni contrattuali con specifici SLO nei rapporti contrattuali.
 
-**RO12** - Il Fornitore Cloud rende disponibile l’accesso a strumenti di
-monitoraggio e di logging, consentendo all'acquirente di filtrare e limitare i
-risultati in modo appropriato agli eventi di interesse per dell’Acquirente.
+**RO12** - Il Fornitore Cloud rende disponibile all'Acquirente l’accesso a strumenti
+di monitoraggio e di logging che permettono di filtrare e limitare i risultati in 
+modo appropriato agli eventi di interesse per l’Acquirente.
 
 **RO13** - Il calcolo dei costi imputati all’Acquirente deve essere trasparente
 e accurato, rispettare le condizioni contrattuali ed essere monitorabile
 dall’Acquirente. In aggiunta il Fornitore Cloud rende disponibile
-all’Acquirente una dashboard e le API che permettono di acquisire le
-informazioni sulle metriche di "billing".
+all’Acquirente una dashboard e delle API che permettono di acquisire le
+informazioni di dettaglio sulle metriche di "billing".
 
 
