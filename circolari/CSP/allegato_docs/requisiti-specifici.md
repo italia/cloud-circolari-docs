@@ -50,9 +50,10 @@ complesso, devono essere osservate le seguenti prescrizioni:
   l’andamento degli indicatori (SLI) dei livelli di servizio, evidenziando eventuali 
   anomalie rispetto agli obiettivi dichiarati in fase di qualificazione (SLO).
 
-**RPE1** - Il Fornitore Cloud descrive la performance del servizio utilizzando
-gli indicatori presenti nella tabella "Indicatori della Qualità del Servizio"
-oppure altri indicatori non presenti in tabella.
+**RPE1** - Il Fornitore Cloud può descrivere la performance del servizio utilizzando 
+degli indicatori (SLI) e degli obiettivi (SLO) aggiuntivi rispetto a quelli obbligatori
+richiamati nel requisito RO4. In tal caso gli indicatori scelti dovranno essere espressi
+rispetto a parametri tecnici oggettivi e misurabili.
 
 **RPE2** - Nel caso in cui sia prevista la scalabilità automatica del servizio
 (o di alcune sue componenti), il Fornitore Cloud dichiara gli indicatori di performance
