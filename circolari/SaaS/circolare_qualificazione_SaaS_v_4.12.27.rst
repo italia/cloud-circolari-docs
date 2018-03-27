@@ -23,4 +23,4 @@ Criteri per la qualificazione di servizi SaaS per il Cloud della PA [1]_
 IL DIRETTORE GENERALE
 
 .. rubric:: Note
-.. [1]  Per “Cloud della PA” ai fini della presente circolare, dei suoi allegati e delle successive integrazioni e/o modifiche si intende: “l’insieme delle infrastrutture e servizi IaaS/PaaS erogati da Cloud SPC, dai PSN e dagli altri CSP che saranno qualificati ai sensi di quanto disposto dal Piano Triennale”, per come definito nella seguente tabella.
+.. [1]  Per “Cloud della PA” ai fini della presente circolare, dei suoi allegati e delle successive integrazioni e/o modifiche si intende: “l’insieme delle infrastrutture e servizi IaaS/PaaS erogati da Cloud SPC, dai PSN e dagli altri CSP che saranno qualificati ai sensi di quanto disposto dal Piano Triennale”.

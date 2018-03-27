@@ -19,3 +19,4 @@ Criteri per la qualificazione dei Cloud Service Provider per la PA
 
 
 IL DIRETTORE GENERALE
+
