@@ -65,129 +65,129 @@
 
 
 +-----------------------+----------------------------------------------+-------------------------+
-|Requisito              |Applicabilità alla richiesta di qualificazione|Adempimenti aggiuntivi   |
+|Requisito              |Applicabilità alla richiesta di qualificazione|Adempimenti previsti     |
 +=======================+==============================================+=========================+
 |Requisiti organizzativi|                                              |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO1                    |Tipo A                                        |Produzione documentazione|
-|                       |                                              |                         |
+|RO1                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
 |                       |Tipo B                                        |                         |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO2                    |Tipo A                                        |Produzione documentazione|
-|                       |                                              |                         |
+|RO2                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
 |                       |Tipo B                                        |                         |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO3                    |Tipo A                                        |                         |
+|RO3                    |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO4                    |Tipo A                                        |Produzione documentazione|
-|                       |                                              |                         |
+|RO4                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO5                    |Tipo A                                        |Produzione documentazione|
-|                       |                                              |                         |
+|RO5                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO6                    |Tipo A                                        |Produzione documentazione|
-|                       |                                              |                         |
+|RO6                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
 |                       |Tipo B                                        |                         |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO7                    |Tipo A                                        |                         |
+|RO7                    |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO8                    |Tipo A                                        |                         |
+|RO8                    |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO9                    |Tipo A                                        |Produzione documentazione|
-|                       |                                              |                         |
+|RO9                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO10                   |Tipo A                                        |Produzione documentazione|
-|                       |                                              |                         |
+|RO10                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
 |                       |Tipo B                                        |                         |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO11                   |Tipo A                                        |                         |
+|RO11                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO12                   |Tipo A                                        |                         |
+|RO12                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RO13                   |Tipo A                                        |                         |
+|RO13                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
 |Sicurezza                                                                                       |
 +-----------------------+----------------------------------------------+-------------------------+
-|RSI1                   |Tipo A                                        |Produzione documentazione|
-|                       |                                              |                         |
+|RSI1                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
 |                       |Tipo B                                        |                         |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
 |Performance                                                                                     |
 +-----------------------+----------------------------------------------+-------------------------+
-|RPE1                   |Tipo A                                        |                         |
+|RPE1                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RPE2                   |Tipo A                                        |                         |
+|RPE2                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RPE3                   |Tipo A                                        |                         |
+|RPE3                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
 |Interoperabilità e Portabilità                                                                  |
 +-----------------------+----------------------------------------------+-------------------------+
-|RIP1                   |Tipo A                                        |                         |
+|RIP1                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RIP2                   |Tipo A                                        |Produzione documentazione|
+|RIP2                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RIP3                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RIP3                   |Tipo A                                        |                         |
+|RIP4                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RIP4                   |Tipo A                                        |                         |
-|                       |                                              |                         |
-|                       |Tipo C                                        |                         |
-+-----------------------+----------------------------------------------+-------------------------+
-|RIP5                   |Tipo A                                        |                         |
+|RIP5                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
 |Conformità legislativa                                                                          |
 +-----------------------+----------------------------------------------+-------------------------+
-|RCL1                   |Tipo A                                        |                         |
+|RCL1                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo B                                        |                         |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RCL2                   |Tipo A                                        |                         |
+|RCL2                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo B                                        |                         |
 |                       |                                              |                         |
 |                       |Tipo C                                        |                         |
 +-----------------------+----------------------------------------------+-------------------------+
-|RCL3                   |Tipo A                                        |                         |
+|RCL3                   |Tipo A                                        |Autocertificazione       |
 |                       |                                              |                         |
 |                       |Tipo B                                        |                         |
 |                       |                                              |                         |
