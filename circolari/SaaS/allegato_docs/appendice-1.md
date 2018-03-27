@@ -58,7 +58,7 @@
 ### Tabella 1.2 - Riepilogo applicabilità requisiti e adempimenti previsti
 
 ```eval_rst
-.. tabularcolumns:: |p{3cm}|p{3cm}|p{7cm}|
+.. tabularcolumns:: |p{3cm}|p{7cm}|
 
 .. rst-class:: longtable
 
