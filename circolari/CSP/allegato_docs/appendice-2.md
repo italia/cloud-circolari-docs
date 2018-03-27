@@ -59,7 +59,9 @@
 +---------------------------+-----------------------------------------------------------------+
 |Ambito di applicazione     |                                                                 |
 +---------------------------+-----------------------------------------------------------------+
-|Soggetto richiedente       |Per conto proprio (CSP) / CSN delegato da un CSP                 |
+|Soggetto richiedente       |Per conto proprio (CSP) / soggetto delegato da un CSP            |
++---------------------------+-----------------------------------------------------------------+
+|Tipo di qualificazione     |Solo infrastruttura / Infrastruttura + servizi                   |
 +---------------------------+-----------------------------------------------------------------+
 |Cloud deployment model     |Public/Private/Hybrid                                            |
 +---------------------------+-----------------------------------------------------------------+
