@@ -1,6 +1,6 @@
 ## Appendice 1 
 
-### Tabella 1.1 - SLI - Indicatori della Qualità del Servizio
+### SLI - Indicatori della Qualità del Servizio
 
 ```eval_rst
 .. tabularcolumns:: |p{3cm}|p{3cm}|p{7cm}|
@@ -55,7 +55,7 @@
 
 ```
 
-### Tabella 1.2 - Riepilogo applicabilità requisiti e adempimenti previsti
+### Riepilogo applicabilità requisiti e adempimenti previsti
 
 ```eval_rst
 .. tabularcolumns:: |p{3cm}|p{7cm}|
