@@ -66,7 +66,7 @@ nel periodo e che evidenzi gli eventuali sforamenti rispetto agli SLO e le penal
 compensative maturate.
 
 **RPE1** - In aggiunta a quanto previsto nell'ambito del requisito RO11, il
-Fornitore SaaS descrive la performance del servizio utilizzando parametri
+Fornitore Cloud descrive la performance del servizio utilizzando parametri
 tecnici oggettivi e misurabili, sfruttando ove possibile, gli indicatori
 (SLI) definiti nella direttiva ISO/IEC 19086-1:2016.
 
