@@ -58,9 +58,9 @@ risultati agli eventi di suo interesse.
 
 **RO7** - Il calcolo dei costi imputati all’Acquirente deve essere trasparente
 e accurato, rispettare le condizioni contrattuali ed essere monitorabile
-dall’Acquirente. In aggiunta il Fornitore SaaS rende disponibile all’Acquirente
-una dashboard e le API che permettono di acquisire le informazioni sulle
-metriche di "billing".
+dall’Acquirente. In aggiunta, il Fornitore SaaS rende disponibile all’Acquirente
+una dashboard e delle API che permettono di acquisire le informazioni di dettaglio
+sulle metriche di "billing".
 
 
 Il fornitore potrà dichiarare e documentare il possesso di ulteriori requisiti
