@@ -20,35 +20,50 @@ Europea.
 
 ### Performance 
 
-I livelli di servizio sono definiti dagli *indicatori del livello di servizio*
-(**SLI**), ovvero delle metriche che quantificano e/o qualificano alcune grandezze
-specifiche del servizio. Si definiscono invece  *obiettivi del livello di servizio* (**SLO**)
-i valori  (o intervalli) massimi e/o minimi degli indicatori
-(SLI) che si intendono come garantiti dal servizio. 
+Il Fornitore Cloud è tenuto a dichiarare la qualità offerta e l’affidabilità del
+servizio durante tutto il ciclo di vita. Le Amministrazioni Acquirenti sono tenute a
+verificare che le pattuizioni relative alla qualità del servizio costituiscano
+parte integrante del contratto di fornitura, all’interno del quale dovrà essere
+ricompresa una specifica sezione relativa ai "livelli di servizio garantiti"
+ovvero al Service Level Agreement (SLA).
 
-Gli accordi contrattuali relativi ai *livelli di servizio* (**SLA**) vengono
-definiti tramite un’opportuna combinazione degli *obiettivi* (SLO) che il
-fornitore intende mantenere per ogni indicatore (SLI).
+Le Amministrazioni acquirenti assicurano che gli accordi relativi ai *livelli di servizio
+garantiti* (SLA) siano specificati mediante la quantificazione di un insieme
+di valori *obiettivo* (SLO) o intervalli di valori riferibili ad altrettanti
+specifici *indicatori* di performance, affidabilità, risultato (SLI).
+Sulla base di tali accordi il Fornitore SaaS risulterà impegnato a rispettare
+gli obiettivi dichiarati che dovranno essere monitorabili dall'Acquirente.
 
-Il Fornitore Cloud si impegna a monitorare costantemente tali indicatori ed a
-fornire all’Acquirente l’accesso ad opportuni strumenti di monitoraggio.
+La sezione del contratto di fornitura relativa ai *livelli di servizio
+garantiti* include le *penali compensative* che il Fornitore Cloud
+corrisponde all’Acquirente in caso di mancato rispetto di uno o più valori
+obiettivo (SLO). I metodi di quantificazione e le condizioni di riconoscimento
+delle penali compensative sono inclusi nel contratto e sono
+allineati ai valori e alle condizioni di mercato riscontrabili per servizi
+analoghi o appartenenti alla medesima categoria.
 
-Per quanto concerne i livelli di servizio garantiti nel loro
-complesso, devono essere osservate le seguenti prescrizioni:
+Si richiama inoltre quanto previsto dallo standard ISO/IEC 19086-1:2016 per
+quanto concerne i livelli di servizio garantiti (SLA):
 
 * deve essere inclusa la definizione chiara e non ambigua di tutti gli
   indicatori (SLI) e dei relativi valori obiettivo (SLO);
-* il SLA deve essere consultabile pubblicamente mediante l’accesso ad un
+
+* lo SLA deve essere consultabile pubblicamente mediante l’accesso ad un
   apposito URL Web;
+
 * devono essere riportate all’interno del SLA le definizioni di tutti i termini
   specifici riferiti al servizio offerto o di quelli particolarmente rilevanti
   per la comprensione dell’accordo;
-* il Fornitore Cloud deve dichiarare esplicitamente e preventivamente il
-  periodo di tempo minimo e massimo di conservazione dei dati di monitoraggio
-  degli SLI associati a ciascun servizio erogato;
-* il Fornitore Cloud comunica all'Acquirente, tramite report periodico,
-  l’andamento degli indicatori (SLI) dei livelli di servizio, evidenziando eventuali 
-  anomalie rispetto agli obiettivi dichiarati in fase di qualificazione (SLO).
+
+* deve essere previsto esplicitamente che, se successivamente all’avvio della
+  fornitura si dovesse rendere necessaria una qualsiasi modifica ai livelli di
+  servizio garantiti, questa dovrà essere preventivamente notificata
+  all’Acquirente per ottenerne la sua approvazione;
+
+Il Fornitore Cloud produce e invia all'Acquirente un report periodico (almeno
+con cadenza mensile), contenente il riepilogo dell’andamento dei livelli di servizio
+nel periodo e che evidenzi gli eventuali sforamenti rispetto agli SLO e le penali
+compensative maturate.
 
 **RPE1** - In aggiunta a quanto previsto nell'ambito del requisito RO11, il
 Fornitore SaaS descrive la performance del servizio utilizzando parametri
