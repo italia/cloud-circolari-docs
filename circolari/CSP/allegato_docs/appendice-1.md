@@ -1,6 +1,6 @@
 ## Appendice 1 - Indicatori della Qualità del Servizio
 
-### SLI - Indicatori della Qualità del Servizio
+### Indicatori della Qualità del Servizio
 
 ```eval_rst
 .. tabularcolumns:: |p{3cm}|p{3cm}|p{7cm}|
