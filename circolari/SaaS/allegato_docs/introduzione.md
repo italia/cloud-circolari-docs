@@ -1,20 +1,13 @@
 ## Introduzione
 
 Il presente documento allegato alla Circolare è stato redatto al fine di
-definire nel dettaglio i requisiti di cui all’art. 3 della Circolare che i CSP
-devono rispettare per ottenere la qualificazione AgID della propria soluzione
-SaaS. 
+definire nel dettaglio i requisiti di cui all’art. 4 della Circolare che i CSP
+devono rispettare per ottenere la qualificazione dei servizi SaaS da parte di AgID.
 
-Come previsto dalla Circolare la procedura di qualificazione inizia mediante la
-richiesta del CSP interessato ad ottenere la qualificazione e prevede
-verifiche amministrative e tecniche di cui il presente allegato fornisce
-modalità e specifiche.
-
-Le soluzioni SaaS soggette a qualificazione riguardano applicativi software
-erogati secondo il paradigma SaaS e compatibili con una o più infrastrutture
-Cloud di tipo *public* o *community*. Dal punto di vista tecnico sono dunque
-individuati i seguenti soggetti che svolgono diversi ruoli durante e/o
-successivamente al processo di qualificazione:
+I servizi SaaS soggetti a qualificazione riguardano applicativi software
+erogati secondo il paradigma SaaS e compatibili con il *Cloud della PA*. 
+Dal punto di vista tecnico sono dunque individuati i seguenti soggetti che
+svolgono diversi ruoli durante e/o successivamente al processo di qualificazione:
 
 * **Fornitore Cloud**, un CSP che eroga e amministra le risorse Cloud
   infrastrutturali di tipo IaaS e/o PaaS utilizzate dai servizi applicativi
