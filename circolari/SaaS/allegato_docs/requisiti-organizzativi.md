@@ -45,12 +45,12 @@ all'Acquirente con almeno 3 giorni lavorativi di anticipo utilizzando un canale
 di comunicazione diretto.
 
 **RO5** - Il Fornitore SaaS dichiara gli obiettivi (SLO) corrispondenti agli
-indicatori di servizio (SLI) identificati come obbligatori nella Tabella TPE 1
+indicatori di servizio (SLI) identificati come obbligatori nella Tabella 1.1
 "Indicatori della Qualità del Servizio" e ne garantisce il rispetto nei
-rapporti contrattuali con l'Acquirente. Il Fornitore SaaS può dichiarare
-eventuali ulteriori indicatori della medesima tabella, o indicarne di nuovi,
-che potranno essere inseriti quali impegni sulla qualità del servizio (insieme
-agli specifici SLO) nei rapporti contrattuali.
+rapporti contrattuali con l'Acquirente (come previsto dall'art. 9 della Circolare).
+Il Fornitore SaaS può dichiarare eventuali ulteriori indicatori della medesima tabella,
+oppure indicarne di nuovi, che potranno essere inseriti (insieme agli specifici SLO)
+quali impegni sulla qualità del servizio nei rapporti contrattuali.
 
 **RO6** - Il Fornitore SaaS rende disponibile l’accesso a strumenti di
 monitoraggio e di logging, consentendo all'Acquirente di filtrare e limitare i
