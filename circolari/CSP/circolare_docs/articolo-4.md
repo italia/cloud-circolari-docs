@@ -2,9 +2,9 @@
 
 ### Fase 1 - Richiesta di qualificazione
 
-Il fornitore interessato alla qualificazione CSP provvede ad
-inserire sulla *piattaforma AgID dedicata* apposita richiesta, fornendo le
-informazioni e la documentazione in lingua italiana relativa al possesso dei 
+Il fornitore interessato alla qualificazione CSP provvede a
+trasmettere tramite la *piattaforma AgID dedicata* apposita richiesta, fornendo le
+informazioni e la documentazione in lingua italiana relative al possesso dei 
 requisiti di cui all’allegato "A" alla presente Circolare. 
 Per l'eventuale documentazione d'accompagnamento presentata in lingua straniera 
 dovrà essere allegata idonea traduzione, anche per estratto.
@@ -12,11 +12,11 @@ dovrà essere allegata idonea traduzione, anche per estratto.
 
 ### Fase 2 - Conseguimento qualificazione
 
-Il conseguimento della qualificazione CSP coincide con la corretta acquisizione in 
+Il conseguimento della qualificazione CSP coincide con la corretta acquisizione tramite la 
 *piattaforma AgID dedicata* della richiesta di qualificazione. 
 L'Agenzia si riserva di effettuare le verifiche necessarie di cui alla fase successiva 
 del presente processo.
-I servizi IaaS e PaaS qualificati da AgID sono inseriti nel marketplace Cloud.
+I servizi IaaS e PaaS qualificati da AgID sono inseriti nel Marketplace Cloud.
 I CSP qualificati sono inseriti in apposito registro pubblico nell'ambito di marketplace Cloud.
 
 
