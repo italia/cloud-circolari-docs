@@ -1,13 +1,13 @@
 ## Performance e scalabilità
 
 Il Fornitore SaaS è tenuto a dichiarare la qualità offerta e l’affidabilità del
-servizio durante tutto il ciclo di vita. Le PA Acquirenti sono tenute a
+servizio durante tutto il ciclo di vita. Le Amministrazioni Acquirenti sono tenute a
 verificare che le pattuizioni relative alla qualità del servizio costituiscano
 parte integrante del contratto di fornitura, all’interno del quale dovrà essere
 ricompresa una specifica sezione relativa ai "livelli di servizio garantiti"
 ovvero al Service Level Agreement (SLA).
 
-Le PA acquirenti assicurano che gli accordi relativi ai *livelli di servizio
+Le Amministrazioni acquirenti assicurano che gli accordi relativi ai *livelli di servizio
 garantiti* (SLA) siano specificati mediante la quantificazione di un insieme
 di valori *obiettivo* (SLO) o intervalli di valori riferibili ad altrettanti
 specifici *indicatori* di performance, affidabilità, risultato (SLI).
@@ -15,10 +15,10 @@ Sulla base di tali accordi il Fornitore SaaS risulterà impegnato a rispettare
 gli obiettivi dichiarati che dovranno essere monitorabili dall'Acquirente.
 
 La sezione del contratto di fornitura relativa ai *livelli di servizio
-garantiti* deve includere le *penali compensative* che il Fornitore SaaS dovrà
-corrispondere all’Acquirente in caso  di mancato rispetto di uno o più valori
+garantiti* include le *penali compensative* che il Fornitore SaaS
+corrisponde all’Acquirente in caso di mancato rispetto di uno o più valori
 obiettivo (SLO). I metodi di quantificazione e le condizioni di riconoscimento
-delle penali compensative devono essere inclusi nel contratto ed essere
+delle penali compensative sono inclusi nel contratto e sono
 allineati ai valori e alle condizioni di mercato riscontrabili per servizi
 analoghi o appartenenti alla medesima categoria.
 
@@ -40,21 +40,21 @@ quanto concerne i livelli di servizio garantiti (SLA):
   servizio garantiti, questa dovrà essere preventivamente notificata
   all’Acquirente per ottenerne la sua approvazione;
 
-Il Fornitore SaaS deve produrre e inviare al consumatore un report periodico (almeno
+Il Fornitore SaaS produce e invia all'Acquirente un report periodico (almeno
 con cadenza mensile), contenente il riepilogo dell’andamento dei livelli di servizio
 nel periodo e che evidenzi gli eventuali sforamenti rispetto agli SLO e le penali
 compensative maturate.
 
-Il Fornitore SaaS deve implementare delle politiche e dei piani operativi per
-garantire la continuità del servizio (business continuity). Inoltre, deve
-gestire tempestivamente il ripristino dell’operatività del servizio in seguito
+Il Fornitore SaaS implementa delle politiche e dei piani operativi per
+garantire la continuità del servizio (business continuity). Inoltre, gestisce
+tempestivamente il ripristino dell’operatività del servizio in seguito
 ad eventi catastrofici o imprevisti (disaster recovery).
 
 Il Fornitore SaaS, laddove applicabile, dichiara quali sono le condizioni
 massime di carico sopportabili dal servizio sia in termini di numero di
 utenti concorrenti che utilizzano il sistema e/o volume di richieste processabili.
 Nel caso in cui sia prevista la scalabilità automatica dell’applicativo, il
-Fornitore SaaS deve specificare e garantire quali sono le condizioni e i tempi
+Fornitore SaaS specifica e garantisce quali sono le condizioni e i tempi
 di attivazione delle istanze aggiuntive.
 
 
