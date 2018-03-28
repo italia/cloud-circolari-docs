@@ -105,9 +105,9 @@ non esaustivo: volumi, object e block storage, dump di DB, ecc.
 
 ### Conformità legislativa
 
-Il Fornitore Cloud mette a disposizione dell’Acquirente  gli
-strumenti e le informazioni necessarie per consentirgli il rispetto della normativa
-Europea ed Italiana nell'ambito dell'utilizzo dei servizi e
+Il Fornitore Cloud mette a disposizione dell’Acquirente  gli strumenti e le
+informazioni necessarie per consentirgli il rispetto della normativa
+europea e italiana nell'ambito dell'utilizzo dei servizi e
 dell'infrastruttura qualificata.
 
 **RCL1** - Il Fornitore Cloud deve indicare per quali aspetti il servizio
