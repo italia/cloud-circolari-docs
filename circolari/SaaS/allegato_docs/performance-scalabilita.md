@@ -1,18 +1,17 @@
 ## Performance e scalabilità
 
-Il Fornitore SaaS è tenuto a dichiarare prima la qualità e l’affidabilità del
-servizio offerto durante tutto il ciclo di vita della soluzione SaaS. Le
-pattuizioni relative alla qualità del servizio costituiscono parte integrante
-del contratto di fornitura, all’interno del quale deve essere ricompresa una
-specifica sezione relativa ai "livelli di servizio garantiti" ovvero al Service
-Level Agreement (SLA).
+Il Fornitore SaaS è tenuto a dichiarare la qualità e l’affidabilità del
+servizio offerto durante tutto il ciclo di vita. Le pattuizioni relative 
+alla qualità del servizio costituiscono parte integrante del contratto di
+fornitura, all’interno del quale deve essere ricompresa una specifica sezione
+relativa ai "livelli di servizio garantiti" ovvero al Service Level Agreement (SLA).
 
 Gli accordi relativi ai *livelli di servizio garantiti* (SLA) devono essere
 specificati mediante la quantificazione di un insieme di valori *obiettivo*
 (SLO) o intervalli di valori riferibili ad altrettanti specifici *indicatori*
 di performance, affidabilità, risultato (SLI). Il Fornitore SaaS si impegna a
-rispettare gli obietti inoltre a monitorare costantemente tali indicatori e a
-fornire all’Acquirente l’accesso ad opportuni strumenti di monitoraggio.
+rispettare gli obiettivi dichiarati e a fornire all’Acquirente l’accesso ad
+opportuni strumenti di monitoraggio.
 
 La sezione del contratto di fornitura relativa ai *livelli di servizio
 garantiti* deve includere le *penali compensative* che il Fornitore SaaS dovrà
@@ -46,16 +45,16 @@ complesso, devono essere osservate le seguenti prescrizioni:
   rispetto agli SLO e le penali compensative maturate.
 
 Il Fornitore SaaS deve implementare delle politiche e dei piani operativi per
-garantire la continuità del servizio (business continuity). Inoltre deve
+garantire la continuità del servizio (business continuity). Inoltre, deve
 gestire tempestivamente il ripristino dell’operatività del servizio in seguito
 ad eventi catastrofici o imprevisti (disaster recovery).
 
-Il Fornitore SaaS deve dichiarare quali sono le condizioni massime di carico
-sopportabili dal servizio sia in termini di numero di utenti concorrenti che
-utilizzano il sistema e/o volume di richieste processabili. Nel caso in cui sia
-prevista la scalabilità automatica dell’applicativo, il fornitore deve
-specificare e garantire quali sono le condizioni e i tempi di attivazione delle
-istanze aggiuntive.
+Il Fornitore SaaS, laddove applicabile, dichiara quali sono le condizioni
+massime di carico sopportabili dal servizio sia in termini di numero di
+utenti concorrenti che utilizzano il sistema e/o volume di richieste processabili.
+Nel caso in cui sia prevista la scalabilità automatica dell’applicativo, il
+Fornitore SaaS deve specificare e garantire quali sono le condizioni e i tempi
+di attivazione delle istanze aggiuntive.
 
 
 **RPS1** - Il Fornitore SaaS può descrivere la performance del servizio
