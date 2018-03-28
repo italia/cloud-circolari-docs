@@ -1,17 +1,9 @@
 ## Conformità legislativa
 
-In funzione del dominio applicativo in cui la soluzione SaaS si colloca, essa
-dovrà risultare conforme a tutte le normative e i regolamenti del settore,
-relativamente ai dati trattati e alle funzionalità implementate (ad esempio,
-settore sanitario, settore bancario, ecc.). In aggiunta, devono essere
-rispettate le norme vigenti riguardanti la sicurezza e la riservatezza dei
-dati, anche in considerazione del fatto che il servizio prevede l’utilizzo di
-risorse di calcolo e di storage di tipo Cloud che non sono sotto il diretto e
-completo controllo dell’Acquirente.
-
-Nello specifico, il Fornitore SaaS dovrà mettere a disposizione dell’Acquirente
-tutti gli strumenti necessari per consentirgli di essere conforme alla
-legislazione corrente.
+Il servizio SaaS deve rispettate le norme vigenti riguardanti la sicurezza e la
+riservatezza dei dati, anche in considerazione del fatto che il servizio prevede
+l’utilizzo di risorse di calcolo e di storage di tipo Cloud che non sono sotto
+il diretto e completo controllo dell’Acquirente.
 
 Per consentire all’Acquirente di venire a conoscenza e valutare potenziali
 incompatibilità o restrizioni legislative, il Fornitore SaaS deve rendere noti
