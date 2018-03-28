@@ -18,12 +18,10 @@ Il processo di qualificazione è articolato in tre fasi:
 
 3. Mantenimento della qualificazione *(Monitoraggio)*
 
-Nella tabella successiva sono riportati i principali attori coinvolti nel processo
+Nella tabella seguente sono riportati i principali attori coinvolti nel processo
 di qualificazione ed il loro ruolo in termini di responsabilità (RACI) per
 ognuna delle fasi.
 
-Negli articoli seguenti sono previste le eccezioni di processo, in relazione
-alle fasi ed ai casi sopra elencati.
 
 ```eval_rst
 .. tabularcolumns:: |p{1cm}|p{4cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
@@ -48,8 +46,8 @@ O= Out of the loop: è colui che non partecipa nel contesto della fase
 ```
 
 A supporto del processo di qualificazione è previsto l’utilizzo di una
-piattaforma AgID dedicata alla gestione del workflow ed integrata con il
-marketplace Cloud. Tale piattaforma consentirà, tra l’altro, l’accesso tramite
-SPID e la trasmissione telematica dei documenti ai sensi degli art.45 e 65
+piattaforma AgID dedicata ed integrata con il Marketplace Cloud. 
+Tale piattaforma consentirà, tra l’altro, l’accesso tramite
+SPID e la trasmissione telematica dei documenti ai sensi degli art. 45 e 65
 comma 1/b del CAD secondo le modalità operative che saranno pubblicate sul sito https://cloud.italia.it.
 
