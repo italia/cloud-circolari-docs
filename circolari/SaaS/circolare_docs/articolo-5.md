@@ -2,9 +2,9 @@
 
 ### Fase 1 - Richiesta di qualificazione
 
-Il fornitore interessato alla qualificazione dei servizi SaaS provvede ad
-inserire sulla *piattaforma AgID dedicata* apposita richiesta, fornendo le
-informazioni e la documentazione in lingua italiana relativa al possesso dei 
+Il fornitore interessato alla qualificazione dei servizi SaaS provvede a 
+trasmettere tramite la *piattaforma AgID dedicata* apposita richiesta, fornendo le
+informazioni e la documentazione in lingua italiana relative al possesso dei 
 requisiti di cui all’allegato "A" alla presente Circolare. Per l'eventuale 
 documentazione d'accompagnamento presentata in lingua straniera dovrà essere 
 allegata idonea traduzione, anche per estratto.
@@ -13,9 +13,9 @@ allegata idonea traduzione, anche per estratto.
 ### Fase 2 - Conseguimento qualificazione
 
 Il conseguimento della qualificazione SaaS coincide con la corretta acquisizione 
-in *piattaforma AgID dedicata* della richiesta di qualificazione. 
+tramite la *piattaforma AgID dedicata* della richiesta di qualificazione. 
 L'Agenzia di riserva di effettuare le verifiche necessarie di cui alla fase successiva.
-I servizi SaaS qualificati da AgID sono inseriti nel marketplace Cloud. 
+I servizi SaaS qualificati da AgID sono inseriti nel Marketplace Cloud. 
 
 
 ### Fase 3 – Mantenimento della qualificazione
