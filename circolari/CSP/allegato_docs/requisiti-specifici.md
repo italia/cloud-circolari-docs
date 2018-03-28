@@ -31,7 +31,7 @@ Le Amministrazioni acquirenti assicurano che gli accordi relativi ai *livelli di
 garantiti* (SLA) siano specificati mediante la quantificazione di un insieme
 di valori *obiettivo* (SLO) o intervalli di valori riferibili ad altrettanti
 specifici *indicatori* di performance, affidabilità, risultato (SLI).
-Sulla base di tali accordi il Fornitore SaaS risulterà impegnato a rispettare
+Sulla base di tali accordi il Fornitore Cloud risulterà impegnato a rispettare
 gli obiettivi dichiarati che dovranno essere monitorabili dall'Acquirente.
 
 La sezione del contratto di fornitura relativa ai *livelli di servizio
