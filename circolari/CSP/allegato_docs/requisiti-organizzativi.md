@@ -98,7 +98,7 @@ internazionali (p.e. ISO/IEC 27002, ISO/IEC 27035).
 ### Livelli di servizio e trasparenza
 
 **RO11** - Il Fornitore Cloud dichiara gli obiettivi (SLO) corrispondenti agli
-indicatori di servizio (SLI) identificati come obbligatori nella tabella
+indicatori di servizio (SLI) identificati come obbligatori nella Tabella 1.1
 "Indicatori della Qualità del Servizio" e ne garantisce il rispetto nei rapporti
 contrattuali. Il Fornitore può comunicare eventuali ulteriori indicatori della
 medesima tabella, o indicarne di nuovi, che potranno essere inseriti come
