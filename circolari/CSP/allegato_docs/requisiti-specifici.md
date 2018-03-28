@@ -70,11 +70,18 @@ Fornitore Cloud descrive la performance del servizio utilizzando parametri
 tecnici oggettivi e misurabili, sfruttando ove possibile, gli indicatori
 (SLI) definiti nella direttiva ISO/IEC 19086-1:2016.
 
-**RPE2** - Nel caso in cui sia prevista la scalabilità automatica del servizio
+**RPE2** - Il Fornitore Cloud dichiara che i servizi offerti sono soggetti ad
+opportuni processi di gestione della continuità operativa (business continuity)
+in cui sono previste azioni orientate al ripristino dell’operatività del
+servizio e delle risorse da esso gestite al verificarsi di eventi
+catastrofici/imprevisti, specificando l'applicazione delle buone pratiche
+presenti nello standard ISO/IEC 22313.
+
+**RPE3** - Nel caso in cui sia prevista la scalabilità automatica del servizio
 (o di alcune sue componenti), il Fornitore Cloud dichiara gli indicatori di performance
 associati alle caratteristiche di elasticità e scalabilità.
 
-**RPE3** - Laddove prevista, la scalabilità automatica del servizio (o di sue componenti) deve
+**RPE4** - Laddove prevista, la scalabilità automatica del servizio (o di sue componenti) deve
 attivarsi correttamente al verificarsi delle condizioni operative prestabilite
 (eventualmente configurabili) e deve garantire che non si verifichino interruzioni 
 nell’erogazione del servizio.
