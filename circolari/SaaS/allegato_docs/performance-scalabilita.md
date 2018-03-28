@@ -58,7 +58,7 @@ Fornitore SaaS specifica e garantisce quali sono le condizioni e i tempi
 di attivazione delle istanze aggiuntive.
 
 
-**RPS1** - Inaggiunta a quanto previsto nell'ambito del requisito RO5, il Fornitore
+**RPS1** - In aggiunta a quanto previsto nell'ambito del requisito RO5, il Fornitore
 SaaS descrive la performance del servizio utilizzando parametri tecnici oggettivi
 e misurabili, sfruttando ove possibile, gli indicatori (SLI) definiti nella
 direttiva ISO/IEC 19086-1:2016.
