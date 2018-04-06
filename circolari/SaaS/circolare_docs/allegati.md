@@ -1,6 +1,6 @@
 ## Allegati
 
-[**ALLEGATO A "Requisiti per la qualificazione di soluzioni SaaS per il_
+[**ALLEGATO A "Requisiti per la qualificazione di servizi SaaS per il_
 Cloud della PA_"**](../allegato_a_qualificazione_SaaS_v6.html)
 
 [**ALLEGATO B "Disposizioni per il procurement dei servizi SaaS per il _Cloud
