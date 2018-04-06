@@ -15,7 +15,7 @@ mediante la piattaforma Agid dedicata alla qualificazione, secondo le modalità
 pubblicate sul sito Cloud Italia all’indirizzo: https://cloud.italia.it/
 
 
-### Fase 2 - Conseguimento qualificazione
+### Fase 2 - Conseguimento della qualificazione
 
 Il conseguimento della qualificazione SaaS coincide con la corretta acquisizione 
 tramite la *piattaforma AgID dedicata* della richiesta di qualificazione. 
