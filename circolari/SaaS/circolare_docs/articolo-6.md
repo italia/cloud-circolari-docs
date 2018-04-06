@@ -11,7 +11,7 @@ comunica al fornitore il preavviso di revoca della qualificazione del servizio
 con previsione di un termine per le eventuali controdeduzioni. 
 Nel caso di infruttuoso esperimento del termine o mancato accoglimento delle 
 controdeduzioni presentate, l'Agenzia procede alla revoca della qualificazione del servizio 
-con provvedimento motivato, disponendone la contestuale eliminazione dal marketplace Cloud 
+con provvedimento motivato, disponendone la contestuale eliminazione dal Marketplace Cloud, 
 nonchè relativa pubblicità. 
 
 Nei casi di revoca della qualificazione SaaS, il fornitore non può
