@@ -2,6 +2,7 @@
 
 Requisiti per la qualificazione di servizi SaaS per il Cloud della PA.
 ======================================================================
+Versione 1 del 6 Aprile 2018
 
 
 .. toctree::
