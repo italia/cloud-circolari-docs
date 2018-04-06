@@ -47,12 +47,12 @@
    |                                                  | e business continuity, servizi di gestione della sicurezza IT ed assistenza ai       |
    |                                                  | fruitori dei servizi erogati                                                         |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
-   | Software as a Service                            | Tra i modelli di servizio offerti dalle piattaforme di Cloud computing,              |
-   |                                                  | il Software as a Service (SaaS) è il servizio fully-managed in cui il gestore        |
-   |                                                  | del servizio (CSP) si occupa della predisposizione, configurazione, messa in         |
-   |                                                  | esercizio e manutenzione dello stesso (utilizzando un’infrastruttura cloud propria   |
-   |                                                  | o di terzi), lasciando al fruitore del servizio (PA) ilsolo ruolo di utilizzatore    |
-   |                                                  | delle funzionalità offerte                                                           |
+   | Software as a Service/SaaS                       | Tra i modelli di servizio offerti dalle piattaforme di Cloud computing,              |
+   |                                                  | il Software as a Service (SaaS) identifica la classe di servizi fully-managed in     |
+   |                                                  | cui il gestore del servizio (CSP) si occupa della predisposizione, configurazione,   |
+   |                                                  | messa in esercizio e manutenzione dello stesso (utilizzando un’infrastruttura cloud  |
+   |                                                  | propria o di terzi), lasciando al fruitore del servizio (PA) ilsolo ruolo di         |
+   |                                                  | utilizzatore delle funzionalità offerte                                              |
    +--------------------------------------------------+--------------------------------------------------------------------------------------+
    | SPID                                             | Sistema Pubblico d'Identità Digitale, ovvero la soluzione che permette               |
    |                                                  | di accedere a tutti i servizi online della Pubblica Amministrazione e di             |
