@@ -7,7 +7,12 @@ trasmettere tramite la *piattaforma AgID dedicata* apposita richiesta, fornendo 
 informazioni e la documentazione in lingua italiana relative al possesso dei 
 requisiti di cui all’allegato "A" alla presente Circolare. Per l'eventuale 
 documentazione d'accompagnamento presentata in lingua straniera dovrà essere 
-allegata idonea traduzione, anche per estratto.
+allegata idonea traduzione, anche per estratto.  
+Nel caso in cui un fornitore non abbia alcuna rappresentanza diretta o indiretta
+in Italia, Agid su segnalazione di un’amministrazione proponente, acquisisce le 
+informazioni necessarie alla qualificazione e potrà avviare d’ufficio la procedura 
+mediante la piattaforma Agid dedicata alla qualificazione, secondo le modalità 
+pubblicate sul sito Cloud Italia all’indirizzo: https://cloud.italia.it/
 
 
 ### Fase 2 - Conseguimento qualificazione
