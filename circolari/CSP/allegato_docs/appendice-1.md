@@ -1,59 +1,204 @@
-## Appendice 1 - Impegni contrattuali
+## Appendice 1 - Indicatori della Qualità del Servizio
 
-Nella tabella che segue si riepilogano i requisiti dai quali scaturiscono
-specifici impegni contrattuali e adempimenti formali che dovranno governare il
-rapporto di fornitura tra Fornitore Cloud e Acquirente. Per rispettare appieno
-i requisiti di qualificazione di cui al presente allegato, le clausole
-contrattuali presenti nei contratti di fornitura dovranno essere conformi ai
-principi e agli impegni di seguito richiamati.
+### Indicatori della Qualità del Servizio
 
 ```eval_rst
-.. tabularcolumns:: |p{3cm}|p{7cm}|p{4cm}|
+.. tabularcolumns:: |p{3cm}|p{3cm}|p{7cm}|
 
 .. rst-class:: longtable
 
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | Clausola | Requisiti                                                                                                                                                                                        | Adempimenti aggiuntivi                          |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL2      | RO5 – Comunicazione tempestiva di aggiornamenti e modifiche al servizio                                                                                                                          |                                                 |
-   |          | RO6 – Aggiornamento tempestivo della documentazione e della manualistica                                                                                                                         |                                                 |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL3      | RO9 – Dichiarazione di tutti i livelli di servizio garantiti che trovano applicazione                                                                                                            |                                                 |
-   |          | RO10 – Livelli di servizio garantiti relativamente a disponibilità, performance e gestione malfunzionamenti                                                                                      |                                                 |
-   |          | RO2 – Livelli di servizio garantiti relativamente alla gestione delle richieste di assistenza                                                                                                    |                                                 |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL4      | RO11 – Accesso a strumenti di monitoraggio e di logging opportunamente documentato                                                                                                               |                                                 |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL5      | RO12 – Monitoraggio in tempo reale delle risorse utilizzate e dei costi imputati                                                                                                                 |                                                 |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL9      | RPS3 – Piano di continuità operativa                                                                                                                                                             | Documento tecnico facente parte della fornitura |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL10     | RPS4 – Responsabilità del Fornitore Cloud nel caso di perdita o inconsistenza dei dati a seguito di ripristino da un evento catastrofico o a seguito di migrazione del servizio per altri motivi |                                                 |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL11     | RPE – Tempi di risposta del servizio che non subiscono fluttuazioni eccessive al variare del numero di utenti e del carico di lavoro                                                             | Scheda tecnica del servizio                     |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL12     | RPS7 – Capacità di processamento del servizio che non subisce fluttuazioni eccessive al variare del numero di utenti e del carico di lavoro                                                      |                                                 |
-   |          |                                                                                                                                                                                                  |                                                 |
-   |          | RPS8 – Capacità di processamento del servizio che non subisce fluttuazioni eccessive al variare del numero di tenant attivi (nel caso di configurazione multi-tenant)                            |                                                 |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL15     | RIP1 – Presenza API di tipo SOAP/REST                                                                                                                                                            | Documento tecnico facente parte della fornitura |
-   |          | RIP2 – Documentazione tecnica API                                                                                                                                                                |                                                 |
-   |          | RIP3 – Versioning delle API                                                                                                                                                                      |                                                 |
-   |          | RIP4 – Limitazioni volumetriche per l’utilizzo delle API                                                                                                                                         |                                                 |
-   |          | RIP5 – Tracciabilità delle richieste SOAP/REST                                                                                                                                                   |                                                 |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL16     | RIP6 – Possibilità di estrarre i dati gestiti dal servizio in qualsiasi momento, anche dopo il termine della fornitura (periodo di phase-out di almeno due mesi)                                 |                                                 |
-   |          | RIP7 – Migrazione dei dati del servizio (reversibilità)                                                                                                                                          |                                                 |
-   |          | RIP8 – Garanzie sulla proprietà e disponibilità dei dati in caso di fallimento/acquisizione del Fornitore Cloud                                                                                  |                                                 |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL19     | RCL1 – Conformità rispetto al regolamento GDPR                                                                                                                                                   |                                                 |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL20     | RCL2 – Comunicazione degli eventuali stati esteri in cui risiedono i data center attraverso cui si eroga il servizio                                                                             |                                                 |
-   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Codice SLI            |Indicatore                                     |Descrizione                                                                                                                                                                                                              |
++======================+===============================================+=========================================================================================================================================================================================================================+
+|Indicatori obbligatori                                                                                                                                                                                                                                                                          |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI1                  |Availability                                   |La percentuale di tempo in un dato periodo di riferimento in cui il servizio risulta essere accessibile e usabile.                                                                                                       |
+|                      |                                               |                                                                                                                                                                                                                         |
+|                      |                                               |Quale periodo di riferimento si assume convenzionalmente il mese.                                                                                                                                                        |
+|                      |                                               |                                                                                                                                                                                                                         |
+|                      |                                               |Il tempo totale del periodo di riferimento, che funge da base di calcolo del dato percentuale, può tenere conto dei fermi programmati del servizio (in tal caso il CSP deve esplicitare questa circostanza).             |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI2                  |Support hours                                  |L’orario in cui il servizio di supporto tecnico è operativo (eventualmente differenziato per “support plan” sottoscrivibile).                                                                                            |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI3                  |Maximum First Support Response Time            |Il tempo massimo che intercorre tra la segnalazione di un inconveniente da parte del cliente e la risposta iniziale alla segnalazione da parte del CSP.                                                                  |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Indicatori discrezionali (o facoltativi)                                                                                                                                                                                                                                                        |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI4                  |Cloud Service Bandwidth                        |La quantità di dati che può essere trasferita in un determinato periodo di tempo. Da intendersi rispetto all’interfaccia Client (laddove applicabile) oppure nell’ambito della virtual network.                          |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI5                  |Limit of Simultaneous Cloud Service Connections|Numero massimo di connessioni simultanee supportate dal servizio.                                                                                                                                                        |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI6                  |Cloud Service Throughput                       |Il numero di input o insieme di input correlati tra di loro (transazione) che possono essere processati in ciascuna unità di tempo dal servizio.                                                                         |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI7                  |Elasticity Speed                               |Descrive quanto velocemente reagisce il servizio alla richiesta di nuove risorse allorquando:                                                                                                                            |
+|                      |                                               |                                                                                                                                                                                                                         |
+|                      |                                               |* viene effettuata una richiesta di ri-allocazione (nel caso di elasticità manuale), oppure                                                                                                                              |
+|                      |                                               |                                                                                                                                                                                                                         |
+|                      |                                               |* il carico di lavoro cambia (in caso di elasticità automatica).                                                                                                                                                         |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI8                  |Maximum Time to Service Recovery               |Il massimo tempo che intercorre tra l’indisponibilità del servizio dovuta a malfunzionamento di una delle sue componenti e il ripristino della sua normale operatività.                                                  |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI9                  |Backup Interval                                |Il tempo che intercorre tra un backup e l’altro.                                                                                                                                                                         |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI10                 |Retention period of backup data                |Il periodo di tempo in cui vengono mantenuti i backup da parte del CSP.                                                                                                                                                  |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI11                 |Backup restoration testing                     |Il numero di test di restore (a partire dai dati di backup) eseguiti durante un determinato periodo di tempo.                                                                                                            |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI12                 |Recovery Time Objective (RTO)                  |Il tempo massimo necessario a ripristinare completamente il servizio dopo un’interruzione dovuta ad un “evento catastrofico” che ha innescato l’attivazione di un ambiente di erogazione secondario (disaster recovery). |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI13                 |Recovery Point Objective (RPO)                 |L’intervallo massimo di tempo che precede un “evento catastrofico” rispetto al quale si può verificare la perdita delle modifiche ai dati come conseguenza delle attività di ripristino del servizio (disaster recovery).|
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI14                 |Data retention period                          |Il periodo di tempo in cui i dati del cliente vengono mantenuti dal CSP dopo la notifica di cessazione del servizio.                                                                                                     |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI15                 |Log retention period                           |l periodo di tempo in cui i file di log relativi al servizio vengono conservati dopo la notifica di cessazione del servizio.                                                                                             |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
 ```
 
+### Riepilogo applicabilità requisiti e adempimenti previsti
 
 ```eval_rst
-.. discourse::
-   :topic_identifier: 2273
+.. tabularcolumns:: |p{3cm}|p{3cm}|p{7cm}|
+
+.. rst-class:: longtable
+
+
++-----------------------+----------------------------------------------+-------------------------+
+|Requisito              |Applicabilità alla richiesta di qualificazione|Adempimenti previsti     |
++=======================+==============================================+=========================+
+|Requisiti organizzativi|                                              |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO1                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
+|                       |Tipo B                                        |                         |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO2                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
+|                       |Tipo B                                        |                         |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO3                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO4                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO5                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO6                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
+|                       |Tipo B                                        |                         |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO7                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO8                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO9                    |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO10                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
+|                       |Tipo B                                        |                         |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO11                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO12                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RO13                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|Sicurezza                                                                                       |
++-----------------------+----------------------------------------------+-------------------------+
+|RSI1                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
+|                       |Tipo B                                        |                         |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|Performance                                                                                     |
++-----------------------+----------------------------------------------+-------------------------+
+|RPE1                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RPE2                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RPE3                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RPE4                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|Interoperabilità e Portabilità                                                                  |
++-----------------------+----------------------------------------------+-------------------------+
+|RIP1                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RIP2                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |Produzione documentazione|
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RIP3                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RIP4                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RIP5                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|Conformità legislativa                                                                          |
++-----------------------+----------------------------------------------+-------------------------+
+|RCL1                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo B                                        |                         |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RCL2                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo B                                        |                         |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+|RCL3                   |Tipo A                                        |Autocertificazione       |
+|                       |                                              |                         |
+|                       |Tipo B                                        |                         |
+|                       |                                              |                         |
+|                       |Tipo C                                        |                         |
++-----------------------+----------------------------------------------+-------------------------+
+
+
 ```
+
+

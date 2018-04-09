@@ -1,32 +1,25 @@
-Cloud PA
-========
+Qualificazioni Servizi e Infrastrutture del Cloud della PA
+==========================================================
 
-.. note::
-   *La consultazione pubblica per le circolari AgID riguardanti la qualificazione
-   del Cloud della PA si è conclusa in data 1 Marzo 2018*
 
-Il progetto per il Cloud della Pubblica Amministrazione ("Cloud PA") dà
+Il progetto per il Cloud della Pubblica Amministrazione ("Cloud della PA") dà
 attuazione a quanto previsto dal `Piano Triennale per l'informatica nella
 Pubblica amministrazione 2017- 2019
 <http://pianotriennale-ict.readthedocs.io/it/latest/>`_ in merito all'uso di
 infrastrutture e servizi di cloud computing all'interno della Pubblica
 Amministrazione.
 
-Questo documento raccoglie le circolari relative al progetto Cloud PA e ne
-permette la consultazione pubblica. I commenti utilizzano ora la piattaforma
-`Forum Italia <http://forum.italia.it>`_. I precedenti commenti, inseriti
-tramite la funzionalità di `Disqus <http://www.disqus.com>`_, sono ancora
-visibili nel documento, nelle sezioni `Archivio dei commenti alla circolare
-«Qualificazione Servizi SaaS per il Cloud della PA»
-<http://cloud-pa.readthedocs.io/it/latest/circolari/SaaS/archivio_commenti_SaaS.html>`_
-e `Archivio dei commenti alla circolare «Qualificazione dei Cloud Service
-Provider per servizi IaaS/PaaS»
-<http://cloud-pa.readthedocs.io/it/latest/circolari/CSP/archivio_commenti_CSP.html>`_.
-Per maggiori informazioni, consulta le `Istruzioni per la consultazione pubblica
-<http://cloud-pa.readthedocs.io/it/latest/circolari/istruzioni-consultazione.html>`_. 
+
+.. note::
+   *La consultazione pubblica per le circolari AgID riguardanti la qualificazione del Cloud della PA si è conclusa in data 1 Marzo 2018.*
 
 
-.. note:: 
+Questo documento raccoglie le circolari relative al progetto *Cloud* della PA, integrate
+con i suggerimenti raccolti durate la fase di consultazione pubblica e rese pubbliche da AgID in data 09 Aprile 2018.
+È possibile consultare la versione iniziale sottoposta alla fase di consultazione e i relativi commenti
+selezionando la versione **v18.0301** (Versione del 01/03/2018) dal menù a sinistra.
+
+.. note::
    Questo documento viene pubblicato su Docs Italia  utilizzando la versione 2.0
    del tema di stile Sphinx Italia, ancora in fase beta. Il tema offre nuove
    funzionalità alla piattaforma `Docs Italia
@@ -39,10 +32,8 @@ Per maggiori informazioni, consulta le `Istruzioni per la consultazione pubblica
 
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
 
-   circolari/istruzioni-consultazione
    circolari/SaaS/index
    circolari/CSP/index
 
-.. note:: Le circolari rimarranno in consultazione pubblica fino al 01/03/2018

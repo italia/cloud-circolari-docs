@@ -1,16 +1,8 @@
-## Articolo 6 – Utilizzo della qualificazione
+## Articolo 6 – Durata della qualificazione CSP
 
-Ai soggetti che hanno ottenuto esito positivo dell’istruttoria, sarà rilasciato
-da AgID apposito "Attestato di Qualificazione di Fornitore di Public Cloud
-della PA". Tale attestato ha una validità temporale di 24 mesi dalla data di
-rilascio.
+Salvo i casi di revoca, la qualificazione CSP ha durata pari a 24 mesi 
+a decorrere dalla data di iscrizione nel registro pubblico di cui all'articolo 4.
 
-Tali soggetti potranno utilizzare la suddetta qualificazione nei propri
-rapporti commerciali con le pubbliche amministrazioni.
-
-Consip provvede ad abilitare l’accesso agli strumenti del mercato
-elettronico/convenzioni/accordi quadro ai Cloud Service Provider qualificati da
-AgID.
 
 ```eval_rst
 .. discourse::

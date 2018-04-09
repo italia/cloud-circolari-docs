@@ -1,89 +1,123 @@
-## Appendice 1 - Impegni contrattuali
+## Appendice 1 
 
-Nella tabella che segue si riepilogano i requisiti dai quali scaturiscono specifici impegni contrattuali e adempimenti formali che dovranno governare il rapporto di fornitura tra Fornitore SaaS e Acquirente SaaS. Per rispettare appieno i requisiti di qualificazione di cui al presente allegato, le clausole contrattuali presenti nei contratti di fornitura dovranno essere conformi ai principi e agli impegni di seguito richiamati.
-
+### Tabella 1.1 - Indicatori della Qualità del Servizio
 
 ```eval_rst
-.. tabularcolumns:: |p{3cm}|p{7cm}|p{4cm}|
+.. tabularcolumns:: |p{3cm}|p{3cm}|p{7cm}|
 
 .. rst-class:: longtable
 
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | Clausola | Requisiti                                                                                                                                                                                            | Adempimenti aggiuntivi                          |
-   +==========+======================================================================================================================================================================================================+=================================================+
-   | CL1      | RP7 – Dichiarazione del fornitore che si impegna ad operare come  amministratore dell’infrastruttura IaaS/PaaS utilizzata. Deve essere indicata l’infrastruttura che si utilizza.                    | Documento formale allegato al contratto         |
-   |          |                                                                                                                                                                                                      |                                                 |
-   |          | Nel caso in cui il Fornitore SaaS utilizzi delle risorse IaaS/PaaS acquisite da un Cloud pubblico gestito da un CSP qualificato, oppure acquisite tramite Cloud SPC Lotto 1                          |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL2      | RO3 – Monitoraggio del contesto tecnologico e implementazione di migliorie del servizio                                                                                                              |                                                 |
-   |          | RO4 – Aggiornamenti del software che non introducono problemi e vulnerabilità                                                                                                                        |                                                 |
-   |          | RO5 – Comunicazione tempestiva di aggiornamenti e modifiche al servizio                                                                                                                              |                                                 |
-   |          | RO6 – Aggiornamento tempestivo della documentazione e della manualistica                                                                                                                             |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL3      | RO7 – Livelli di servizio garantiti relativi a disponibilità e performance                                                                                                                           |                                                 |
-   |          | RO8 – Livelli di servizio garantiti relativamente alla gestione degli incidenti di sicurezza                                                                                                         |                                                 |
-   |          | RO9 – Livelli di servizio garantiti relativamente alla gestione delle richieste di assistenza                                                                                                        |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL4      | RO10 – Accesso a strumenti di monitoraggio e di logging opportunamente documentato                                                                                                                   |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL5      | RO11 – Monitoraggio in tempo reale delle risorse utilizzate e dei costi imputati                                                                                                                     |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL6      | RS1 – Sicurezza del codice applicativo                                                                                                                                                               |                                                 |
-   |          | RS2 – Verifiche di sicurezza preliminari e periodiche del codice binario e dei sorgenti                                                                                                              |                                                 |
-   |          | RS3 – Garanzia di sicurezza dell’intera supply chain della soluzione SaaS                                                                                                                            |                                                 |
-   |          | RS4 – Controlli periodici sulle componenti software di terze parti                                                                                                                                   |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL7      | RS10 – Gestione in sicurezza delle chiavi e dei codici di accesso                                                                                                                                    |                                                 |
-   |          | RS11 – Gestione in sicurezza delle risorse Cloud utilizzate per erogare il servizio                                                                                                                  |                                                 |
-   |          | RS12 – Impedire l’accesso ai dati di altri utenti (ambiente multi-tenant)                                                                                                                            |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL8      | RS19 – Registrazione delle informazioni sugli incidenti di sicurezza e sui rimedi attuati                                                                                                            |                                                 |
-   |          | RS20 – Attività di security assessment and audit prima di porre il servizio nuovamente in esercizio in seguito ad incidente di sicurezza                                                             |                                                 |
-   |          | RS21 – Documentare le patch di sicurezza applicate, gli aggiornamenti del software e le procedure e politiche di sicurezza                                                                           |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL9      | RPS3 – Piano di continuità operativa                                                                                                                                                                 | Documento tecnico facente parte della fornitura |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL10     | RPS4 – Responsabilità del Fornitore SaaS nel caso di perdita o inconsistenza dei dati a seguito di ripristino da un evento catastrofico o a seguito di migrazione del servizio per altri motivi      |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL11     | RPS5 – Tempi di risposta del servizio che non subiscono fluttuazioni al di fuori degli  intervalli dichiarati, al variare del numero di utenti e del carico di lavoro.                               | Scheda tecnica servizio SaaS                    |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL12     | RPS7 – Capacità di processamento del servizio che non subisce fluttuazioni al di fuori degli intervalli dichiarati, al variare del numero di utenti e del carico di lavoro.                          |                                                 |
-   |          |                                                                                                                                                                                                      |                                                 |
-   |          | RPS8 – Capacità di processamento del servizio che non subisce fluttuazioni al di fuori degli intervalli dichiarati, al variare del numero di tenant attivi (nel caso di configurazione multi-tenant) |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL13     | RPS9 – Condizioni massime di esercizio del servizio                                                                                                                                                  | Scheda tecnica servizio SaaS                    |
-   |          | RPS10 – Tempi di attivazione delle istanze                                                                                                                                                           |                                                 |
-   |          | RPS11 – Scalabilità automatica del servizio                                                                                                                                                          |                                                 |
-   |          | RPS12 – Scalabilità decrescente accurata                                                                                                                                                             |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL14     | RPS13 – Performance garantite per tutti i tipi di dispositivi client supportati                                                                                                                      |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL15     | RIP1 – Presenza API di tipo SOAP/REST                                                                                                                                                                | Documento tecnico facente parte della fornitura |
-   |          | RIP2 – Documentazione tecnica API                                                                                                                                                                    |                                                 |
-   |          | RIP3 – Versioning delle API                                                                                                                                                                          |                                                 |
-   |          | RIP4 – Limitazioni volumetriche per l’utilizzo delle API                                                                                                                                             |                                                 |
-   |          | RIP5 – Tracciabilità delle richieste SOAP/REST                                                                                                                                                       |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL16     | RIP6 – Possibilità di estrarre i dati gestiti dal servizio in qualsiasi momento, anche dopo il termine della fornitura (periodo di phase-out di almeno due mesi)                                     |                                                 |
-   |          | RIP7 – Migrazione dei dati del servizio (reversibilità)                                                                                                                                              |                                                 |
-   |          | RIP8 – Garanzie sulla proprietà e disponibilità dei dati in caso di fallimento/acquisizione del Fornitore SaaS                                                                                       |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL17     | RIP9 – Piano di reversibilità                                                                                                                                                                        | Documento tecnico facente parte della fornitura |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL18     | RCL1 – Trattamento dei dati conforme al Testo unico sulla Privacy                                                                                                                                    |                                                 |
-   |          | RCL2 – Adempimenti derivanti dal trattamento di dati sensibili                                                                                                                                       |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL19     | RCL3 – Ambiti conformi al regolamento GDPR                                                                                                                                                           |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL20     | RCL4 – Comunicazione degli eventuali stati esteri in cui risiedono i/il data center attraverso cui si eroga il servizio                                                                              |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
-   | CL21     | RCL5 – Conformità a tutte le normative specifiche per il settore di attività                                                                                                                         |                                                 |
-   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------+
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Codice SLI            |Indicatore                                     |Descrizione                                                                                                                                                                                                              |
++======================+===============================================+=========================================================================================================================================================================================================================+
+|Indicatori obbligatori                                                                                                                                                                                                                                                                          |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI1                  |Availability                                   |La percentuale di tempo in un dato periodo di riferimento in cui il servizio risulta essere accessibile e usabile.                                                                                                       |
+|                      |                                               |                                                                                                                                                                                                                         |
+|                      |                                               |Quale periodo di riferimento si assume convenzionalmente il mese.                                                                                                                                                        |
+|                      |                                               |                                                                                                                                                                                                                         |
+|                      |                                               |Il tempo totale del periodo di riferimento, che funge da base di calcolo del dato percentuale, può tenere conto dei fermi programmati del servizio (in tal caso il CSP deve esplicitare questa circostanza).             |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI2                  |Support hours                                  |L’orario in cui il servizio di supporto tecnico è operativo (eventualmente differenziato per “support plan” sottoscrivibile).                                                                                            |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI3                  |Maximum First Support Response Time            |Il tempo massimo che intercorre tra la segnalazione di un inconveniente da parte del cliente e la risposta iniziale alla segnalazione da parte del CSP.                                                                  |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Indicatori facoltativi                                                                                                                                                                                                                                                                         |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI4                  |Cloud Service Bandwidth                        |La quantità di dati che può essere trasferita in un determinato periodo di tempo. Da intendersi rispetto all’interfaccia Client (laddove applicabile) oppure nell’ambito della virtual network.                          |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI5                  |Limit of Simultaneous Cloud Service Connections|Numero massimo di connessioni simultanee supportate dal servizio.                                                                                                                                                        |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI6                  |Cloud Service Throughput                       |Il numero di input o insieme di input correlati tra di loro (transazione) che possono essere processati in ciascuna unità di tempo dal servizio.                                                                         |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI7                  |Elasticity Speed                               |Descrive quanto velocemente reagisce il servizio alla richiesta di nuove risorse allorquando:                                                                                                                            |
+|                      |                                               |                                                                                                                                                                                                                         |
+|                      |                                               |* viene effettuata una richiesta di ri-allocazione (nel caso di elasticità manuale), oppure                                                                                                                              |
+|                      |                                               |                                                                                                                                                                                                                         |
+|                      |                                               |* il carico di lavoro cambia (in caso di elasticità automatica).                                                                                                                                                         |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI8                  |Maximum Time to Service Recovery               |Il massimo tempo che intercorre tra l’indisponibilità del servizio dovuta a malfunzionamento di una delle sue componenti e il ripristino della sua normale operatività.                                                  |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI9                  |Backup Interval                                |Il tempo che intercorre tra un backup e l’altro.                                                                                                                                                                         |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI10                 |Retention period of backup data                |Il periodo di tempo in cui vengono mantenuti i backup da parte del CSP.                                                                                                                                                  |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI11                 |Backup restoration testing                     |Il numero di test di restore (a partire dai dati di backup) eseguiti durante un determinato periodo di tempo.                                                                                                            |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI12                 |Recovery Time Objective (RTO)                  |Il tempo massimo necessario a ripristinare completamente il servizio dopo un’interruzione dovuta ad un “evento catastrofico” che ha innescato l’attivazione di un ambiente di erogazione secondario (disaster recovery). |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI13                 |Recovery Point Objective (RPO)                 |L’intervallo massimo di tempo che precede un “evento catastrofico” rispetto al quale si può verificare la perdita delle modifiche ai dati come conseguenza delle attività di ripristino del servizio (disaster recovery).|
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI14                 |Data retention period                          |Il periodo di tempo in cui i dati del cliente vengono mantenuti dal CSP dopo la notifica di cessazione del servizio.                                                                                                     |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|SLI15                 |Log retention period                           |l periodo di tempo in cui i file di log relativi al servizio vengono conservati dopo la notifica di cessazione del servizio.                                                                                             |
++----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ```
 
+### Tabella 1.2 - Riepilogo requisiti e adempimenti previsti
 
 ```eval_rst
-.. discourse::
-   :topic_identifier: 2253
+.. tabularcolumns:: |p{3cm}|p{7cm}|
+
+.. rst-class:: longtable
+
++-----------------------+-----------------------------------------------------------------------+
+|Requisito              |Adempimenti  previsti                                                  |
++=======================+=======================================================================+
+|Requisiti organizzativi                                                                        |
++-----------------------+-----------------------------------------------------------------------+
+|RO1                    |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RO2                    |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RO3                    |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RO4                    |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RO5                    |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RO6                    |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RO7                    |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|Sicurezza                                                                                      |
++-----------------------+-----------------------------------------------------------------------+
+|RS1                    |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RS2                    |Autocertificazione                                                     |
+|                       |Produzione documentazione                                              |
++-----------------------+-----------------------------------------------------------------------+
+|Performance e Scalabilità                                                                      |
++-----------------------+-----------------------------------------------------------------------+
+|RPS1                   |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RPS2                   |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RPS3                   |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|Interoperabilità e Portabilità                                                                 |
++-----------------------+-----------------------------------------------------------------------+
+|RIP1                   |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RIP2                   |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RIP3                   |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RIP4                   |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RIP5                   |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|Conformità legislativa                                                                         |
++-----------------------+-----------------------------------------------------------------------+
+|RCL1                   |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RCL2                   |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+|RCL3                   |Autocertificazione                                                     |
++-----------------------+-----------------------------------------------------------------------+
+
 ```
+
+
+

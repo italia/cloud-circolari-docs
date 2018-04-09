@@ -1,8 +1,4 @@
-.. note:: Il documento rappresenta lo schema della Circolare AgID sui "Criteri per la qualificazione di servizi SaaS per il Cloud della PA". Lo schema della circolare è in consultazione e aperto ai commenti **fino al 1 Marzo 2018**.
-
-.. note:: Inserisci il tuo contributo: scegli l’argomento cliccando su una delle voci dell’indice e inserisci i tuoi commenti usando il link apposito.
-
-**CIRCOLARE N. XX del YY gennaio  2018**
+**CIRCOLARE N. 3 del 9 aprile 2018**
 
 Criteri per la qualificazione di servizi SaaS per il Cloud della PA [1]_
 ========================================================================
@@ -27,4 +23,4 @@ Criteri per la qualificazione di servizi SaaS per il Cloud della PA [1]_
 IL DIRETTORE GENERALE
 
 .. rubric:: Note
-.. [1]  Per “Cloud della PA” ai fini della presente circolare, dei suoi allegati e delle successive integrazioni e/o modifiche si intende: “l’insieme delle infrastrutture e servizi IaaS/PaaS erogati da Cloud SPC, dai PSN e dagli altri CSP che saranno qualificati ai sensi di quanto disposto dal Piano Triennale”, per come definito nella seguente tabella.
+.. [1]  Per “Cloud della PA” ai fini della presente circolare, dei suoi allegati e delle successive integrazioni e/o modifiche si intende: “l’insieme delle infrastrutture e servizi IaaS/PaaS erogati da Cloud SPC, dai PSN e dagli altri CSP che saranno qualificati ai sensi di quanto disposto dal Piano Triennale”.
