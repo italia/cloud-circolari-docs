@@ -1,4 +1,4 @@
-**CIRCOLARE N. XX del YY gennaio 2018**
+**CIRCOLARE N. 2 del 9 Aprile 2018**
 
 Criteri per la qualificazione dei Cloud Service Provider per la PA
 ==================================================================
