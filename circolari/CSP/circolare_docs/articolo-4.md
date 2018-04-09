@@ -5,9 +5,16 @@
 Il fornitore interessato alla qualificazione CSP provvede a
 trasmettere tramite la *piattaforma AgID dedicata* apposita richiesta, fornendo le
 informazioni e la documentazione in lingua italiana relative al possesso dei 
-requisiti di cui all’allegato "A" alla presente Circolare. 
+requisiti di cui all’allegato "A" alla presente Circolare.
 Per l'eventuale documentazione d'accompagnamento presentata in lingua straniera 
 dovrà essere allegata idonea traduzione, anche per estratto.
+
+Nel caso in cui un fornitore non abbia alcuna rappresentanza diretta o
+indiretta in Italia, l’Agenzia per l’Italia Digitale su segnalazione di
+un’amministrazione proponente, acquisisce le informazioni necessarie alla
+qualificazione e potrà avviare d’ufficio la procedura mediante la piattaforma
+AgID dedicata alla qualificazione, secondo le modalità pubblicate sul sito
+Cloud Italia all’indirizzo: https://cloud.italia.it/
 
 
 ### Fase 2 - Conseguimento qualificazione
