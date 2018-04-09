@@ -1,4 +1,4 @@
-**CIRCOLARE N. XX del YY gennaio  2018**
+**CIRCOLARE N. 3 del 9 aprile 2018**
 
 Criteri per la qualificazione di servizi SaaS per il Cloud della PA [1]_
 ========================================================================
