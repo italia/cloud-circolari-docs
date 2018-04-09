@@ -1,7 +1,9 @@
-**Allegato alla CIRCOLARE N. XX del YY gennaio 2018**
+**Allegato alla CIRCOLARE N. 2 del 9 Aprile 2018**
 
 Requisiti per la qualificazione dei Cloud Service Provider per la PA 
 =====================================================================
+
+*Versione 1 del 6/4/2018*
 
 .. toctree::
 
