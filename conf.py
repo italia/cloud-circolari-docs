@@ -7,7 +7,7 @@ from recommonmark.transform import AutoStructify
 from recommonmark.parser import CommonMarkParser
 
 # -- PROJECT Variables ----------------------------------------------------
-settings_project_name = 'Cloud PA'
+settings_project_name = 'Il Cloud della PA'
 settings_copyright_copyleft = 'Creative Commons Zero v1.0 Universal'
 settings_editor_name = 'Agenzia per l\'Italia Digitale'
 settings_doc_version = 'Versione finale'
