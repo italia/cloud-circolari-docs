@@ -11,8 +11,7 @@ Amministrazione.
 
 
 .. note::
-   *La consultazione pubblica per le circolari AgID riguardanti la qualificazione
-   del Cloud della PA si è conclusa in data 1 Marzo 2018.*
+   *La consultazione pubblica per le circolari AgID riguardanti la qualificazione del Cloud della PA si è conclusa in data 1 Marzo 2018.*
 
 
 Questo documento raccoglie le circolari relative al progetto *Cloud* della PA, integrate
