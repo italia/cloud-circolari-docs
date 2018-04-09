@@ -1,8 +1,8 @@
-**Allegato alla CIRCOLARE N. XX del YY gennaio 2018**
+**Allegato alla CIRCOLARE N. 3 del 9 aprile 2018**
 
 Requisiti per la qualificazione di servizi SaaS per il Cloud della PA.
 ======================================================================
-Versione 1 del 6 Aprile 2018
+Versione 1 del 9 Aprile 2018
 
 
 .. toctree::
