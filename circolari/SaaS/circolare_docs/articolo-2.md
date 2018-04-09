@@ -12,13 +12,14 @@ Il soggetto richiedente può essere:
 
 Il processo di qualificazione è articolato in tre fasi:
 
-1. Richiesta di qualificazione
+1. Richiesta di qualificazione;
 
 2. Conseguimento della qualificazione
 
 3. Mantenimento della qualificazione *(Monitoraggio)*
 
 Nella tabella seguente sono riportati i principali attori coinvolti nel processo
+
 di qualificazione ed il loro ruolo in termini di responsabilità (RACI) per
 ognuna delle fasi.
 
@@ -50,4 +51,3 @@ piattaforma AgID dedicata ed integrata con il Marketplace Cloud.
 Tale piattaforma consentirà, tra l’altro, l’accesso tramite
 SPID e la trasmissione telematica dei documenti ai sensi degli art. 45 e 65
 comma 1/b del CAD secondo le modalità operative che saranno pubblicate sul sito https://cloud.italia.it.
-
