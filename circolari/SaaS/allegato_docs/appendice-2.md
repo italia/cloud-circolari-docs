@@ -1,4 +1,7 @@
-## Appendice 2 - Scheda tecnica del Servizio SaaS
+## Appendice 2
+
+### Scheda tecnica del Servizio
+La scheda tecnica del servizio riporta alcune delle informazioni acquisite durante la richiesta di qualificazione tramite la piattaforma AgID dedicata. Dette informazioni potranno confluire nel Marketplace Cloud quale corredo descrittivo del servizio. La scheda tecnica che segue è riportata in versione preliminare e potrà subire successive modifiche e integrazioni che saranno visibili direttamente sulla piattaforma AgID dedicata.
 
 
 ```eval_rst
