@@ -37,7 +37,3 @@ servizi IaaS e PaaS conformi ad un insieme di requisiti comuni definiti dalla pr
 e dal relativo allegato.
 
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2256
-```

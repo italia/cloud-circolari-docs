@@ -15,7 +15,3 @@ La data di attivazione della *piattaforma dedicata e del Marketplace Cloud* sar√
 comunicata insieme alle modalit√† operative della procedura di qualificazione
 sul sito https://cloud.italia.it.
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2265
-```

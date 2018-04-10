@@ -50,7 +50,3 @@ Tale piattaforma consentirà, tra l’altro, l’accesso tramite
 SPID e la trasmissione telematica dei documenti ai sensi degli art. 45 e 65
 comma 1/b del CAD secondo le modalità operative che saranno pubblicate sul sito https://cloud.italia.it.
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2259
-```

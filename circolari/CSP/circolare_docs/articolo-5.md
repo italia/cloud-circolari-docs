@@ -18,8 +18,3 @@ Nei casi di revoca della qualificazione CSP, il fornitore non può
 presentare una nuova richiesta di qualificazione all’Agenzia se non siano
 venute meno le cause che hanno determinato la revoca.
 
-
-```eval_rst
-.. discourse::
-   :topic_identifier: 2262
-```

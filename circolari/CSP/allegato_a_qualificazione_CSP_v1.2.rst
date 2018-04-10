@@ -3,7 +3,7 @@
 Requisiti per la qualificazione dei Cloud Service Provider per la PA 
 =====================================================================
 
-*Versione 1 del 6/4/2018*
+*Versione 20180409*
 
 .. toctree::
 

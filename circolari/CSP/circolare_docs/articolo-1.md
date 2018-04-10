@@ -12,7 +12,3 @@ elettronico / convenzioni / accordi quadro ai soli Cloud Service Provider che
 erogano servizi IaaS e PaaS qualificati da AgID.
 
 
-```eval_rst
-.. discourse::
-   :topic_identifier: 2258
-```
