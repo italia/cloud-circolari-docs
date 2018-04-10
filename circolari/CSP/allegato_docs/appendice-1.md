@@ -1,6 +1,6 @@
-## Appendice 1 - Indicatori della Qualità del Servizio
+## Appendice 1
 
-### Indicatori della Qualità del Servizio
+### Tabella 1.1 - Indicatori della Qualità del Servizio
 
 ```eval_rst
 .. tabularcolumns:: |p{3cm}|p{3cm}|p{7cm}|
@@ -22,7 +22,7 @@
 +----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |SLI3                  |Maximum First Support Response Time            |Il tempo massimo che intercorre tra la segnalazione di un inconveniente da parte del cliente e la risposta iniziale alla segnalazione da parte del CSP.                                                                  |
 +----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Indicatori discrezionali (o facoltativi)                                                                                                                                                                                                                                                        |
+|Indicatori facoltativi                                                                                                                                                                                                                                                                          |
 +----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |SLI4                  |Cloud Service Bandwidth                        |La quantità di dati che può essere trasferita in un determinato periodo di tempo. Da intendersi rispetto all’interfaccia Client (laddove applicabile) oppure nell’ambito della virtual network.                          |
 +----------------------+-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -56,7 +56,7 @@
 
 ```
 
-### Riepilogo applicabilità requisiti e adempimenti previsti
+### Tabella 1.2 - Riepilogo applicabilità requisiti e adempimenti previsti
 
 ```eval_rst
 .. tabularcolumns:: |p{3cm}|p{3cm}|p{7cm}|
