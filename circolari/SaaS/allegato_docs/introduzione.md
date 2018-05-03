@@ -31,7 +31,7 @@ inquadrare i requisiti richiesti per la qualificazione delle soluzioni SaaS.
 
 **Ciclo di vita di un servizio SaaS**
 
-Una soluzione SaaS prevede un tipico *ciclo di vita* attraverso attraverso  il
+Una soluzione SaaS prevede un tipico *ciclo di vita* attraverso il
 quale viene resa disponibile agli utilizzatori (Acquirenti) da parte del
 Fornitore SaaS:
 
