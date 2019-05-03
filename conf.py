@@ -56,9 +56,9 @@ extensions = [
 templates_path = ['_templates']
 
 # The suffix of source filenames.
-source_parsers = {
-    '.md': CommonMarkParser,
-}
+# source_parsers = {
+#    '.md': CommonMarkParser,
+# }
 
 source_suffix = ['.rst', '.md']
 
