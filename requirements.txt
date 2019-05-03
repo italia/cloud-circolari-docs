@@ -1,4 +1,1 @@
-git+https://github.com/paolo-de-rosa/sphinxcontrib-disqus.git
-git+https://github.com/pdavide/sphinxcontrib-discourse
-git+https://github.com/italia/docs-italia-theme@v1.0-beta
-PyYAML==3.12
+git+https://github.com/italia/docs-italia-theme.git

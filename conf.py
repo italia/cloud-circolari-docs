@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys, os
-docs_italia_theme = __import__("docs-italia-theme")
+docs_italia_theme = __import__("docs_italia_theme")
 from recommonmark.transform import AutoStructify
 from recommonmark.parser import CommonMarkParser
 
@@ -49,9 +49,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
-    'docs-italia-theme',
-    'sphinxcontrib.disqus',
-    'sphinxcontrib.discourse'
+    'docs_italia_theme',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -116,7 +114,7 @@ def setup(app):
 
 
 # -- Options for HTML output ----------------------------------------------
-html_theme = 'docs-italia-theme'
+html_theme = 'docs_italia_theme'
 
 html_theme_path = [docs_italia_theme.get_html_theme_path()]
 
@@ -124,7 +122,7 @@ html_theme_path = [docs_italia_theme.get_html_theme_path()]
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    # This option can be used with docs-italia-theme to customise how the versions "badge" is shown:
+    # This option can be used with docs_italia_theme to customise how the versions "badge" is shown:
     # 'False': default (alabaster) badge | 'True': custom (italia) badge
     'custom_versions_badge': 'True',
 }
@@ -134,7 +132,7 @@ html_theme_options = {
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 if not on_rtd:  # only import and set the theme if we're building docs locally
-    html_theme = 'docs-italia-theme'
+    html_theme = 'docs_italia_theme'
     #html_theme_path = ["themes", ]
 else:
     # Override default css to get a larger width for ReadTheDoc build
